@@ -1,0 +1,27 @@
+name: hanyuflow
+services:
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: hanyuflow
+      POSTGRES_USER: hanyuflow
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-local-change-me}
+    ports: ["127.0.0.1:5432:5432"]
+    volumes: ["hanyuflow-db:/var/lib/postgresql/data"]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U hanyuflow -d hanyuflow"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+  web:
+    build: .
+    ports: ["127.0.0.1:3000:3000"]
+    env_file: .env
+    environment:
+      DATABASE_URL: postgresql://hanyuflow:${POSTGRES_PASSWORD:-local-change-me}@db:5432/hanyuflow
+      AUTH_URL: http://localhost:3000
+      AUTH_TRUST_HOST: "true"
+    depends_on:
+      db: { condition: service_healthy }
+volumes:
+  hanyuflow-db:

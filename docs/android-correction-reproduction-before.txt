@@ -1,0 +1,25 @@
+
+com.hanyuflow.android.ProgramStoreTest:
+Error in preansweredResumedFormCannotBecomeDelayedRetention(com.hanyuflow.android.ProgramStoreTest):
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertFalse(Assert.java:65)
+	at org.junit.Assert.assertFalse(Assert.java:75)
+	at com.hanyuflow.android.ProgramStoreTest.preansweredResumedFormCannotBecomeDelayedRetention(ProgramStoreTest.java:22)
+
+
+Time: 1.218
+There was 1 failure:
+1) preansweredResumedFormCannotBecomeDelayedRetention(com.hanyuflow.android.ProgramStoreTest)
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertFalse(Assert.java:65)
+	at org.junit.Assert.assertFalse(Assert.java:75)
+	at com.hanyuflow.android.ProgramStoreTest.preansweredResumedFormCannotBecomeDelayedRetention(ProgramStoreTest.java:22)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+

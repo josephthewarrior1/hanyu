@@ -1,0 +1,535 @@
+{
+  "serial": "emulator-5556",
+  "version": 3,
+  "checks": [
+    "v2 to v3 installation retains exact old profile, favorites, attempts, cursor, reviews, 39 points and writing; new mastery stays empty",
+    "Real UI wrong-first retry, persisted hint, typed number-tone answer and ordering resume at the next saved activity after process interruption",
+    "Audio-first UI hides script, blocks stopped/failed playback without auto-grading, then records genuine native first-attempt 83% and unhinted 67% with 37 points",
+    "Completed modules remain repeatable; repeated runs and provisional phonetic exercises do not inflate points or skill evidence",
+    "Actual previous mistakes are playable in the UI; a correct response schedules tomorrow with no extra points",
+    "Practical self-introduction UI plays both dialogue variants and grades listening meaning, response, ordering and typed recall end to end",
+    "Microphone denial leaves learning open; real native recording/replay/deletion saves attempted self-check only, never a pronunciation score",
+    "Native fixture grades all 60 guided tasks and mixed checks: reveal/hints yield 70% unhinted, passing fresh form still requires a different next-day form; no instant mastery",
+    "Offline process restart preserves all real SQLite runs, assistance, scores, mistake schedule and recording attempt; UI visibly gates fresh retention evidence",
+    "All 80 new clips reach real native playing/completion offline, with measured duration and elapsed time; longer clips progress",
+    "Final layout-only APK preserves v3 data; self-check text/buttons fit the mobile viewport and native screenshots capture rendered dialogues and retention gate"
+  ],
+  "errors": [],
+  "audio": [
+    {
+      "id": "b5141d3d19e9a048",
+      "durationMs": 517,
+      "maxPositionMs": 474,
+      "elapsedMs": 1060
+    },
+    {
+      "id": "5ac1612110def2c4",
+      "durationMs": 515,
+      "maxPositionMs": 539,
+      "elapsedMs": 1034
+    },
+    {
+      "id": "c1b52e0e64a33dea",
+      "durationMs": 727,
+      "maxPositionMs": 768,
+      "elapsedMs": 1253
+    },
+    {
+      "id": "88d5840fab773af6",
+      "durationMs": 471,
+      "maxPositionMs": 0,
+      "elapsedMs": 885
+    },
+    {
+      "id": "0ecc79db47df9563",
+      "durationMs": 1608,
+      "maxPositionMs": 1524,
+      "elapsedMs": 2132
+    },
+    {
+      "id": "8aa07f1595bd98d4",
+      "durationMs": 515,
+      "maxPositionMs": 450,
+      "elapsedMs": 1054
+    },
+    {
+      "id": "ce6b676370dc6745",
+      "durationMs": 1428,
+      "maxPositionMs": 1382,
+      "elapsedMs": 1894
+    },
+    {
+      "id": "4d3cc4a0faa25118",
+      "durationMs": 551,
+      "maxPositionMs": 555,
+      "elapsedMs": 1016
+    },
+    {
+      "id": "42269e2627f4916c",
+      "durationMs": 481,
+      "maxPositionMs": 0,
+      "elapsedMs": 879
+    },
+    {
+      "id": "f9796aa1410a0474",
+      "durationMs": 772,
+      "maxPositionMs": 788,
+      "elapsedMs": 1198
+    },
+    {
+      "id": "b02dfe2160c687c2",
+      "durationMs": 423,
+      "maxPositionMs": 0,
+      "elapsedMs": 826
+    },
+    {
+      "id": "7a8e8ed48213d43e",
+      "durationMs": 1290,
+      "maxPositionMs": 1299,
+      "elapsedMs": 1731
+    },
+    {
+      "id": "e623ab488c8e0409",
+      "durationMs": 416,
+      "maxPositionMs": 0,
+      "elapsedMs": 765
+    },
+    {
+      "id": "a780eecbbfcde7c4",
+      "durationMs": 1092,
+      "maxPositionMs": 1090,
+      "elapsedMs": 1619
+    },
+    {
+      "id": "1f2eb2608d236247",
+      "durationMs": 530,
+      "maxPositionMs": 484,
+      "elapsedMs": 970
+    },
+    {
+      "id": "975f35218ed8782e",
+      "durationMs": 517,
+      "maxPositionMs": 555,
+      "elapsedMs": 1056
+    },
+    {
+      "id": "db6201315d4ba4f5",
+      "durationMs": 1362,
+      "maxPositionMs": 1272,
+      "elapsedMs": 1816
+    },
+    {
+      "id": "c879f9d6cc989f54",
+      "durationMs": 489,
+      "maxPositionMs": 0,
+      "elapsedMs": 885
+    },
+    {
+      "id": "5b42e17af5404ccf",
+      "durationMs": 1386,
+      "maxPositionMs": 1308,
+      "elapsedMs": 1913
+    },
+    {
+      "id": "83385d2edafe28d4",
+      "durationMs": 538,
+      "maxPositionMs": 511,
+      "elapsedMs": 971
+    },
+    {
+      "id": "36d89c8f512d8cce",
+      "durationMs": 533,
+      "maxPositionMs": 516,
+      "elapsedMs": 1032
+    },
+    {
+      "id": "96505be1998b2063",
+      "durationMs": 1488,
+      "maxPositionMs": 1457,
+      "elapsedMs": 1979
+    },
+    {
+      "id": "fc7edd399a5c4b93",
+      "durationMs": 324,
+      "maxPositionMs": 0,
+      "elapsedMs": 762
+    },
+    {
+      "id": "534dbbc332351c75",
+      "durationMs": 666,
+      "maxPositionMs": 596,
+      "elapsedMs": 1201
+    },
+    {
+      "id": "12404a0b63817240",
+      "durationMs": 516,
+      "maxPositionMs": 550,
+      "elapsedMs": 964
+    },
+    {
+      "id": "dba4e089b112dacd",
+      "durationMs": 1407,
+      "maxPositionMs": 1323,
+      "elapsedMs": 1888
+    },
+    {
+      "id": "90ce0f66f09488f2",
+      "durationMs": 544,
+      "maxPositionMs": 544,
+      "elapsedMs": 967
+    },
+    {
+      "id": "f127804b9227e152",
+      "durationMs": 661,
+      "maxPositionMs": 652,
+      "elapsedMs": 1096
+    },
+    {
+      "id": "50a7764e160b6857",
+      "durationMs": 1088,
+      "maxPositionMs": 1109,
+      "elapsedMs": 1582
+    },
+    {
+      "id": "f2b91797ea3a7171",
+      "durationMs": 538,
+      "maxPositionMs": 510,
+      "elapsedMs": 1098
+    },
+    {
+      "id": "960aa0208aa54aa5",
+      "durationMs": 878,
+      "maxPositionMs": 886,
+      "elapsedMs": 1394
+    },
+    {
+      "id": "963e4f4abf641ba9",
+      "durationMs": 507,
+      "maxPositionMs": 0,
+      "elapsedMs": 962
+    },
+    {
+      "id": "bb0d9c666fa88969",
+      "durationMs": 520,
+      "maxPositionMs": 555,
+      "elapsedMs": 973
+    },
+    {
+      "id": "351551882ced267e",
+      "durationMs": 1395,
+      "maxPositionMs": 1408,
+      "elapsedMs": 1888
+    },
+    {
+      "id": "e331d617554b0f37",
+      "durationMs": 514,
+      "maxPositionMs": 527,
+      "elapsedMs": 983
+    },
+    {
+      "id": "0ab4610b9257c298",
+      "durationMs": 439,
+      "maxPositionMs": 0,
+      "elapsedMs": 838
+    },
+    {
+      "id": "2461475506683975",
+      "durationMs": 507,
+      "maxPositionMs": 0,
+      "elapsedMs": 970
+    },
+    {
+      "id": "a25ee73c98d16172",
+      "durationMs": 507,
+      "maxPositionMs": 0,
+      "elapsedMs": 933
+    },
+    {
+      "id": "45d31d7e4c504b6d",
+      "durationMs": 507,
+      "maxPositionMs": 0,
+      "elapsedMs": 969
+    },
+    {
+      "id": "e601bb9113eb5e57",
+      "durationMs": 484,
+      "maxPositionMs": 0,
+      "elapsedMs": 895
+    },
+    {
+      "id": "0d2c43256849e491",
+      "durationMs": 520,
+      "maxPositionMs": 555,
+      "elapsedMs": 1006
+    },
+    {
+      "id": "7d4ca7f48effd602",
+      "durationMs": 488,
+      "maxPositionMs": 0,
+      "elapsedMs": 884
+    },
+    {
+      "id": "8b7b91e0001c6971",
+      "durationMs": 505,
+      "maxPositionMs": 0,
+      "elapsedMs": 946
+    },
+    {
+      "id": "0fab08c0aaec69cd",
+      "durationMs": 515,
+      "maxPositionMs": 525,
+      "elapsedMs": 1059
+    },
+    {
+      "id": "f7e8382e7a3ce546",
+      "durationMs": 480,
+      "maxPositionMs": 0,
+      "elapsedMs": 818
+    },
+    {
+      "id": "cf22bc1bd07ece3e",
+      "durationMs": 486,
+      "maxPositionMs": 0,
+      "elapsedMs": 939
+    },
+    {
+      "id": "3c1e31a193cda379",
+      "durationMs": 618,
+      "maxPositionMs": 611,
+      "elapsedMs": 1126
+    },
+    {
+      "id": "fe9c846c529745ba",
+      "durationMs": 618,
+      "maxPositionMs": 557,
+      "elapsedMs": 1131
+    },
+    {
+      "id": "5232c2350218a2c7",
+      "durationMs": 775,
+      "maxPositionMs": 791,
+      "elapsedMs": 1281
+    },
+    {
+      "id": "d84bab0068e9300e",
+      "durationMs": 695,
+      "maxPositionMs": 708,
+      "elapsedMs": 1212
+    },
+    {
+      "id": "584cd0fcf368adcc",
+      "durationMs": 706,
+      "maxPositionMs": 647,
+      "elapsedMs": 1241
+    },
+    {
+      "id": "35443604e22be0cc",
+      "durationMs": 1655,
+      "maxPositionMs": 1577,
+      "elapsedMs": 2109
+    },
+    {
+      "id": "161aac5c925af7d7",
+      "durationMs": 697,
+      "maxPositionMs": 627,
+      "elapsedMs": 1206
+    },
+    {
+      "id": "c97d0b64a7ab9c83",
+      "durationMs": 1654,
+      "maxPositionMs": 1571,
+      "elapsedMs": 2092
+    },
+    {
+      "id": "5716f80e10253c00",
+      "durationMs": 1436,
+      "maxPositionMs": 1428,
+      "elapsedMs": 1891
+    },
+    {
+      "id": "d6b0eae9aa8d834b",
+      "durationMs": 2008,
+      "maxPositionMs": 2047,
+      "elapsedMs": 2517
+    },
+    {
+      "id": "9318a789131081a5",
+      "durationMs": 2033,
+      "maxPositionMs": 1976,
+      "elapsedMs": 2480
+    },
+    {
+      "id": "e639338579e41737",
+      "durationMs": 1831,
+      "maxPositionMs": 1761,
+      "elapsedMs": 2338
+    },
+    {
+      "id": "6d8e3bf2f46e7d0f",
+      "durationMs": 1841,
+      "maxPositionMs": 1815,
+      "elapsedMs": 2292
+    },
+    {
+      "id": "8c57333664501c33",
+      "durationMs": 1211,
+      "maxPositionMs": 1140,
+      "elapsedMs": 1685
+    },
+    {
+      "id": "c612453a16c880d3",
+      "durationMs": 630,
+      "maxPositionMs": 545,
+      "elapsedMs": 1041
+    },
+    {
+      "id": "742156e197c3f406",
+      "durationMs": 1839,
+      "maxPositionMs": 1753,
+      "elapsedMs": 2323
+    },
+    {
+      "id": "9433697e7809f8e3",
+      "durationMs": 1190,
+      "maxPositionMs": 1140,
+      "elapsedMs": 1650
+    },
+    {
+      "id": "56bf8b443e87aef7",
+      "durationMs": 1863,
+      "maxPositionMs": 1807,
+      "elapsedMs": 2369
+    },
+    {
+      "id": "67aef3f4714c9c58",
+      "durationMs": 1354,
+      "maxPositionMs": 1245,
+      "elapsedMs": 1875
+    },
+    {
+      "id": "2d8496737ba931b0",
+      "durationMs": 1018,
+      "maxPositionMs": 979,
+      "elapsedMs": 1526
+    },
+    {
+      "id": "2c835225d837e995",
+      "durationMs": 1415,
+      "maxPositionMs": 1398,
+      "elapsedMs": 1853
+    },
+    {
+      "id": "20736a3ee21f7240",
+      "durationMs": 1351,
+      "maxPositionMs": 1341,
+      "elapsedMs": 1824
+    },
+    {
+      "id": "58d8cb6b5a28061a",
+      "durationMs": 998,
+      "maxPositionMs": 915,
+      "elapsedMs": 1611
+    },
+    {
+      "id": "4caeed5d1585cfe1",
+      "durationMs": 1864,
+      "maxPositionMs": 1816,
+      "elapsedMs": 2451
+    },
+    {
+      "id": "4a7308d1b27173aa",
+      "durationMs": 1900,
+      "maxPositionMs": 1920,
+      "elapsedMs": 2383
+    },
+    {
+      "id": "b154090061e13bf9",
+      "durationMs": 2408,
+      "maxPositionMs": 2409,
+      "elapsedMs": 2842
+    },
+    {
+      "id": "c7f19492b0aa356a",
+      "durationMs": 1745,
+      "maxPositionMs": 1721,
+      "elapsedMs": 2196
+    },
+    {
+      "id": "db1d71136e01d4fc",
+      "durationMs": 2518,
+      "maxPositionMs": 2531,
+      "elapsedMs": 3079
+    },
+    {
+      "id": "536edaf7cdd1aebb",
+      "durationMs": 649,
+      "maxPositionMs": 630,
+      "elapsedMs": 1144
+    },
+    {
+      "id": "ca2851ad7abf0158",
+      "durationMs": 2202,
+      "maxPositionMs": 2207,
+      "elapsedMs": 2614
+    },
+    {
+      "id": "3225dd8185d6a53c",
+      "durationMs": 1283,
+      "maxPositionMs": 1320,
+      "elapsedMs": 1757
+    },
+    {
+      "id": "35ab20f72e74b99a",
+      "durationMs": 661,
+      "maxPositionMs": 592,
+      "elapsedMs": 1162
+    },
+    {
+      "id": "f6cc73867d68c1c1",
+      "durationMs": 2867,
+      "maxPositionMs": 2890,
+      "elapsedMs": 3434
+    },
+    {
+      "id": "2065f5658ecbe7fa",
+      "durationMs": 2003,
+      "maxPositionMs": 1953,
+      "elapsedMs": 2500
+    }
+  ],
+  "upgrade": {
+    "retainedOldState": true,
+    "points": 39,
+    "originalCompleted": 1,
+    "mastery": false
+  },
+  "capabilities": {
+    "ttsReady": true,
+    "mandarinVoice": true,
+    "bundledAudio": true,
+    "audioClips": 200,
+    "audioSource": "Kokoro-82M-v1.1-zh / zf_001",
+    "microphoneGranted": false,
+    "ai": false,
+    "transcription": false,
+    "pronunciation": false,
+    "backend": "",
+    "serverVerified": false
+  },
+  "finalState": {
+    "points": 436,
+    "completedModules": 10,
+    "recordingAttempts": 1,
+    "masteryConfirmed": false,
+    "pronunciationAssessed": false
+  },
+  "audioLimit": "200 clips decoded by native instrumentation; 80 new clips additionally play offline end to end. Existing 120 were played in v2. No acoustic or human linguistic validation; short clips may report zero position in virtual audio sink.",
+  "passed": true,
+  "layout": {
+    "selfCheckButtonsWithinViewport": true,
+    "pointsRetainedAfterFinalRebuild": 436,
+    "nativeFramebuffer": true,
+    "dialogueCapture": "Native swipe refreshed the long-page headless compositor; actual native pixels visually inspected.",
+    "recordingAttemptsAfterLayoutFixture": 2
+  }
+}

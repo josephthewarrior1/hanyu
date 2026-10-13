@@ -1,0 +1,407 @@
+generator client {
+  provider = "prisma-client-js"
+}
+datasource db {
+  provider = "postgresql"
+  url = env("DATABASE_URL")
+}
+model User {
+  id String @id @default(cuid())
+  name String
+  email String @unique
+  passwordHash String
+  role String @default("STUDENT")
+  plan String @default("FREE")
+  emailVerified DateTime?
+  createdAt DateTime @default(now())
+  profile Profile?
+  accounts Account[]
+  sessions Session[]
+  progress LessonProgress[]
+  reviews ReviewState[]
+  reviewLogs ReviewLog[]
+  xp XpLedger[]
+  learningSessions LearningSession[]
+  conversations SpeakingConversation[]
+  pronunciation PronunciationAttempt[]
+  writing HanziPractice[]
+  achievements UserAchievement[]
+  streak StreakState?
+  missions UserMission[]
+  notifications NotificationPreference?
+  audits AuditLog[]
+}
+model Account {
+  id String @id @default(cuid())
+  userId String
+  provider String
+  providerAccountId String
+  user User @relation(fields:[userId],references:[id],onDelete:Cascade)
+  @@unique([provider,providerAccountId])
+}
+model Session {
+  id String @id @default(cuid())
+  sessionToken String @unique
+  userId String
+  expires DateTime
+  user User @relation(fields:[userId],references:[id],onDelete:Cascade)
+}
+model Profile {
+  userId String @id
+  user User @relation(fields:[userId],references:[id],onDelete:Cascade)
+  locale String @default("id")
+  experience String @default("beginner")
+  goal String @default("travel")
+  dailyMinutes Int @default(10)
+  reminderTime String @default("19:00")
+  timezone String @default("Asia/Jakarta")
+  onboardingStep Int @default(0)
+  onboardingDone Boolean @default(false)
+  placementScore Int?
+  pinyin Boolean @default(true)
+  traditional Boolean @default(false)
+  audio Boolean @default(true)
+  publicLeaderboard Boolean @default(false)
+  theme String @default("light")
+  favorites Json @default("[]")
+  goals LearningGoal[]
+}
+model LearningGoal {
+  id String @id @default(cuid())
+  profileId String
+  profile Profile @relation(fields:[profileId],references:[userId],onDelete:Cascade)
+  goal String
+  minutes Int
+  createdAt DateTime @default(now())
+}
+model Curriculum {
+  id String @id
+  title String
+  version String
+  syllabus String
+  reviewed Boolean @default(false)
+  levels Level[]
+}
+model Level {
+  id String @id
+  curriculumId String
+  title String
+  order Int
+  curriculum Curriculum @relation(fields:[curriculumId],references:[id],onDelete:Cascade)
+  units Unit[]
+}
+model Unit {
+  id String @id
+  levelId String
+  title Json
+  description Json
+  icon String
+  order Int
+  level Level @relation(fields:[levelId],references:[id],onDelete:Cascade)
+  lessons Lesson[]
+}
+model Lesson {
+  id String @id @default(cuid())
+  unitId String
+  order Int
+  unit Unit @relation(fields:[unitId],references:[id],onDelete:Cascade)
+  versions LessonVersion[]
+  prerequisites Prerequisite[] @relation("dependent")
+  requiredBy Prerequisite[] @relation("required")
+}
+model LessonVersion {
+  id String @id @default(cuid())
+  lessonId String
+  version Int
+  title Json
+  objective Json
+  estimatedMinutes Int @default(5)
+  threshold Int @default(70)
+  status String @default("DRAFT")
+  publishedAt DateTime?
+  lesson Lesson @relation(fields:[lessonId],references:[id],onDelete:Cascade)
+  exercises Exercise[]
+  vocabulary LessonVocabulary[]
+  grammar LessonGrammar[]
+  dialogues Dialogue[]
+  progress LessonProgress[]
+  revisions ContentRevision[]
+  @@unique([lessonId,version])
+  @@index([status])
+}
+model Prerequisite {
+  lessonId String
+  requiredId String
+  lesson Lesson @relation("dependent",fields:[lessonId],references:[id],onDelete:Cascade)
+  required Lesson @relation("required",fields:[requiredId],references:[id],onDelete:Cascade)
+  @@id([lessonId,requiredId])
+}
+model Exercise {
+  id String @id @default(cuid())
+  versionId String
+  type String
+  order Int
+  prompt Json
+  hanzi String?
+  pinyin String?
+  answer Json
+  alternatives Json @default("[]")
+  hint Json
+  explanation Json
+  version LessonVersion @relation(fields:[versionId],references:[id],onDelete:Cascade)
+  options ExerciseOption[]
+  attempts ExerciseAttempt[]
+  @@unique([versionId,order])
+}
+model ExerciseOption {
+  id String @id @default(cuid())
+  exerciseId String
+  text String
+  order Int
+  exercise Exercise @relation(fields:[exerciseId],references:[id],onDelete:Cascade)
+}
+model Vocabulary {
+  id String @id
+  hanzi String
+  traditional String?
+  pinyin String
+  sample String
+  samplePinyin String
+  sampleTranslation Json
+  tags Json
+  hsk String?
+  audioRef String?
+  translations VocabularyTranslation[]
+  lessons LessonVocabulary[]
+  reviews ReviewState[]
+}
+model VocabularyTranslation {
+  vocabularyId String
+  locale String
+  text String
+  vocabulary Vocabulary @relation(fields:[vocabularyId],references:[id],onDelete:Cascade)
+  @@id([vocabularyId,locale])
+}
+model GrammarPoint {
+  id String @id
+  title Json
+  pattern String
+  explanation Json
+  examples Json
+  commonErrors Json
+  lessons LessonGrammar[]
+}
+model Dialogue {
+  id String @id @default(cuid())
+  versionId String
+  title String
+  version LessonVersion @relation(fields:[versionId],references:[id],onDelete:Cascade)
+  lines DialogueLine[]
+}
+model DialogueLine {
+  id String @id @default(cuid())
+  dialogueId String
+  speaker String
+  hanzi String
+  pinyin String
+  translation Json
+  order Int
+  dialogue Dialogue @relation(fields:[dialogueId],references:[id],onDelete:Cascade)
+}
+model LessonVocabulary {
+  versionId String
+  vocabularyId String
+  version LessonVersion @relation(fields:[versionId],references:[id],onDelete:Cascade)
+  vocabulary Vocabulary @relation(fields:[vocabularyId],references:[id],onDelete:Cascade)
+  @@id([versionId,vocabularyId])
+}
+model LessonGrammar {
+  versionId String
+  grammarId String
+  version LessonVersion @relation(fields:[versionId],references:[id],onDelete:Cascade)
+  grammar GrammarPoint @relation(fields:[grammarId],references:[id],onDelete:Cascade)
+  @@id([versionId,grammarId])
+}
+model LessonProgress {
+  id String @id @default(cuid())
+  userId String
+  versionId String
+  cursor Int @default(0)
+  accuracy Int?
+  completedAt DateTime?
+  startedAt DateTime @default(now())
+  user User @relation(fields:[userId],references:[id],onDelete:Cascade)
+  version LessonVersion @relation(fields:[versionId],references:[id],onDelete:Cascade)
+  attempts ExerciseAttempt[]
+  @@unique([userId,versionId])
+}
+model ExerciseAttempt {
+  id String @id @default(cuid())
+  progressId String
+  exerciseId String
+  answer Json
+  correct Boolean
+  attemptNo Int
+  eventId String @unique
+  createdAt DateTime @default(now())
+  progress LessonProgress @relation(fields:[progressId],references:[id],onDelete:Cascade)
+  exercise Exercise @relation(fields:[exerciseId],references:[id],onDelete:Cascade)
+  @@unique([progressId,exerciseId,attemptNo])
+}
+model ReviewState {
+  id String @id @default(cuid())
+  userId String
+  vocabularyId String
+  due DateTime @default(now())
+  difficulty Float @default(2.5)
+  intervalDays Float @default(0)
+  repetitions Int @default(0)
+  lapses Int @default(0)
+  lastReview DateTime?
+  user User @relation(fields:[userId],references:[id],onDelete:Cascade)
+  vocabulary Vocabulary @relation(fields:[vocabularyId],references:[id],onDelete:Cascade)
+  logs ReviewLog[]
+  @@unique([userId,vocabularyId])
+  @@index([userId,due])
+}
+model ReviewLog {
+  id String @id @default(cuid())
+  userId String
+  stateId String
+  eventId String @unique
+  rating String
+  previousDue DateTime
+  nextDue DateTime
+  createdAt DateTime @default(now())
+  user User @relation(fields:[userId],references:[id],onDelete:Cascade)
+  state ReviewState @relation(fields:[stateId],references:[id],onDelete:Cascade)
+}
+model LearningSession {
+  id String @id @default(cuid())
+  userId String
+  kind String
+  seconds Int
+  createdAt DateTime @default(now())
+  user User @relation(fields:[userId],references:[id],onDelete:Cascade)
+  @@index([userId,createdAt])
+}
+model SpeakingConversation {
+  id String @id @default(cuid())
+  userId String
+  scenario String
+  createdAt DateTime @default(now())
+  user User @relation(fields:[userId],references:[id],onDelete:Cascade)
+  messages SpeakingMessage[]
+}
+model SpeakingMessage {
+  id String @id @default(cuid())
+  conversationId String
+  role String
+  text String
+  usageTokens Int @default(0)
+  createdAt DateTime @default(now())
+  conversation SpeakingConversation @relation(fields:[conversationId],references:[id],onDelete:Cascade)
+}
+model PronunciationAttempt {
+  id String @id @default(cuid())
+  userId String
+  transcript String?
+  provider String
+  result Json
+  createdAt DateTime @default(now())
+  user User @relation(fields:[userId],references:[id],onDelete:Cascade)
+}
+model HanziPractice {
+  id String @id @default(cuid())
+  userId String
+  character String
+  strokes Json
+  seconds Int
+  createdAt DateTime @default(now())
+  user User @relation(fields:[userId],references:[id],onDelete:Cascade)
+}
+model Achievement {
+  id String @id
+  title Json
+  description Json
+  kind String
+  threshold Int
+  users UserAchievement[]
+}
+model UserAchievement {
+  userId String
+  achievementId String
+  earnedAt DateTime @default(now())
+  user User @relation(fields:[userId],references:[id],onDelete:Cascade)
+  achievement Achievement @relation(fields:[achievementId],references:[id],onDelete:Cascade)
+  @@id([userId,achievementId])
+}
+model XpLedger {
+  id String @id @default(cuid())
+  userId String
+  eventId String @unique
+  amount Int
+  kind String
+  createdAt DateTime @default(now())
+  user User @relation(fields:[userId],references:[id],onDelete:Cascade)
+  @@index([userId,createdAt])
+}
+model StreakState {
+  userId String @id
+  current Int @default(0)
+  longest Int @default(0)
+  lastDay String?
+  user User @relation(fields:[userId],references:[id],onDelete:Cascade)
+}
+model DailyMission {
+  id String @id
+  title Json
+  target Int
+  users UserMission[]
+}
+model UserMission {
+  userId String
+  missionId String
+  day String
+  progress Int @default(0)
+  user User @relation(fields:[userId],references:[id],onDelete:Cascade)
+  mission DailyMission @relation(fields:[missionId],references:[id],onDelete:Cascade)
+  @@id([userId,missionId,day])
+}
+model NotificationPreference {
+  userId String @id
+  enabled Boolean @default(false)
+  quietStart String @default("22:00")
+  quietEnd String @default("07:00")
+  user User @relation(fields:[userId],references:[id],onDelete:Cascade)
+}
+model MediaAsset {
+  id String @id @default(cuid())
+  url String
+  mime String
+  license String
+  createdAt DateTime @default(now())
+}
+model ContentRevision {
+  id String @id @default(cuid())
+  versionId String
+  actorId String
+  action String
+  snapshot Json
+  createdAt DateTime @default(now())
+  version LessonVersion @relation(fields:[versionId],references:[id],onDelete:Cascade)
+}
+model AuditLog {
+  id String @id @default(cuid())
+  actorId String?
+  action String
+  target String
+  details Json
+  createdAt DateTime @default(now())
+  actor User? @relation(fields:[actorId],references:[id],onDelete:SetNull)
+}
+model RateLimit {
+  key String @id
+  count Int
+  resetAt DateTime
+}

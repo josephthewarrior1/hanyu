@@ -1,0 +1,1789 @@
+{
+  "version": 1,
+  "language": "zh-CN",
+  "format": "Mandarin Hanzi only",
+  "canonicalization": "NFKC, remove whitespace and basic Chinese/Latin punctuation",
+  "utterances": [
+    {
+      "id": "670d9743542cae3e",
+      "text": "你好",
+      "key": "你好",
+      "uses": [
+        "word:greetings-1",
+        "sample:greetings-1",
+        "grammar:greetings",
+        "exercise:greetings-1",
+        "exercise:greetings-1",
+        "v3-note:sound-4",
+        "v3-guided-recording"
+      ]
+    },
+    {
+      "id": "1bf7ac688560d3b0",
+      "text": "谢谢",
+      "key": "谢谢",
+      "uses": [
+        "word:greetings-2"
+      ]
+    },
+    {
+      "id": "8aaa2ee628be0886",
+      "text": "谢谢你。",
+      "key": "谢谢你",
+      "uses": [
+        "sample:greetings-2",
+        "dialogue:greetings-1"
+      ]
+    },
+    {
+      "id": "c90a1cdb561d0269",
+      "text": "再见",
+      "key": "再见",
+      "uses": [
+        "word:greetings-3",
+        "exercise:greetings-2",
+        "exercise:greetings-2"
+      ]
+    },
+    {
+      "id": "3a74d274698b1602",
+      "text": "老师，再见！",
+      "key": "老师再见",
+      "uses": [
+        "sample:greetings-3"
+      ]
+    },
+    {
+      "id": "b70bb4acc0484cf0",
+      "text": "我",
+      "key": "我",
+      "uses": [
+        "word:greetings-4"
+      ]
+    },
+    {
+      "id": "cd3e14f106f9adae",
+      "text": "我是学生。",
+      "key": "我是学生",
+      "uses": [
+        "sample:greetings-4",
+        "dialogue:greetings-2",
+        "v3-sample:core-1",
+        "v3-note:use-1"
+      ]
+    },
+    {
+      "id": "a0c7716669b5ded0",
+      "text": "你",
+      "key": "你",
+      "uses": [
+        "word:greetings-5",
+        "exercise:greetings-3",
+        "exercise:greetings-3",
+        "v3-note:sound-1",
+        "v3-task:sound-1:4"
+      ]
+    },
+    {
+      "id": "be10ea8c4e5d464c",
+      "text": "你好吗？",
+      "key": "你好吗",
+      "uses": [
+        "sample:greetings-5",
+        "v3-note:sound-2"
+      ]
+    },
+    {
+      "id": "c9a31a3f670b7f99",
+      "text": "老师",
+      "key": "老师",
+      "uses": [
+        "word:greetings-6"
+      ]
+    },
+    {
+      "id": "ce204bfb9a904222",
+      "text": "老师好！",
+      "key": "老师好",
+      "uses": [
+        "sample:greetings-6",
+        "dialogue:greetings-3"
+      ]
+    },
+    {
+      "id": "51a75f4634dfa859",
+      "text": "一",
+      "key": "一",
+      "uses": [
+        "word:numbers-1",
+        "exercise:numbers-1",
+        "exercise:numbers-1"
+      ]
+    },
+    {
+      "id": "c83248705bfc600d",
+      "text": "一个人。",
+      "key": "一个人",
+      "uses": [
+        "sample:numbers-1"
+      ]
+    },
+    {
+      "id": "084b42f6e95e4e65",
+      "text": "二",
+      "key": "二",
+      "uses": [
+        "word:numbers-2"
+      ]
+    },
+    {
+      "id": "bc6c324ae711abd5",
+      "text": "二加一是三。",
+      "key": "二加一是三",
+      "uses": [
+        "sample:numbers-2",
+        "dialogue:numbers-1"
+      ]
+    },
+    {
+      "id": "a4c3313deb180960",
+      "text": "三",
+      "key": "三",
+      "uses": [
+        "word:numbers-3",
+        "exercise:numbers-2",
+        "exercise:numbers-2"
+      ]
+    },
+    {
+      "id": "ad7f664caafba88e",
+      "text": "三个人。",
+      "key": "三个人",
+      "uses": [
+        "sample:numbers-3",
+        "grammar:numbers"
+      ]
+    },
+    {
+      "id": "754a9d5828d502f1",
+      "text": "四",
+      "key": "四",
+      "uses": [
+        "word:numbers-4"
+      ]
+    },
+    {
+      "id": "6659e5d47c46cfee",
+      "text": "四本书。",
+      "key": "四本书",
+      "uses": [
+        "sample:numbers-4",
+        "dialogue:numbers-2"
+      ]
+    },
+    {
+      "id": "c9b87f516a38ea36",
+      "text": "五",
+      "key": "五",
+      "uses": [
+        "word:numbers-5",
+        "exercise:numbers-3",
+        "exercise:numbers-3"
+      ]
+    },
+    {
+      "id": "70735fc4a06ca466",
+      "text": "五个苹果。",
+      "key": "五个苹果",
+      "uses": [
+        "sample:numbers-5"
+      ]
+    },
+    {
+      "id": "de07b5383874b2a3",
+      "text": "六",
+      "key": "六",
+      "uses": [
+        "word:numbers-6",
+        "v3-note:sound-1"
+      ]
+    },
+    {
+      "id": "369bd48df4058c58",
+      "text": "六杯水。",
+      "key": "六杯水",
+      "uses": [
+        "sample:numbers-6",
+        "dialogue:numbers-3"
+      ]
+    },
+    {
+      "id": "45f1364f08aed165",
+      "text": "妈妈",
+      "key": "妈妈",
+      "uses": [
+        "word:family-1",
+        "exercise:family-1",
+        "exercise:family-1",
+        "v3-note:sound-2",
+        "v3-task:sound-2:4",
+        "v3-guided-recording"
+      ]
+    },
+    {
+      "id": "012c50567b65aa4b",
+      "text": "她是我妈妈。",
+      "key": "她是我妈妈",
+      "uses": [
+        "sample:family-1",
+        "grammar:family"
+      ]
+    },
+    {
+      "id": "d45ce71dd359d0e7",
+      "text": "爸爸",
+      "key": "爸爸",
+      "uses": [
+        "word:family-2"
+      ]
+    },
+    {
+      "id": "bad3436e172192b3",
+      "text": "他是我爸爸。",
+      "key": "他是我爸爸",
+      "uses": [
+        "sample:family-2",
+        "dialogue:family-1"
+      ]
+    },
+    {
+      "id": "6cf70b7c4fa3c4b4",
+      "text": "哥哥",
+      "key": "哥哥",
+      "uses": [
+        "word:family-3",
+        "exercise:family-2",
+        "exercise:family-2"
+      ]
+    },
+    {
+      "id": "321c68ee6f81e200",
+      "text": "我哥哥是老师。",
+      "key": "我哥哥是老师",
+      "uses": [
+        "sample:family-3"
+      ]
+    },
+    {
+      "id": "d25622289ef32c86",
+      "text": "姐姐",
+      "key": "姐姐",
+      "uses": [
+        "word:family-4"
+      ]
+    },
+    {
+      "id": "88844b9340327644",
+      "text": "我姐姐在家。",
+      "key": "我姐姐在家",
+      "uses": [
+        "sample:family-4",
+        "dialogue:family-2"
+      ]
+    },
+    {
+      "id": "677aad1a0ee44cd6",
+      "text": "朋友",
+      "key": "朋友",
+      "uses": [
+        "word:family-5",
+        "exercise:family-3",
+        "exercise:family-3"
+      ]
+    },
+    {
+      "id": "208fd1ce8ef1fee1",
+      "text": "他是我的朋友。",
+      "key": "他是我的朋友",
+      "uses": [
+        "sample:family-5"
+      ]
+    },
+    {
+      "id": "c8ae97be80f3867c",
+      "text": "家",
+      "key": "家",
+      "uses": [
+        "word:family-6"
+      ]
+    },
+    {
+      "id": "586d4ff4cd1563eb",
+      "text": "我在家。",
+      "key": "我在家",
+      "uses": [
+        "sample:family-6",
+        "dialogue:family-3"
+      ]
+    },
+    {
+      "id": "327b54d04f71f212",
+      "text": "水",
+      "key": "水",
+      "uses": [
+        "word:food-1",
+        "exercise:food-1",
+        "exercise:food-1"
+      ]
+    },
+    {
+      "id": "12542269cf686601",
+      "text": "我喝水。",
+      "key": "我喝水",
+      "uses": [
+        "sample:food-1",
+        "v3-note:sound-4"
+      ]
+    },
+    {
+      "id": "7e005ba311f86fa7",
+      "text": "茶",
+      "key": "茶",
+      "uses": [
+        "word:food-2"
+      ]
+    },
+    {
+      "id": "38a01082bd0ec693",
+      "text": "我想喝茶。",
+      "key": "我想喝茶",
+      "uses": [
+        "sample:food-2",
+        "grammar:food",
+        "dialogue:food-1"
+      ]
+    },
+    {
+      "id": "e233a13a49e51106",
+      "text": "米饭",
+      "key": "米饭",
+      "uses": [
+        "word:food-3",
+        "exercise:food-2",
+        "exercise:food-2"
+      ]
+    },
+    {
+      "id": "12991b6d971d5805",
+      "text": "我吃米饭。",
+      "key": "我吃米饭",
+      "uses": [
+        "sample:food-3"
+      ]
+    },
+    {
+      "id": "0b5480e007c777a7",
+      "text": "面条",
+      "key": "面条",
+      "uses": [
+        "word:food-4"
+      ]
+    },
+    {
+      "id": "1e270ea0be1d27f8",
+      "text": "我喜欢面条。",
+      "key": "我喜欢面条",
+      "uses": [
+        "sample:food-4",
+        "dialogue:food-2"
+      ]
+    },
+    {
+      "id": "50537dab76505dfc",
+      "text": "苹果",
+      "key": "苹果",
+      "uses": [
+        "word:food-5",
+        "exercise:food-3",
+        "exercise:food-3"
+      ]
+    },
+    {
+      "id": "08a246f366498440",
+      "text": "我吃一个苹果。",
+      "key": "我吃一个苹果",
+      "uses": [
+        "sample:food-5"
+      ]
+    },
+    {
+      "id": "c814805bc6d0365a",
+      "text": "吃",
+      "key": "吃",
+      "uses": [
+        "word:food-6"
+      ]
+    },
+    {
+      "id": "39beccee3bf7158b",
+      "text": "你吃什么？",
+      "key": "你吃什么",
+      "uses": [
+        "sample:food-6",
+        "dialogue:food-3"
+      ]
+    },
+    {
+      "id": "d5f5a7a010731feb",
+      "text": "今天",
+      "key": "今天",
+      "uses": [
+        "word:time-1",
+        "exercise:time-1",
+        "exercise:time-1"
+      ]
+    },
+    {
+      "id": "a24066dd8b620d38",
+      "text": "我今天学习。",
+      "key": "我今天学习",
+      "uses": [
+        "sample:time-1",
+        "grammar:time"
+      ]
+    },
+    {
+      "id": "b1d841b978fb524c",
+      "text": "明天",
+      "key": "明天",
+      "uses": [
+        "word:time-2"
+      ]
+    },
+    {
+      "id": "c45fe5500ee28f38",
+      "text": "我明天去学校。",
+      "key": "我明天去学校",
+      "uses": [
+        "sample:time-2",
+        "dialogue:time-1"
+      ]
+    },
+    {
+      "id": "43584f37c1f4932f",
+      "text": "现在",
+      "key": "现在",
+      "uses": [
+        "word:time-3",
+        "exercise:time-2",
+        "exercise:time-2"
+      ]
+    },
+    {
+      "id": "03535518a338528f",
+      "text": "现在是三点。",
+      "key": "现在是三点",
+      "uses": [
+        "sample:time-3"
+      ]
+    },
+    {
+      "id": "08dddeac1319d6e8",
+      "text": "点",
+      "key": "点",
+      "uses": [
+        "word:time-4"
+      ]
+    },
+    {
+      "id": "97890df4e5ae531b",
+      "text": "现在是五点。",
+      "key": "现在是五点",
+      "uses": [
+        "sample:time-4",
+        "dialogue:time-2"
+      ]
+    },
+    {
+      "id": "c6fe2eb2c986c383",
+      "text": "早上",
+      "key": "早上",
+      "uses": [
+        "word:time-5",
+        "exercise:time-3",
+        "exercise:time-3"
+      ]
+    },
+    {
+      "id": "2e868237b3852af1",
+      "text": "我早上喝茶。",
+      "key": "我早上喝茶",
+      "uses": [
+        "sample:time-5"
+      ]
+    },
+    {
+      "id": "a9b1124b34615118",
+      "text": "晚上",
+      "key": "晚上",
+      "uses": [
+        "word:time-6"
+      ]
+    },
+    {
+      "id": "e87a15f623014fbe",
+      "text": "我晚上看书。",
+      "key": "我晚上看书",
+      "uses": [
+        "sample:time-6",
+        "dialogue:time-3"
+      ]
+    },
+    {
+      "id": "2cd2507d65de178f",
+      "text": "买",
+      "key": "买",
+      "uses": [
+        "word:shopping-1",
+        "exercise:shopping-1",
+        "exercise:shopping-1"
+      ]
+    },
+    {
+      "id": "d6dc8fd11fa923e8",
+      "text": "我买茶。",
+      "key": "我买茶",
+      "uses": [
+        "sample:shopping-1"
+      ]
+    },
+    {
+      "id": "0eb863c78da3e38b",
+      "text": "钱",
+      "key": "钱",
+      "uses": [
+        "word:shopping-2"
+      ]
+    },
+    {
+      "id": "8c4d8e09ad149c2b",
+      "text": "我有钱。",
+      "key": "我有钱",
+      "uses": [
+        "sample:shopping-2",
+        "dialogue:shopping-1",
+        "v3-sample:core-18"
+      ]
+    },
+    {
+      "id": "fb8f01cb6d4be28b",
+      "text": "多少",
+      "key": "多少",
+      "uses": [
+        "word:shopping-3",
+        "exercise:shopping-2",
+        "exercise:shopping-2"
+      ]
+    },
+    {
+      "id": "8c0b437165b99c03",
+      "text": "这个多少钱？",
+      "key": "这个多少钱",
+      "uses": [
+        "sample:shopping-3",
+        "grammar:shopping"
+      ]
+    },
+    {
+      "id": "979e2bc35b14bf4c",
+      "text": "这个",
+      "key": "这个",
+      "uses": [
+        "word:shopping-4"
+      ]
+    },
+    {
+      "id": "7cd58d5015200f16",
+      "text": "我要这个。",
+      "key": "我要这个",
+      "uses": [
+        "sample:shopping-4",
+        "dialogue:shopping-2"
+      ]
+    },
+    {
+      "id": "0c9640c83aa92be3",
+      "text": "贵",
+      "key": "贵",
+      "uses": [
+        "word:shopping-5",
+        "exercise:shopping-3",
+        "exercise:shopping-3"
+      ]
+    },
+    {
+      "id": "4702a58e239c4c28",
+      "text": "这个很贵。",
+      "key": "这个很贵",
+      "uses": [
+        "sample:shopping-5"
+      ]
+    },
+    {
+      "id": "303a288691f82c62",
+      "text": "便宜",
+      "key": "便宜",
+      "uses": [
+        "word:shopping-6"
+      ]
+    },
+    {
+      "id": "4770ed8543ad4c1b",
+      "text": "这个很便宜。",
+      "key": "这个很便宜",
+      "uses": [
+        "sample:shopping-6",
+        "dialogue:shopping-3"
+      ]
+    },
+    {
+      "id": "6a0ef384c814c9e5",
+      "text": "左边",
+      "key": "左边",
+      "uses": [
+        "word:directions-1",
+        "exercise:directions-1",
+        "exercise:directions-1"
+      ]
+    },
+    {
+      "id": "118d73a04629e882",
+      "text": "银行在左边。",
+      "key": "银行在左边",
+      "uses": [
+        "sample:directions-1",
+        "v3-task:check-1:6"
+      ]
+    },
+    {
+      "id": "0838dcc59823278c",
+      "text": "右边",
+      "key": "右边",
+      "uses": [
+        "word:directions-2"
+      ]
+    },
+    {
+      "id": "10b092ccaccafd2e",
+      "text": "学校在右边。",
+      "key": "学校在右边",
+      "uses": [
+        "sample:directions-2",
+        "grammar:directions",
+        "dialogue:directions-1",
+        "v3-task:check-2:8"
+      ]
+    },
+    {
+      "id": "90924eaa6dde0f68",
+      "text": "哪里",
+      "key": "哪里",
+      "uses": [
+        "word:directions-3",
+        "exercise:directions-2",
+        "exercise:directions-2"
+      ]
+    },
+    {
+      "id": "3d80d0afe6d8c1bd",
+      "text": "学校在哪里？",
+      "key": "学校在哪里",
+      "uses": [
+        "sample:directions-3",
+        "v3-note:use-5",
+        "v3-guided-recording"
+      ]
+    },
+    {
+      "id": "dc6e2aafeb9e125b",
+      "text": "学校",
+      "key": "学校",
+      "uses": [
+        "word:directions-4"
+      ]
+    },
+    {
+      "id": "f5bb55efbeedca60",
+      "text": "我去学校。",
+      "key": "我去学校",
+      "uses": [
+        "sample:directions-4",
+        "dialogue:directions-2"
+      ]
+    },
+    {
+      "id": "920e88c5a602df57",
+      "text": "银行",
+      "key": "银行",
+      "uses": [
+        "word:directions-5",
+        "exercise:directions-3",
+        "exercise:directions-3"
+      ]
+    },
+    {
+      "id": "a7a75f39e15de542",
+      "text": "银行在哪里？",
+      "key": "银行在哪里",
+      "uses": [
+        "sample:directions-5",
+        "v3-task:use-5:1",
+        "v3-guided-recording"
+      ]
+    },
+    {
+      "id": "99ae21ea6c39ccc1",
+      "text": "去",
+      "key": "去",
+      "uses": [
+        "word:directions-6"
+      ]
+    },
+    {
+      "id": "d693a41846664ae8",
+      "text": "你去哪里？",
+      "key": "你去哪里",
+      "uses": [
+        "sample:directions-6",
+        "dialogue:directions-3"
+      ]
+    },
+    {
+      "id": "96f512f980046bf6",
+      "text": "起床",
+      "key": "起床",
+      "uses": [
+        "word:routines-1",
+        "exercise:routines-1",
+        "exercise:routines-1"
+      ]
+    },
+    {
+      "id": "b239d75a6a033e2b",
+      "text": "我七点起床。",
+      "key": "我七点起床",
+      "uses": [
+        "sample:routines-1"
+      ]
+    },
+    {
+      "id": "2118cbc109880ac8",
+      "text": "学习",
+      "key": "学习",
+      "uses": [
+        "word:routines-2"
+      ]
+    },
+    {
+      "id": "a234c9c0397229fc",
+      "text": "我每天学习。",
+      "key": "我每天学习",
+      "uses": [
+        "sample:routines-2",
+        "grammar:routines",
+        "dialogue:routines-1"
+      ]
+    },
+    {
+      "id": "bc62d1b6b936c78d",
+      "text": "工作",
+      "key": "工作",
+      "uses": [
+        "word:routines-3",
+        "exercise:routines-2",
+        "exercise:routines-2"
+      ]
+    },
+    {
+      "id": "a76e4825a2f7c244",
+      "text": "我今天工作。",
+      "key": "我今天工作",
+      "uses": [
+        "sample:routines-3"
+      ]
+    },
+    {
+      "id": "b38a4b4c3335f2d4",
+      "text": "睡觉",
+      "key": "睡觉",
+      "uses": [
+        "word:routines-4"
+      ]
+    },
+    {
+      "id": "1e62c053d027c160",
+      "text": "我十点睡觉。",
+      "key": "我十点睡觉",
+      "uses": [
+        "sample:routines-4",
+        "dialogue:routines-2"
+      ]
+    },
+    {
+      "id": "eea1694c235b5ddf",
+      "text": "每天",
+      "key": "每天",
+      "uses": [
+        "word:routines-5",
+        "exercise:routines-3",
+        "exercise:routines-3"
+      ]
+    },
+    {
+      "id": "1c0fea73080310d7",
+      "text": "我每天喝水。",
+      "key": "我每天喝水",
+      "uses": [
+        "sample:routines-5"
+      ]
+    },
+    {
+      "id": "9f805978dd250981",
+      "text": "看书",
+      "key": "看书",
+      "uses": [
+        "word:routines-6"
+      ]
+    },
+    {
+      "id": "63b40f5f8d7ad68f",
+      "text": "我在家看书。",
+      "key": "我在家看书",
+      "uses": [
+        "sample:routines-6",
+        "dialogue:routines-3"
+      ]
+    },
+    {
+      "id": "653b04330b75751f",
+      "text": "喜欢",
+      "key": "喜欢",
+      "uses": [
+        "word:hobbies-1",
+        "exercise:hobbies-1",
+        "exercise:hobbies-1"
+      ]
+    },
+    {
+      "id": "e9756ef055dfa76b",
+      "text": "我喜欢音乐。",
+      "key": "我喜欢音乐",
+      "uses": [
+        "sample:hobbies-1"
+      ]
+    },
+    {
+      "id": "db95142124934467",
+      "text": "音乐",
+      "key": "音乐",
+      "uses": [
+        "word:hobbies-2"
+      ]
+    },
+    {
+      "id": "ef0ac9a74317285e",
+      "text": "我听音乐。",
+      "key": "我听音乐",
+      "uses": [
+        "sample:hobbies-2",
+        "dialogue:hobbies-1"
+      ]
+    },
+    {
+      "id": "f864303afb4e4a85",
+      "text": "游泳",
+      "key": "游泳",
+      "uses": [
+        "word:hobbies-3",
+        "exercise:hobbies-2",
+        "exercise:hobbies-2"
+      ]
+    },
+    {
+      "id": "5dfdfbb2fc843bf8",
+      "text": "我喜欢游泳。",
+      "key": "我喜欢游泳",
+      "uses": [
+        "sample:hobbies-3",
+        "grammar:hobbies"
+      ]
+    },
+    {
+      "id": "03a3a327af684099",
+      "text": "电影",
+      "key": "电影",
+      "uses": [
+        "word:hobbies-4"
+      ]
+    },
+    {
+      "id": "a5cdfae9de939be2",
+      "text": "我看电影。",
+      "key": "我看电影",
+      "uses": [
+        "sample:hobbies-4",
+        "dialogue:hobbies-2"
+      ]
+    },
+    {
+      "id": "591052c733499bad",
+      "text": "跑步",
+      "key": "跑步",
+      "uses": [
+        "word:hobbies-5",
+        "exercise:hobbies-3",
+        "exercise:hobbies-3"
+      ]
+    },
+    {
+      "id": "111374efce20baf6",
+      "text": "我每天跑步。",
+      "key": "我每天跑步",
+      "uses": [
+        "sample:hobbies-5"
+      ]
+    },
+    {
+      "id": "72f33a2a2593c64b",
+      "text": "打球",
+      "key": "打球",
+      "uses": [
+        "word:hobbies-6"
+      ]
+    },
+    {
+      "id": "03711ccc9ebff747",
+      "text": "我喜欢打球。",
+      "key": "我喜欢打球",
+      "uses": [
+        "sample:hobbies-6",
+        "dialogue:hobbies-3"
+      ]
+    },
+    {
+      "id": "6773310492a96fcf",
+      "text": "名字",
+      "key": "名字",
+      "uses": [
+        "word:conversations-1",
+        "exercise:conversations-1",
+        "exercise:conversations-1"
+      ]
+    },
+    {
+      "id": "1ecb0a2d85add69f",
+      "text": "你叫什么名字？",
+      "key": "你叫什么名字",
+      "uses": [
+        "sample:conversations-1",
+        "v3-sample:core-3",
+        "v3-task:use-1:0",
+        "v3-task:use-1:1",
+        "v3-task:use-2:1",
+        "v3-guided-recording"
+      ]
+    },
+    {
+      "id": "b71852847d38252f",
+      "text": "叫",
+      "key": "叫",
+      "uses": [
+        "word:conversations-2"
+      ]
+    },
+    {
+      "id": "7464e97f6a3edefe",
+      "text": "我叫安娜。",
+      "key": "我叫安娜",
+      "uses": [
+        "sample:conversations-2",
+        "dialogue:conversations-1",
+        "v3-note:use-1",
+        "v3-guided-recording"
+      ]
+    },
+    {
+      "id": "13a58ec2074e014a",
+      "text": "学生",
+      "key": "学生",
+      "uses": [
+        "word:conversations-3",
+        "exercise:conversations-2",
+        "exercise:conversations-2"
+      ]
+    },
+    {
+      "id": "3ecfef8720cf0b67",
+      "text": "你是学生吗？",
+      "key": "你是学生吗",
+      "uses": [
+        "sample:conversations-3",
+        "grammar:conversations",
+        "v3-sample:core-2",
+        "v3-guided-recording"
+      ]
+    },
+    {
+      "id": "72726d8818f69306",
+      "text": "中文",
+      "key": "中文",
+      "uses": [
+        "word:conversations-4"
+      ]
+    },
+    {
+      "id": "173f5e7609da4a54",
+      "text": "我学习中文。",
+      "key": "我学习中文",
+      "uses": [
+        "sample:conversations-4",
+        "dialogue:conversations-2"
+      ]
+    },
+    {
+      "id": "5ba1e3c0eb636161",
+      "text": "会",
+      "key": "会",
+      "uses": [
+        "word:conversations-5",
+        "exercise:conversations-3",
+        "exercise:conversations-3"
+      ]
+    },
+    {
+      "id": "b192b8b582cdf503",
+      "text": "我会说中文。",
+      "key": "我会说中文",
+      "uses": [
+        "sample:conversations-5"
+      ]
+    },
+    {
+      "id": "ccca74461399d2a0",
+      "text": "说",
+      "key": "说",
+      "uses": [
+        "word:conversations-6"
+      ]
+    },
+    {
+      "id": "1a04bce10dafbf0c",
+      "text": "请说中文。",
+      "key": "请说中文",
+      "uses": [
+        "sample:conversations-6",
+        "dialogue:conversations-3"
+      ]
+    },
+    {
+      "id": "685f904c57fca5e1",
+      "text": "你好！我叫安娜。",
+      "key": "你好我叫安娜",
+      "uses": [
+        "speaking-introduction"
+      ]
+    },
+    {
+      "id": "b5141d3d19e9a048",
+      "text": "是",
+      "key": "是",
+      "uses": [
+        "v3-word:core-1"
+      ]
+    },
+    {
+      "id": "5ac1612110def2c4",
+      "text": "吗",
+      "key": "吗",
+      "uses": [
+        "v3-word:core-2"
+      ]
+    },
+    {
+      "id": "c1b52e0e64a33dea",
+      "text": "什么",
+      "key": "什么",
+      "uses": [
+        "v3-word:core-3"
+      ]
+    },
+    {
+      "id": "88d5840fab773af6",
+      "text": "请",
+      "key": "请",
+      "uses": [
+        "v3-word:core-4"
+      ]
+    },
+    {
+      "id": "0ecc79db47df9563",
+      "text": "请说慢一点儿。",
+      "key": "请说慢一点儿",
+      "uses": [
+        "v3-sample:core-4",
+        "v3-sample:core-7",
+        "v3-sample:core-8",
+        "v3-note:use-2",
+        "v3-task:check-1:2",
+        "v3-guided-recording"
+      ]
+    },
+    {
+      "id": "8aa07f1595bd98d4",
+      "text": "再",
+      "key": "再",
+      "uses": [
+        "v3-word:core-5"
+      ]
+    },
+    {
+      "id": "ce6b676370dc6745",
+      "text": "请再说一遍。",
+      "key": "请再说一遍",
+      "uses": [
+        "v3-sample:core-5",
+        "v3-sample:core-6",
+        "v3-note:use-2",
+        "v3-task:use-2:0",
+        "v3-guided-recording"
+      ]
+    },
+    {
+      "id": "4d3cc4a0faa25118",
+      "text": "一遍",
+      "key": "一遍",
+      "uses": [
+        "v3-word:core-6"
+      ]
+    },
+    {
+      "id": "42269e2627f4916c",
+      "text": "慢",
+      "key": "慢",
+      "uses": [
+        "v3-word:core-7"
+      ]
+    },
+    {
+      "id": "f9796aa1410a0474",
+      "text": "一点儿",
+      "key": "一点儿",
+      "uses": [
+        "v3-word:core-8"
+      ]
+    },
+    {
+      "id": "b02dfe2160c687c2",
+      "text": "不",
+      "key": "不",
+      "uses": [
+        "v3-word:core-9"
+      ]
+    },
+    {
+      "id": "7a8e8ed48213d43e",
+      "text": "我不是老师。",
+      "key": "我不是老师",
+      "uses": [
+        "v3-sample:core-9",
+        "v3-guided-recording"
+      ]
+    },
+    {
+      "id": "e623ab488c8e0409",
+      "text": "懂",
+      "key": "懂",
+      "uses": [
+        "v3-word:core-10"
+      ]
+    },
+    {
+      "id": "a780eecbbfcde7c4",
+      "text": "我听不懂。",
+      "key": "我听不懂",
+      "uses": [
+        "v3-sample:core-10",
+        "v3-sample:core-11",
+        "v3-note:use-2",
+        "v3-task:use-2:4"
+      ]
+    },
+    {
+      "id": "1f2eb2608d236247",
+      "text": "听",
+      "key": "听",
+      "uses": [
+        "v3-word:core-11"
+      ]
+    },
+    {
+      "id": "975f35218ed8782e",
+      "text": "要",
+      "key": "要",
+      "uses": [
+        "v3-word:core-12"
+      ]
+    },
+    {
+      "id": "db6201315d4ba4f5",
+      "text": "我要一杯茶。",
+      "key": "我要一杯茶",
+      "uses": [
+        "v3-sample:core-12",
+        "v3-note:use-3",
+        "v3-task:use-3:0",
+        "v3-guided-recording"
+      ]
+    },
+    {
+      "id": "c879f9d6cc989f54",
+      "text": "杯",
+      "key": "杯",
+      "uses": [
+        "v3-word:core-13"
+      ]
+    },
+    {
+      "id": "5b42e17af5404ccf",
+      "text": "我要两杯水。",
+      "key": "我要两杯水",
+      "uses": [
+        "v3-sample:core-13",
+        "v3-sample:core-14",
+        "v3-note:use-3",
+        "v3-task:use-3:4",
+        "v3-guided-recording"
+      ]
+    },
+    {
+      "id": "83385d2edafe28d4",
+      "text": "两",
+      "key": "两",
+      "uses": [
+        "v3-word:core-14"
+      ]
+    },
+    {
+      "id": "36d89c8f512d8cce",
+      "text": "块",
+      "key": "块",
+      "uses": [
+        "v3-word:core-15"
+      ]
+    },
+    {
+      "id": "96505be1998b2063",
+      "text": "一杯茶三块。",
+      "key": "一杯茶三块",
+      "uses": [
+        "v3-sample:core-15"
+      ]
+    },
+    {
+      "id": "fc7edd399a5c4b93",
+      "text": "十",
+      "key": "十",
+      "uses": [
+        "v3-word:core-16"
+      ]
+    },
+    {
+      "id": "534dbbc332351c75",
+      "text": "十块。",
+      "key": "十块",
+      "uses": [
+        "v3-sample:core-16",
+        "v3-task:use-4:4"
+      ]
+    },
+    {
+      "id": "12404a0b63817240",
+      "text": "在",
+      "key": "在",
+      "uses": [
+        "v3-word:core-17"
+      ]
+    },
+    {
+      "id": "dba4e089b112dacd",
+      "text": "银行在右边。",
+      "key": "银行在右边",
+      "uses": [
+        "v3-sample:core-17",
+        "v3-task:use-5:4",
+        "v3-guided-recording"
+      ]
+    },
+    {
+      "id": "90ce0f66f09488f2",
+      "text": "有",
+      "key": "有",
+      "uses": [
+        "v3-word:core-18"
+      ]
+    },
+    {
+      "id": "f127804b9227e152",
+      "text": "没有",
+      "key": "没有",
+      "uses": [
+        "v3-word:core-19"
+      ]
+    },
+    {
+      "id": "50a7764e160b6857",
+      "text": "我没有钱。",
+      "key": "我没有钱",
+      "uses": [
+        "v3-sample:core-19",
+        "v3-note:use-4"
+      ]
+    },
+    {
+      "id": "f2b91797ea3a7171",
+      "text": "很",
+      "key": "很",
+      "uses": [
+        "v3-word:core-20"
+      ]
+    },
+    {
+      "id": "960aa0208aa54aa5",
+      "text": "我很忙。",
+      "key": "我很忙",
+      "uses": [
+        "v3-sample:core-20",
+        "v3-sample:core-21",
+        "v3-note:use-1",
+        "v3-task:use-1:4"
+      ]
+    },
+    {
+      "id": "963e4f4abf641ba9",
+      "text": "忙",
+      "key": "忙",
+      "uses": [
+        "v3-word:core-21"
+      ]
+    },
+    {
+      "id": "bb0d9c666fa88969",
+      "text": "几",
+      "key": "几",
+      "uses": [
+        "v3-word:core-22"
+      ]
+    },
+    {
+      "id": "351551882ced267e",
+      "text": "你要几杯水？",
+      "key": "你要几杯水",
+      "uses": [
+        "v3-sample:core-22",
+        "v3-task:use-3:1",
+        "v3-guided-recording"
+      ]
+    },
+    {
+      "id": "e331d617554b0f37",
+      "text": "妈",
+      "key": "妈",
+      "uses": [
+        "v3-note:sound-1",
+        "v3-note:sound-2",
+        "v3-task:sound-2:0"
+      ]
+    },
+    {
+      "id": "0ab4610b9257c298",
+      "text": "女",
+      "key": "女",
+      "uses": [
+        "v3-note:sound-1",
+        "v3-note:sound-3",
+        "v3-task:sound-3:3"
+      ]
+    },
+    {
+      "id": "2461475506683975",
+      "text": "麻",
+      "key": "麻",
+      "uses": [
+        "v3-note:sound-2",
+        "v3-task:sound-2:1"
+      ]
+    },
+    {
+      "id": "a25ee73c98d16172",
+      "text": "马",
+      "key": "马",
+      "uses": [
+        "v3-note:sound-2",
+        "v3-task:sound-2:2"
+      ]
+    },
+    {
+      "id": "45d31d7e4c504b6d",
+      "text": "骂",
+      "key": "骂",
+      "uses": [
+        "v3-note:sound-2",
+        "v3-task:sound-2:3"
+      ]
+    },
+    {
+      "id": "e601bb9113eb5e57",
+      "text": "爸",
+      "key": "爸",
+      "uses": [
+        "v3-note:sound-3"
+      ]
+    },
+    {
+      "id": "0d2c43256849e491",
+      "text": "怕",
+      "key": "怕",
+      "uses": [
+        "v3-note:sound-3",
+        "v3-task:sound-3:0"
+      ]
+    },
+    {
+      "id": "7d4ca7f48effd602",
+      "text": "大",
+      "key": "大",
+      "uses": [
+        "v3-note:sound-3"
+      ]
+    },
+    {
+      "id": "8b7b91e0001c6971",
+      "text": "他",
+      "key": "他",
+      "uses": [
+        "v3-note:sound-3",
+        "v3-task:sound-3:1"
+      ]
+    },
+    {
+      "id": "0fab08c0aaec69cd",
+      "text": "哥",
+      "key": "哥",
+      "uses": [
+        "v3-note:sound-3"
+      ]
+    },
+    {
+      "id": "f7e8382e7a3ce546",
+      "text": "科",
+      "key": "科",
+      "uses": [
+        "v3-note:sound-3",
+        "v3-task:sound-3:2"
+      ]
+    },
+    {
+      "id": "cf22bc1bd07ece3e",
+      "text": "怒",
+      "key": "怒",
+      "uses": [
+        "v3-note:sound-3"
+      ]
+    },
+    {
+      "id": "3c1e31a193cda379",
+      "text": "金",
+      "key": "金",
+      "uses": [
+        "v3-note:sound-3"
+      ]
+    },
+    {
+      "id": "fe9c846c529745ba",
+      "text": "京",
+      "key": "京",
+      "uses": [
+        "v3-note:sound-3",
+        "v3-task:sound-3:4"
+      ]
+    },
+    {
+      "id": "5232c2350218a2c7",
+      "text": "一杯茶",
+      "key": "一杯茶",
+      "uses": [
+        "v3-note:sound-4"
+      ]
+    },
+    {
+      "id": "d84bab0068e9300e",
+      "text": "一块",
+      "key": "一块",
+      "uses": [
+        "v3-note:sound-4"
+      ]
+    },
+    {
+      "id": "584cd0fcf368adcc",
+      "text": "不是",
+      "key": "不是",
+      "uses": [
+        "v3-note:sound-4",
+        "v3-task:sound-4:5"
+      ]
+    },
+    {
+      "id": "35443604e22be0cc",
+      "text": "一杯茶多少钱？",
+      "key": "一杯茶多少钱",
+      "uses": [
+        "v3-note:use-4",
+        "v3-guided-recording"
+      ]
+    },
+    {
+      "id": "161aac5c925af7d7",
+      "text": "三块。",
+      "key": "三块",
+      "uses": [
+        "v3-note:use-4",
+        "v3-task:use-4:0",
+        "v3-guided-recording"
+      ]
+    },
+    {
+      "id": "c97d0b64a7ab9c83",
+      "text": "两杯水多少钱？",
+      "key": "两杯水多少钱",
+      "uses": [
+        "v3-task:use-4:1",
+        "v3-guided-recording"
+      ]
+    },
+    {
+      "id": "5716f80e10253c00",
+      "text": "学校在左边。",
+      "key": "学校在左边",
+      "uses": [
+        "v3-note:use-5",
+        "v3-task:use-5:0",
+        "v3-task:check-3:6",
+        "v3-guided-recording"
+      ]
+    },
+    {
+      "id": "d6b0eae9aa8d834b",
+      "text": "我明天三点去学校。",
+      "key": "我明天三点去学校",
+      "uses": [
+        "v3-note:use-6",
+        "v3-task:use-6:0",
+        "v3-guided-recording"
+      ]
+    },
+    {
+      "id": "9318a789131081a5",
+      "text": "明天三点我去学校。",
+      "key": "明天三点我去学校",
+      "uses": [
+        "v3-note:use-6"
+      ]
+    },
+    {
+      "id": "e639338579e41737",
+      "text": "你今天几点喝茶？",
+      "key": "你今天几点喝茶",
+      "uses": [
+        "v3-task:use-6:1",
+        "v3-guided-recording"
+      ]
+    },
+    {
+      "id": "6d8e3bf2f46e7d0f",
+      "text": "我今天五点喝茶。",
+      "key": "我今天五点喝茶",
+      "uses": [
+        "v3-task:use-6:4",
+        "v3-guided-recording"
+      ]
+    },
+    {
+      "id": "8c57333664501c33",
+      "text": "我叫小明。",
+      "key": "我叫小明",
+      "uses": [
+        "v3-task:check-1:0"
+      ]
+    },
+    {
+      "id": "c612453a16c880d3",
+      "text": "五块。",
+      "key": "五块",
+      "uses": [
+        "v3-task:check-1:4"
+      ]
+    },
+    {
+      "id": "742156e197c3f406",
+      "text": "我明天五点学习。",
+      "key": "我明天五点学习",
+      "uses": [
+        "v3-task:check-1:8"
+      ]
+    },
+    {
+      "id": "9433697e7809f8e3",
+      "text": "我是老师。",
+      "key": "我是老师",
+      "uses": [
+        "v3-task:check-2:0"
+      ]
+    },
+    {
+      "id": "56bf8b443e87aef7",
+      "text": "我听不懂你说什么。",
+      "key": "我听不懂你说什么",
+      "uses": [
+        "v3-task:check-2:2"
+      ]
+    },
+    {
+      "id": "67aef3f4714c9c58",
+      "text": "我要两杯茶。",
+      "key": "我要两杯茶",
+      "uses": [
+        "v3-task:check-2:4"
+      ]
+    },
+    {
+      "id": "2d8496737ba931b0",
+      "text": "六块钱。",
+      "key": "六块钱",
+      "uses": [
+        "v3-task:check-2:6"
+      ]
+    },
+    {
+      "id": "2c835225d837e995",
+      "text": "我今天很忙。",
+      "key": "我今天很忙",
+      "uses": [
+        "v3-task:check-3:0"
+      ]
+    },
+    {
+      "id": "20736a3ee21f7240",
+      "text": "我要一杯水。",
+      "key": "我要一杯水",
+      "uses": [
+        "v3-task:check-3:2"
+      ]
+    },
+    {
+      "id": "58d8cb6b5a28061a",
+      "text": "十块钱。",
+      "key": "十块钱",
+      "uses": [
+        "v3-task:check-3:4"
+      ]
+    },
+    {
+      "id": "4caeed5d1585cfe1",
+      "text": "我明天三点喝水。",
+      "key": "我明天三点喝水",
+      "uses": [
+        "v3-task:check-3:8"
+      ]
+    },
+    {
+      "id": "4a7308d1b27173aa",
+      "text": "你好，我是学生。",
+      "key": "你好我是学生",
+      "uses": [
+        "v3-guided-recording"
+      ]
+    },
+    {
+      "id": "b154090061e13bf9",
+      "text": "我叫安娜。我是学生。",
+      "key": "我叫安娜我是学生",
+      "uses": [
+        "v3-guided-recording"
+      ]
+    },
+    {
+      "id": "c7f19492b0aa356a",
+      "text": "是，我是学生。",
+      "key": "是我是学生",
+      "uses": [
+        "v3-guided-recording"
+      ]
+    },
+    {
+      "id": "db1d71136e01d4fc",
+      "text": "我听不懂。请再说一遍。",
+      "key": "我听不懂请再说一遍",
+      "uses": [
+        "v3-guided-recording"
+      ]
+    },
+    {
+      "id": "536edaf7cdd1aebb",
+      "text": "好的。",
+      "key": "好的",
+      "uses": [
+        "v3-guided-recording"
+      ]
+    },
+    {
+      "id": "ca2851ad7abf0158",
+      "text": "好的，我说慢一点儿。",
+      "key": "好的我说慢一点儿",
+      "uses": [
+        "v3-guided-recording"
+      ]
+    },
+    {
+      "id": "3225dd8185d6a53c",
+      "text": "你要喝什么？",
+      "key": "你要喝什么",
+      "uses": [
+        "v3-guided-recording"
+      ]
+    },
+    {
+      "id": "35ab20f72e74b99a",
+      "text": "六块。",
+      "key": "六块",
+      "uses": [
+        "v3-guided-recording"
+      ]
+    },
+    {
+      "id": "f6cc73867d68c1c1",
+      "text": "学校在哪里？学校在左边。",
+      "key": "学校在哪里学校在左边",
+      "uses": [
+        "v3-guided-recording"
+      ]
+    },
+    {
+      "id": "2065f5658ecbe7fa",
+      "text": "你明天几点去学校？",
+      "key": "你明天几点去学校",
+      "uses": [
+        "v3-guided-recording"
+      ]
+    }
+  ]
+}

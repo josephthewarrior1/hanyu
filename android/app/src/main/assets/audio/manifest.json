@@ -1,0 +1,3397 @@
+{
+  "version": 1,
+  "language": "zh-CN",
+  "generated": true,
+  "model": "Kokoro-82M-v1.1-zh / sherpa-onnx kokoro-multi-lang-v1_1",
+  "runtime": "sherpa-onnx 1.13.8",
+  "speaker": "zf_001",
+  "speakerId": 3,
+  "generationSpeed": 1.0,
+  "generationProvider": "CPU offline",
+  "modelSource": "https://huggingface.co/hexgrad/Kokoro-82M-v1.1-zh",
+  "onnxSource": "https://github.com/k2-fsa/sherpa-onnx/releases/download/tts-models/kokoro-multi-lang-v1_1.tar.bz2",
+  "modelSha256": "acc4adc175b9d9986106cd20060329673ad5a2e12ef3c557d2d3745b694f8b38",
+  "clips": [
+    {
+      "id": "670d9743542cae3e",
+      "text": "你好",
+      "key": "你好",
+      "uses": [
+        "word:greetings-1",
+        "sample:greetings-1",
+        "grammar:greetings",
+        "exercise:greetings-1",
+        "exercise:greetings-1",
+        "v3-note:sound-4",
+        "v3-guided-recording"
+      ],
+      "file": "audio/670d9743542cae3e.m4a",
+      "durationMs": 604,
+      "sampleRate": 24000,
+      "peak": 0.25073,
+      "rms": 0.07282,
+      "clippedSamples": 0,
+      "sha256": "17b003bd9dc3c686f17f173fcadbdfa46a5da7ee96b25546dd9b96a9e853b806",
+      "bytes": 6157
+    },
+    {
+      "id": "1bf7ac688560d3b0",
+      "text": "谢谢",
+      "key": "谢谢",
+      "uses": [
+        "word:greetings-2"
+      ],
+      "file": "audio/1bf7ac688560d3b0.m4a",
+      "durationMs": 646,
+      "sampleRate": 24000,
+      "peak": 0.36371,
+      "rms": 0.0805,
+      "clippedSamples": 0,
+      "sha256": "c7383d493b063c62b9230f7ef156376353585c2eb89415bb8e531a68b2993b15",
+      "bytes": 6418
+    },
+    {
+      "id": "8aaa2ee628be0886",
+      "text": "谢谢你。",
+      "key": "谢谢你",
+      "uses": [
+        "sample:greetings-2",
+        "dialogue:greetings-1"
+      ],
+      "file": "audio/8aaa2ee628be0886.m4a",
+      "durationMs": 991,
+      "sampleRate": 24000,
+      "peak": 0.40765,
+      "rms": 0.0828,
+      "clippedSamples": 0,
+      "sha256": "b1def47d30475e0f291d01b86dcdc22be6c32d13791a32825df7b64fdf35b99e",
+      "bytes": 8970
+    },
+    {
+      "id": "c90a1cdb561d0269",
+      "text": "再见",
+      "key": "再见",
+      "uses": [
+        "word:greetings-3",
+        "exercise:greetings-2",
+        "exercise:greetings-2"
+      ],
+      "file": "audio/c90a1cdb561d0269.m4a",
+      "durationMs": 765,
+      "sampleRate": 24000,
+      "peak": 0.33005,
+      "rms": 0.06667,
+      "clippedSamples": 0,
+      "sha256": "5953d60d5f8d764a3b89c4bcc5555e10e1b8a9a87ef884f96eac39660a2bafa2",
+      "bytes": 7184
+    },
+    {
+      "id": "3a74d274698b1602",
+      "text": "老师，再见！",
+      "key": "老师再见",
+      "uses": [
+        "sample:greetings-3"
+      ],
+      "file": "audio/3a74d274698b1602.m4a",
+      "durationMs": 1254,
+      "sampleRate": 24000,
+      "peak": 0.38855,
+      "rms": 0.07629,
+      "clippedSamples": 0,
+      "sha256": "99b7ceccfd47c705f83f5252a8ed09887f5433ea71d1ba32f0abc1a4734d73ab",
+      "bytes": 11702
+    },
+    {
+      "id": "b70bb4acc0484cf0",
+      "text": "我",
+      "key": "我",
+      "uses": [
+        "word:greetings-4"
+      ],
+      "file": "audio/b70bb4acc0484cf0.m4a",
+      "durationMs": 522,
+      "sampleRate": 24000,
+      "peak": 0.30536,
+      "rms": 0.06661,
+      "clippedSamples": 0,
+      "sha256": "2e80297d1823de451d2eca99a827f628f43badd489cc5f42f10dac7a55ff9ce0",
+      "bytes": 5323
+    },
+    {
+      "id": "cd3e14f106f9adae",
+      "text": "我是学生。",
+      "key": "我是学生",
+      "uses": [
+        "sample:greetings-4",
+        "dialogue:greetings-2",
+        "v3-sample:core-1",
+        "v3-note:use-1"
+      ],
+      "file": "audio/cd3e14f106f9adae.m4a",
+      "durationMs": 1261,
+      "sampleRate": 24000,
+      "peak": 0.4053,
+      "rms": 0.07914,
+      "clippedSamples": 0,
+      "sha256": "48a4eec72effdbbf01aa5974fad589349ca19c45d13d177437ef50a8d99bdf92",
+      "bytes": 11098
+    },
+    {
+      "id": "a0c7716669b5ded0",
+      "text": "你",
+      "key": "你",
+      "uses": [
+        "word:greetings-5",
+        "exercise:greetings-3",
+        "exercise:greetings-3",
+        "v3-note:sound-1",
+        "v3-task:sound-1:4"
+      ],
+      "file": "audio/a0c7716669b5ded0.m4a",
+      "durationMs": 439,
+      "sampleRate": 24000,
+      "peak": 0.21231,
+      "rms": 0.06652,
+      "clippedSamples": 0,
+      "sha256": "6576e1afb8fda10f587a09f2d11ec914e2d4ce1d923cc4da7f4d5eb4da0b066c",
+      "bytes": 4744
+    },
+    {
+      "id": "be10ea8c4e5d464c",
+      "text": "你好吗？",
+      "key": "你好吗",
+      "uses": [
+        "sample:greetings-5",
+        "v3-note:sound-2"
+      ],
+      "file": "audio/be10ea8c4e5d464c.m4a",
+      "durationMs": 889,
+      "sampleRate": 24000,
+      "peak": 0.28714,
+      "rms": 0.07461,
+      "clippedSamples": 0,
+      "sha256": "aeb8dc92847caaafc5e28b2bc3becef0c4089c6380d6e45dcd333e0786929f24",
+      "bytes": 8148
+    },
+    {
+      "id": "c9a31a3f670b7f99",
+      "text": "老师",
+      "key": "老师",
+      "uses": [
+        "word:greetings-6"
+      ],
+      "file": "audio/c9a31a3f670b7f99.m4a",
+      "durationMs": 742,
+      "sampleRate": 24000,
+      "peak": 0.35989,
+      "rms": 0.06335,
+      "clippedSamples": 0,
+      "sha256": "65b2a8624ca25f7a75d9c00cf435edb49f282e5fef2d691f34d06486afe36711",
+      "bytes": 7225
+    },
+    {
+      "id": "ce204bfb9a904222",
+      "text": "老师好！",
+      "key": "老师好",
+      "uses": [
+        "sample:greetings-6",
+        "dialogue:greetings-3"
+      ],
+      "file": "audio/ce204bfb9a904222.m4a",
+      "durationMs": 882,
+      "sampleRate": 24000,
+      "peak": 0.36322,
+      "rms": 0.08009,
+      "clippedSamples": 0,
+      "sha256": "2b1653ebd143b92f479e6db6c3fe97a57d384936050d15e52c0321be820796bb",
+      "bytes": 8247
+    },
+    {
+      "id": "51a75f4634dfa859",
+      "text": "一",
+      "key": "一",
+      "uses": [
+        "word:numbers-1",
+        "exercise:numbers-1",
+        "exercise:numbers-1"
+      ],
+      "file": "audio/51a75f4634dfa859.m4a",
+      "durationMs": 518,
+      "sampleRate": 24000,
+      "peak": 0.25323,
+      "rms": 0.06473,
+      "clippedSamples": 0,
+      "sha256": "66b1d79159cb68a6be311cf23a208f1756dae5d9f59b7111dd8b55ad1f908ca0",
+      "bytes": 5305
+    },
+    {
+      "id": "c83248705bfc600d",
+      "text": "一个人。",
+      "key": "一个人",
+      "uses": [
+        "sample:numbers-1"
+      ],
+      "file": "audio/c83248705bfc600d.m4a",
+      "durationMs": 772,
+      "sampleRate": 24000,
+      "peak": 0.34393,
+      "rms": 0.07799,
+      "clippedSamples": 0,
+      "sha256": "c26c3374d484344681652dcce66d190d41dd05bccea21450b0cb94a0d788461a",
+      "bytes": 7214
+    },
+    {
+      "id": "084b42f6e95e4e65",
+      "text": "二",
+      "key": "二",
+      "uses": [
+        "word:numbers-2"
+      ],
+      "file": "audio/084b42f6e95e4e65.m4a",
+      "durationMs": 545,
+      "sampleRate": 24000,
+      "peak": 0.20908,
+      "rms": 0.06063,
+      "clippedSamples": 0,
+      "sha256": "eb781294c3fa7d018ebcbb839b575a773cb0be5b6a5cd63914b2e58ad450d8eb",
+      "bytes": 5551
+    },
+    {
+      "id": "bc6c324ae711abd5",
+      "text": "二加一是三。",
+      "key": "二加一是三",
+      "uses": [
+        "sample:numbers-2",
+        "dialogue:numbers-1"
+      ],
+      "file": "audio/bc6c324ae711abd5.m4a",
+      "durationMs": 1399,
+      "sampleRate": 24000,
+      "peak": 0.37735,
+      "rms": 0.07435,
+      "clippedSamples": 0,
+      "sha256": "5fb1911d31a8af3dbe7109075a7b23b71338902ae3dacb2d6b29a1edc71a7eed",
+      "bytes": 12791
+    },
+    {
+      "id": "a4c3313deb180960",
+      "text": "三",
+      "key": "三",
+      "uses": [
+        "word:numbers-3",
+        "exercise:numbers-2",
+        "exercise:numbers-2"
+      ],
+      "file": "audio/a4c3313deb180960.m4a",
+      "durationMs": 538,
+      "sampleRate": 24000,
+      "peak": 0.39267,
+      "rms": 0.06386,
+      "clippedSamples": 0,
+      "sha256": "3297da569dc5230fbdeeb7501d0ad44b846f7b3d8957a8ba8cf55ea1a09cd6b3",
+      "bytes": 5471
+    },
+    {
+      "id": "ad7f664caafba88e",
+      "text": "三个人。",
+      "key": "三个人",
+      "uses": [
+        "sample:numbers-3",
+        "grammar:numbers"
+      ],
+      "file": "audio/ad7f664caafba88e.m4a",
+      "durationMs": 943,
+      "sampleRate": 24000,
+      "peak": 0.35312,
+      "rms": 0.07888,
+      "clippedSamples": 0,
+      "sha256": "a96f0612f7ef8c4f9c9b20bc66e114043f133008fc1ae00dd66e30151f8078a8",
+      "bytes": 8517
+    },
+    {
+      "id": "754a9d5828d502f1",
+      "text": "四",
+      "key": "四",
+      "uses": [
+        "word:numbers-4"
+      ],
+      "file": "audio/754a9d5828d502f1.m4a",
+      "durationMs": 532,
+      "sampleRate": 24000,
+      "peak": 0.30417,
+      "rms": 0.07068,
+      "clippedSamples": 0,
+      "sha256": "e2dcf7b3d65959d37bfdaafd6310e2d39c0a45b75617e844d349f23e8b73c6ee",
+      "bytes": 5310
+    },
+    {
+      "id": "6659e5d47c46cfee",
+      "text": "四本书。",
+      "key": "四本书",
+      "uses": [
+        "sample:numbers-4",
+        "dialogue:numbers-2"
+      ],
+      "file": "audio/6659e5d47c46cfee.m4a",
+      "durationMs": 931,
+      "sampleRate": 24000,
+      "peak": 0.39343,
+      "rms": 0.0746,
+      "clippedSamples": 0,
+      "sha256": "9724ba2130fcaa886b5512e18b27467d52c76f731110b9c3f3cf33f3ec363514",
+      "bytes": 8812
+    },
+    {
+      "id": "c9b87f516a38ea36",
+      "text": "五",
+      "key": "五",
+      "uses": [
+        "word:numbers-5",
+        "exercise:numbers-3",
+        "exercise:numbers-3"
+      ],
+      "file": "audio/c9b87f516a38ea36.m4a",
+      "durationMs": 484,
+      "sampleRate": 24000,
+      "peak": 0.29004,
+      "rms": 0.06715,
+      "clippedSamples": 0,
+      "sha256": "9d97fb2ed0afc0b337f4c8e4e11e086e6fc79f88acb6424f619f4d1bc83bbb49",
+      "bytes": 5033
+    },
+    {
+      "id": "70735fc4a06ca466",
+      "text": "五个苹果。",
+      "key": "五个苹果",
+      "uses": [
+        "sample:numbers-5"
+      ],
+      "file": "audio/70735fc4a06ca466.m4a",
+      "durationMs": 1194,
+      "sampleRate": 24000,
+      "peak": 0.43076,
+      "rms": 0.08227,
+      "clippedSamples": 0,
+      "sha256": "bb8fdb10a4d37ea1cd52bea4e94e077df726c544b31bdf2a09b0a00894293f37",
+      "bytes": 10552
+    },
+    {
+      "id": "de07b5383874b2a3",
+      "text": "六",
+      "key": "六",
+      "uses": [
+        "word:numbers-6",
+        "v3-note:sound-1"
+      ],
+      "file": "audio/de07b5383874b2a3.m4a",
+      "durationMs": 512,
+      "sampleRate": 24000,
+      "peak": 0.29794,
+      "rms": 0.071,
+      "clippedSamples": 0,
+      "sha256": "bcd99fff2b30c37c036c48007472633ea5acaeba47097f4e18ebc36045825001",
+      "bytes": 5213
+    },
+    {
+      "id": "369bd48df4058c58",
+      "text": "六杯水。",
+      "key": "六杯水",
+      "uses": [
+        "sample:numbers-6",
+        "dialogue:numbers-3"
+      ],
+      "file": "audio/369bd48df4058c58.m4a",
+      "durationMs": 958,
+      "sampleRate": 24000,
+      "peak": 0.30081,
+      "rms": 0.07926,
+      "clippedSamples": 0,
+      "sha256": "24b85e6282fb5c90e7541ccc1319392ad2cd64d8d814c4e7ffc4130893c4ef72",
+      "bytes": 8787
+    },
+    {
+      "id": "45f1364f08aed165",
+      "text": "妈妈",
+      "key": "妈妈",
+      "uses": [
+        "word:family-1",
+        "exercise:family-1",
+        "exercise:family-1",
+        "v3-note:sound-2",
+        "v3-task:sound-2:4",
+        "v3-guided-recording"
+      ],
+      "file": "audio/45f1364f08aed165.m4a",
+      "durationMs": 576,
+      "sampleRate": 24000,
+      "peak": 0.24783,
+      "rms": 0.07238,
+      "clippedSamples": 0,
+      "sha256": "029612ca3727639a6f657a319e53eb6598b010f3e27795d77763205db755ee36",
+      "bytes": 5866
+    },
+    {
+      "id": "012c50567b65aa4b",
+      "text": "她是我妈妈。",
+      "key": "她是我妈妈",
+      "uses": [
+        "sample:family-1",
+        "grammar:family"
+      ],
+      "file": "audio/012c50567b65aa4b.m4a",
+      "durationMs": 1322,
+      "sampleRate": 24000,
+      "peak": 0.40683,
+      "rms": 0.07378,
+      "clippedSamples": 0,
+      "sha256": "ae30f93297e059fc3b8be7461a5cdfad7b3821ebcfddd564b3fd8ef9eadc178c",
+      "bytes": 11534
+    },
+    {
+      "id": "d45ce71dd359d0e7",
+      "text": "爸爸",
+      "key": "爸爸",
+      "uses": [
+        "word:family-2"
+      ],
+      "file": "audio/d45ce71dd359d0e7.m4a",
+      "durationMs": 567,
+      "sampleRate": 24000,
+      "peak": 0.4191,
+      "rms": 0.07237,
+      "clippedSamples": 0,
+      "sha256": "25b6776aa223ff6d1f7413a111dbe3d813b90a0b1cbcb88cd64313233c8317ce",
+      "bytes": 5880
+    },
+    {
+      "id": "bad3436e172192b3",
+      "text": "他是我爸爸。",
+      "key": "他是我爸爸",
+      "uses": [
+        "sample:family-2",
+        "dialogue:family-1"
+      ],
+      "file": "audio/bad3436e172192b3.m4a",
+      "durationMs": 1361,
+      "sampleRate": 24000,
+      "peak": 0.37177,
+      "rms": 0.0713,
+      "clippedSamples": 0,
+      "sha256": "332be645bad8a9400fbba0f7fdeea4ac059d3bee625571cf01be676bc94238c5",
+      "bytes": 12794
+    },
+    {
+      "id": "6cf70b7c4fa3c4b4",
+      "text": "哥哥",
+      "key": "哥哥",
+      "uses": [
+        "word:family-3",
+        "exercise:family-2",
+        "exercise:family-2"
+      ],
+      "file": "audio/6cf70b7c4fa3c4b4.m4a",
+      "durationMs": 650,
+      "sampleRate": 24000,
+      "peak": 0.39789,
+      "rms": 0.07574,
+      "clippedSamples": 0,
+      "sha256": "4676b14478d5018af57a4a1a9a798f0cc2fe9b7a856311b5b6d24c5c3822d313",
+      "bytes": 6414
+    },
+    {
+      "id": "321c68ee6f81e200",
+      "text": "我哥哥是老师。",
+      "key": "我哥哥是老师",
+      "uses": [
+        "sample:family-3"
+      ],
+      "file": "audio/321c68ee6f81e200.m4a",
+      "durationMs": 1550,
+      "sampleRate": 24000,
+      "peak": 0.4071,
+      "rms": 0.07841,
+      "clippedSamples": 0,
+      "sha256": "d4f8986b874b620fde7db5b9efc696e3c16e43ff4090e29a36fec54703a8a439",
+      "bytes": 14137
+    },
+    {
+      "id": "d25622289ef32c86",
+      "text": "姐姐",
+      "key": "姐姐",
+      "uses": [
+        "word:family-4"
+      ],
+      "file": "audio/d25622289ef32c86.m4a",
+      "durationMs": 642,
+      "sampleRate": 24000,
+      "peak": 0.36301,
+      "rms": 0.0816,
+      "clippedSamples": 0,
+      "sha256": "a0082617bf49bb478b528663a47621c2a00fb2741decc5a184996929e934ac77",
+      "bytes": 6190
+    },
+    {
+      "id": "88844b9340327644",
+      "text": "我姐姐在家。",
+      "key": "我姐姐在家",
+      "uses": [
+        "sample:family-4",
+        "dialogue:family-2"
+      ],
+      "file": "audio/88844b9340327644.m4a",
+      "durationMs": 1389,
+      "sampleRate": 24000,
+      "peak": 0.48087,
+      "rms": 0.07662,
+      "clippedSamples": 0,
+      "sha256": "72aeea86f05fe4fdad7fb9fee261aee89ecf15474b82209fccaff7f7d96cb715",
+      "bytes": 12082
+    },
+    {
+      "id": "677aad1a0ee44cd6",
+      "text": "朋友",
+      "key": "朋友",
+      "uses": [
+        "word:family-5",
+        "exercise:family-3",
+        "exercise:family-3"
+      ],
+      "file": "audio/677aad1a0ee44cd6.m4a",
+      "durationMs": 745,
+      "sampleRate": 24000,
+      "peak": 0.26617,
+      "rms": 0.06329,
+      "clippedSamples": 0,
+      "sha256": "d6767177046681461a7e7bcfe52702f768b89cfa39772fcd9db8f61c78bcd989",
+      "bytes": 7109
+    },
+    {
+      "id": "208fd1ce8ef1fee1",
+      "text": "他是我的朋友。",
+      "key": "他是我的朋友",
+      "uses": [
+        "sample:family-5"
+      ],
+      "file": "audio/208fd1ce8ef1fee1.m4a",
+      "durationMs": 1493,
+      "sampleRate": 24000,
+      "peak": 0.38123,
+      "rms": 0.074,
+      "clippedSamples": 0,
+      "sha256": "bfef11fedd63715afc941752e97eb58d02cc22ad01ba75d867c8c88b306ae3d5",
+      "bytes": 14164
+    },
+    {
+      "id": "c8ae97be80f3867c",
+      "text": "家",
+      "key": "家",
+      "uses": [
+        "word:family-6"
+      ],
+      "file": "audio/c8ae97be80f3867c.m4a",
+      "durationMs": 545,
+      "sampleRate": 24000,
+      "peak": 0.52066,
+      "rms": 0.06913,
+      "clippedSamples": 0,
+      "sha256": "f43fcf3c7e2bb997c6cfe7a9c613f07d39a67d7aa52ffe23ebe014ca535c1c30",
+      "bytes": 5573
+    },
+    {
+      "id": "586d4ff4cd1563eb",
+      "text": "我在家。",
+      "key": "我在家",
+      "uses": [
+        "sample:family-6",
+        "dialogue:family-3"
+      ],
+      "file": "audio/586d4ff4cd1563eb.m4a",
+      "durationMs": 839,
+      "sampleRate": 24000,
+      "peak": 0.45627,
+      "rms": 0.08507,
+      "clippedSamples": 0,
+      "sha256": "91d3a5d4fe6cbceac943e3dd8aeb24472af1726644295530ba854fcd213a9e77",
+      "bytes": 7860
+    },
+    {
+      "id": "327b54d04f71f212",
+      "text": "水",
+      "key": "水",
+      "uses": [
+        "word:food-1",
+        "exercise:food-1",
+        "exercise:food-1"
+      ],
+      "file": "audio/327b54d04f71f212.m4a",
+      "durationMs": 563,
+      "sampleRate": 24000,
+      "peak": 0.32449,
+      "rms": 0.06952,
+      "clippedSamples": 0,
+      "sha256": "ee261c58a89ea2afc79d9251fda945e4d6c036d10691058794740a8c1a701d3e",
+      "bytes": 5702
+    },
+    {
+      "id": "12542269cf686601",
+      "text": "我喝水。",
+      "key": "我喝水",
+      "uses": [
+        "sample:food-1",
+        "v3-note:sound-4"
+      ],
+      "file": "audio/12542269cf686601.m4a",
+      "durationMs": 932,
+      "sampleRate": 24000,
+      "peak": 0.42288,
+      "rms": 0.08048,
+      "clippedSamples": 0,
+      "sha256": "c83b9096d4c8a6a0502c30ce2ce9a5623f41fad9dba7ee0eee5e0de266886781",
+      "bytes": 8460
+    },
+    {
+      "id": "7e005ba311f86fa7",
+      "text": "茶",
+      "key": "茶",
+      "uses": [
+        "word:food-2"
+      ],
+      "file": "audio/7e005ba311f86fa7.m4a",
+      "durationMs": 554,
+      "sampleRate": 24000,
+      "peak": 0.17725,
+      "rms": 0.05482,
+      "clippedSamples": 0,
+      "sha256": "bb4536257a2bd9364ac61a61d5bb03054d0d3f6fd6a615584897d72e679c4990",
+      "bytes": 5842
+    },
+    {
+      "id": "38a01082bd0ec693",
+      "text": "我想喝茶。",
+      "key": "我想喝茶",
+      "uses": [
+        "sample:food-2",
+        "grammar:food",
+        "dialogue:food-1"
+      ],
+      "file": "audio/38a01082bd0ec693.m4a",
+      "durationMs": 1254,
+      "sampleRate": 24000,
+      "peak": 0.47293,
+      "rms": 0.0786,
+      "clippedSamples": 0,
+      "sha256": "8cd1449193df52f9f2c2baed836ce236c7bb6fa5428b809221cc37c9edc2bfe1",
+      "bytes": 11025
+    },
+    {
+      "id": "e233a13a49e51106",
+      "text": "米饭",
+      "key": "米饭",
+      "uses": [
+        "word:food-3",
+        "exercise:food-2",
+        "exercise:food-2"
+      ],
+      "file": "audio/e233a13a49e51106.m4a",
+      "durationMs": 563,
+      "sampleRate": 24000,
+      "peak": 0.29071,
+      "rms": 0.07441,
+      "clippedSamples": 0,
+      "sha256": "7023d78e5d9006dceee591b146e8b623731395b5881742d86417d1661475f1b1",
+      "bytes": 5845
+    },
+    {
+      "id": "12991b6d971d5805",
+      "text": "我吃米饭。",
+      "key": "我吃米饭",
+      "uses": [
+        "sample:food-3"
+      ],
+      "file": "audio/12991b6d971d5805.m4a",
+      "durationMs": 1172,
+      "sampleRate": 24000,
+      "peak": 0.44919,
+      "rms": 0.08406,
+      "clippedSamples": 0,
+      "sha256": "738897d043cc160524d6e49e4f7d10259f81b1984f2ac133bbce0e78dcdd291e",
+      "bytes": 10383
+    },
+    {
+      "id": "0b5480e007c777a7",
+      "text": "面条",
+      "key": "面条",
+      "uses": [
+        "word:food-4"
+      ],
+      "file": "audio/0b5480e007c777a7.m4a",
+      "durationMs": 798,
+      "sampleRate": 24000,
+      "peak": 0.22928,
+      "rms": 0.06244,
+      "clippedSamples": 0,
+      "sha256": "b467e6a318940a3c00cdc684030fef0612f2fa7cb558a5067cf098bf20f5d7d8",
+      "bytes": 7500
+    },
+    {
+      "id": "1e270ea0be1d27f8",
+      "text": "我喜欢面条。",
+      "key": "我喜欢面条",
+      "uses": [
+        "sample:food-4",
+        "dialogue:food-2"
+      ],
+      "file": "audio/1e270ea0be1d27f8.m4a",
+      "durationMs": 1466,
+      "sampleRate": 24000,
+      "peak": 0.50638,
+      "rms": 0.07528,
+      "clippedSamples": 0,
+      "sha256": "5c6d54979137373da66b2500e90e4350a6e12606b020c6c07452f0e9cdffcc22",
+      "bytes": 13597
+    },
+    {
+      "id": "50537dab76505dfc",
+      "text": "苹果",
+      "key": "苹果",
+      "uses": [
+        "word:food-5",
+        "exercise:food-3",
+        "exercise:food-3"
+      ],
+      "file": "audio/50537dab76505dfc.m4a",
+      "durationMs": 629,
+      "sampleRate": 24000,
+      "peak": 0.41745,
+      "rms": 0.07867,
+      "clippedSamples": 0,
+      "sha256": "ed446240bd16b368c72e0ec9a83afb6afbce3a3c5567039917964f5137695868",
+      "bytes": 6195
+    },
+    {
+      "id": "08a246f366498440",
+      "text": "我吃一个苹果。",
+      "key": "我吃一个苹果",
+      "uses": [
+        "sample:food-5"
+      ],
+      "file": "audio/08a246f366498440.m4a",
+      "durationMs": 1527,
+      "sampleRate": 24000,
+      "peak": 0.49014,
+      "rms": 0.08017,
+      "clippedSamples": 0,
+      "sha256": "fea6ea4236b1d302a7105295548b466cab9e4eecff3bd6e0bc7315163a07d19a",
+      "bytes": 14321
+    },
+    {
+      "id": "c814805bc6d0365a",
+      "text": "吃",
+      "key": "吃",
+      "uses": [
+        "word:food-6"
+      ],
+      "file": "audio/c814805bc6d0365a.m4a",
+      "durationMs": 496,
+      "sampleRate": 24000,
+      "peak": 0.29572,
+      "rms": 0.06813,
+      "clippedSamples": 0,
+      "sha256": "123abd1bc8e6e9b83972c34f340ba2e3894daceeb35f09efc0c7696749cd563c",
+      "bytes": 5030
+    },
+    {
+      "id": "39beccee3bf7158b",
+      "text": "你吃什么？",
+      "key": "你吃什么",
+      "uses": [
+        "sample:food-6",
+        "dialogue:food-3"
+      ],
+      "file": "audio/39beccee3bf7158b.m4a",
+      "durationMs": 1087,
+      "sampleRate": 24000,
+      "peak": 0.48169,
+      "rms": 0.07781,
+      "clippedSamples": 0,
+      "sha256": "667be12767ff2ca3ebdab52171bf0e62b9831f94e834dc0c5e187d625adfedb3",
+      "bytes": 9756
+    },
+    {
+      "id": "d5f5a7a010731feb",
+      "text": "今天",
+      "key": "今天",
+      "uses": [
+        "word:time-1",
+        "exercise:time-1",
+        "exercise:time-1"
+      ],
+      "file": "audio/d5f5a7a010731feb.m4a",
+      "durationMs": 627,
+      "sampleRate": 24000,
+      "peak": 0.27469,
+      "rms": 0.07132,
+      "clippedSamples": 0,
+      "sha256": "3031afab721b91418c566e09f5e04d789ab9f1cdebf29e1d87701c1515cd984c",
+      "bytes": 6210
+    },
+    {
+      "id": "a24066dd8b620d38",
+      "text": "我今天学习。",
+      "key": "我今天学习",
+      "uses": [
+        "sample:time-1",
+        "grammar:time"
+      ],
+      "file": "audio/a24066dd8b620d38.m4a",
+      "durationMs": 1481,
+      "sampleRate": 24000,
+      "peak": 0.47833,
+      "rms": 0.07648,
+      "clippedSamples": 0,
+      "sha256": "71607321617f287bc6c92a5542639084a9cfb0016962c4867a75abd87e166e60",
+      "bytes": 13473
+    },
+    {
+      "id": "b1d841b978fb524c",
+      "text": "明天",
+      "key": "明天",
+      "uses": [
+        "word:time-2"
+      ],
+      "file": "audio/b1d841b978fb524c.m4a",
+      "durationMs": 620,
+      "sampleRate": 24000,
+      "peak": 0.28128,
+      "rms": 0.07664,
+      "clippedSamples": 0,
+      "sha256": "9ddf86ce0175837fd735dd8e00cc2da411b76b6973ed728313692715cc275cc1",
+      "bytes": 6212
+    },
+    {
+      "id": "c45fe5500ee28f38",
+      "text": "我明天去学校。",
+      "key": "我明天去学校",
+      "uses": [
+        "sample:time-2",
+        "dialogue:time-1"
+      ],
+      "file": "audio/c45fe5500ee28f38.m4a",
+      "durationMs": 1621,
+      "sampleRate": 24000,
+      "peak": 0.34204,
+      "rms": 0.0753,
+      "clippedSamples": 0,
+      "sha256": "8b7fdf2e96c2a8faf17c574089d746212902dfd4d9b73691c58b5984dfdc365d",
+      "bytes": 13933
+    },
+    {
+      "id": "43584f37c1f4932f",
+      "text": "现在",
+      "key": "现在",
+      "uses": [
+        "word:time-3",
+        "exercise:time-2",
+        "exercise:time-2"
+      ],
+      "file": "audio/43584f37c1f4932f.m4a",
+      "durationMs": 646,
+      "sampleRate": 24000,
+      "peak": 0.40332,
+      "rms": 0.07525,
+      "clippedSamples": 0,
+      "sha256": "359a3801404c56e87f6c4099482b4a58f28be83f645399169b9428bda1180d79",
+      "bytes": 6504
+    },
+    {
+      "id": "03535518a338528f",
+      "text": "现在是三点。",
+      "key": "现在是三点",
+      "uses": [
+        "sample:time-3"
+      ],
+      "file": "audio/03535518a338528f.m4a",
+      "durationMs": 1450,
+      "sampleRate": 24000,
+      "peak": 0.39581,
+      "rms": 0.07278,
+      "clippedSamples": 0,
+      "sha256": "ebd7e7659e475d65de26c1e853c0e193b5a4042ce7654b22b7acc1e6ff8a3658",
+      "bytes": 13321
+    },
+    {
+      "id": "08dddeac1319d6e8",
+      "text": "点",
+      "key": "点",
+      "uses": [
+        "word:time-4"
+      ],
+      "file": "audio/08dddeac1319d6e8.m4a",
+      "durationMs": 460,
+      "sampleRate": 24000,
+      "peak": 0.36096,
+      "rms": 0.07262,
+      "clippedSamples": 0,
+      "sha256": "b1ec210b93e4e4f5f3d8185d34380daf3507bccec7636112214c12568b90ad99",
+      "bytes": 5094
+    },
+    {
+      "id": "97890df4e5ae531b",
+      "text": "现在是五点。",
+      "key": "现在是五点",
+      "uses": [
+        "sample:time-4",
+        "dialogue:time-2"
+      ],
+      "file": "audio/97890df4e5ae531b.m4a",
+      "durationMs": 1427,
+      "sampleRate": 24000,
+      "peak": 0.38293,
+      "rms": 0.07276,
+      "clippedSamples": 0,
+      "sha256": "815e7062344c3787860a9289dc3c56ae0b6c59724c5cb75ce80047c3884bd23e",
+      "bytes": 12574
+    },
+    {
+      "id": "c6fe2eb2c986c383",
+      "text": "早上",
+      "key": "早上",
+      "uses": [
+        "word:time-5",
+        "exercise:time-3",
+        "exercise:time-3"
+      ],
+      "file": "audio/c6fe2eb2c986c383.m4a",
+      "durationMs": 765,
+      "sampleRate": 24000,
+      "peak": 0.3389,
+      "rms": 0.06197,
+      "clippedSamples": 0,
+      "sha256": "393cfc569f02341452c9e96e511cba5b55c186ca690e8e322f64694fbb0d687d",
+      "bytes": 7235
+    },
+    {
+      "id": "2e868237b3852af1",
+      "text": "我早上喝茶。",
+      "key": "我早上喝茶",
+      "uses": [
+        "sample:time-5"
+      ],
+      "file": "audio/2e868237b3852af1.m4a",
+      "durationMs": 1490,
+      "sampleRate": 24000,
+      "peak": 0.42728,
+      "rms": 0.07463,
+      "clippedSamples": 0,
+      "sha256": "d2b94df778e0726bd703e03f3ea387bfe7e3f996d891e4030789b6aa72480c00",
+      "bytes": 13510
+    },
+    {
+      "id": "a9b1124b34615118",
+      "text": "晚上",
+      "key": "晚上",
+      "uses": [
+        "word:time-6"
+      ],
+      "file": "audio/a9b1124b34615118.m4a",
+      "durationMs": 745,
+      "sampleRate": 24000,
+      "peak": 0.41602,
+      "rms": 0.06403,
+      "clippedSamples": 0,
+      "sha256": "c697fa03f373c94874c398b69bbcc4d7cc4a698de06385715097cb7b06a3eaae",
+      "bytes": 7001
+    },
+    {
+      "id": "e87a15f623014fbe",
+      "text": "我晚上看书。",
+      "key": "我晚上看书",
+      "uses": [
+        "sample:time-6",
+        "dialogue:time-3"
+      ],
+      "file": "audio/e87a15f623014fbe.m4a",
+      "durationMs": 1440,
+      "sampleRate": 24000,
+      "peak": 0.41016,
+      "rms": 0.07613,
+      "clippedSamples": 0,
+      "sha256": "b8b92915609fbec692933ec5d6930981db47841db090c557ffe0a8f9fa4e2380",
+      "bytes": 13308
+    },
+    {
+      "id": "2cd2507d65de178f",
+      "text": "买",
+      "key": "买",
+      "uses": [
+        "word:shopping-1",
+        "exercise:shopping-1",
+        "exercise:shopping-1"
+      ],
+      "file": "audio/2cd2507d65de178f.m4a",
+      "durationMs": 501,
+      "sampleRate": 24000,
+      "peak": 0.29303,
+      "rms": 0.06386,
+      "clippedSamples": 0,
+      "sha256": "966145243d51ad940b29ca8036a0713af58c8640fc5742460d30c7f2f8f387fe",
+      "bytes": 5163
+    },
+    {
+      "id": "d6dc8fd11fa923e8",
+      "text": "我买茶。",
+      "key": "我买茶",
+      "uses": [
+        "sample:shopping-1"
+      ],
+      "file": "audio/d6dc8fd11fa923e8.m4a",
+      "durationMs": 876,
+      "sampleRate": 24000,
+      "peak": 0.43045,
+      "rms": 0.0805,
+      "clippedSamples": 0,
+      "sha256": "25cae6dfbf0327a1fa175cb700df4e1cc6ddc2b1b0040448193acdbef8f70cfa",
+      "bytes": 8184
+    },
+    {
+      "id": "0eb863c78da3e38b",
+      "text": "钱",
+      "key": "钱",
+      "uses": [
+        "word:shopping-2"
+      ],
+      "file": "audio/0eb863c78da3e38b.m4a",
+      "durationMs": 530,
+      "sampleRate": 24000,
+      "peak": 0.4361,
+      "rms": 0.07311,
+      "clippedSamples": 0,
+      "sha256": "be8846b18893023a0c0e065cb5fbc4ff85a2109a35ff964b82afd94ecb57a326",
+      "bytes": 5371
+    },
+    {
+      "id": "8c4d8e09ad149c2b",
+      "text": "我有钱。",
+      "key": "我有钱",
+      "uses": [
+        "sample:shopping-2",
+        "dialogue:shopping-1",
+        "v3-sample:core-18"
+      ],
+      "file": "audio/8c4d8e09ad149c2b.m4a",
+      "durationMs": 840,
+      "sampleRate": 24000,
+      "peak": 0.39514,
+      "rms": 0.0806,
+      "clippedSamples": 0,
+      "sha256": "e4cb00afc0d704f6243de094ea89e197ead7c62d14e5623bc29eb53244b02c26",
+      "bytes": 7802
+    },
+    {
+      "id": "fb8f01cb6d4be28b",
+      "text": "多少",
+      "key": "多少",
+      "uses": [
+        "word:shopping-3",
+        "exercise:shopping-2",
+        "exercise:shopping-2"
+      ],
+      "file": "audio/fb8f01cb6d4be28b.m4a",
+      "durationMs": 669,
+      "sampleRate": 24000,
+      "peak": 0.46774,
+      "rms": 0.07925,
+      "clippedSamples": 0,
+      "sha256": "bb2e4ab68290a60d91bf7e725371b6ee145309bb047b6bc5c603e4480ac021f3",
+      "bytes": 6516
+    },
+    {
+      "id": "8c0b437165b99c03",
+      "text": "这个多少钱？",
+      "key": "这个多少钱",
+      "uses": [
+        "sample:shopping-3",
+        "grammar:shopping"
+      ],
+      "file": "audio/8c0b437165b99c03.m4a",
+      "durationMs": 1360,
+      "sampleRate": 24000,
+      "peak": 0.42178,
+      "rms": 0.07607,
+      "clippedSamples": 0,
+      "sha256": "0878b8ef11312f24b092ac2181db7e845a32bd29f46014d79ab994c908047767",
+      "bytes": 12563
+    },
+    {
+      "id": "979e2bc35b14bf4c",
+      "text": "这个",
+      "key": "这个",
+      "uses": [
+        "word:shopping-4"
+      ],
+      "file": "audio/979e2bc35b14bf4c.m4a",
+      "durationMs": 670,
+      "sampleRate": 24000,
+      "peak": 0.35199,
+      "rms": 0.07266,
+      "clippedSamples": 0,
+      "sha256": "49742ce3f382ecfe9531f8287a3223071a86ff1cb02f7cd62b6c46f4ce67778e",
+      "bytes": 6506
+    },
+    {
+      "id": "7cd58d5015200f16",
+      "text": "我要这个。",
+      "key": "我要这个",
+      "uses": [
+        "sample:shopping-4",
+        "dialogue:shopping-2"
+      ],
+      "file": "audio/7cd58d5015200f16.m4a",
+      "durationMs": 1038,
+      "sampleRate": 24000,
+      "peak": 0.40936,
+      "rms": 0.0814,
+      "clippedSamples": 0,
+      "sha256": "5a47582eb600e50727dc47759810d7707d168e8c33cb309db2929653898c2285",
+      "bytes": 10263
+    },
+    {
+      "id": "0c9640c83aa92be3",
+      "text": "贵",
+      "key": "贵",
+      "uses": [
+        "word:shopping-5",
+        "exercise:shopping-3",
+        "exercise:shopping-3"
+      ],
+      "file": "audio/0c9640c83aa92be3.m4a",
+      "durationMs": 475,
+      "sampleRate": 24000,
+      "peak": 0.37238,
+      "rms": 0.07547,
+      "clippedSamples": 0,
+      "sha256": "ce71857a6da2e3f930ca10a0e25e54ba46bb9c49f896d8ba621c116e8352c681",
+      "bytes": 5243
+    },
+    {
+      "id": "4702a58e239c4c28",
+      "text": "这个很贵。",
+      "key": "这个很贵",
+      "uses": [
+        "sample:shopping-5"
+      ],
+      "file": "audio/4702a58e239c4c28.m4a",
+      "durationMs": 1102,
+      "sampleRate": 24000,
+      "peak": 0.36234,
+      "rms": 0.07924,
+      "clippedSamples": 0,
+      "sha256": "a42a7fbab87cf0d456dc00080ac6fe728a64b769cdc101eca05477b953ad712d",
+      "bytes": 9887
+    },
+    {
+      "id": "303a288691f82c62",
+      "text": "便宜",
+      "key": "便宜",
+      "uses": [
+        "word:shopping-6"
+      ],
+      "file": "audio/303a288691f82c62.m4a",
+      "durationMs": 618,
+      "sampleRate": 24000,
+      "peak": 0.39023,
+      "rms": 0.07277,
+      "clippedSamples": 0,
+      "sha256": "2c061ff033ced469cb74113865be9aa1a1208102a01bf0b52b735f0de80580e3",
+      "bytes": 6141
+    },
+    {
+      "id": "4770ed8543ad4c1b",
+      "text": "这个很便宜。",
+      "key": "这个很便宜",
+      "uses": [
+        "sample:shopping-6",
+        "dialogue:shopping-3"
+      ],
+      "file": "audio/4770ed8543ad4c1b.m4a",
+      "durationMs": 1348,
+      "sampleRate": 24000,
+      "peak": 0.42239,
+      "rms": 0.07471,
+      "clippedSamples": 0,
+      "sha256": "e5d8ac48d66e57a89ee649953217d578c9baaf84ed942ce086008a0f281ca19a",
+      "bytes": 11696
+    },
+    {
+      "id": "6a0ef384c814c9e5",
+      "text": "左边",
+      "key": "左边",
+      "uses": [
+        "word:directions-1",
+        "exercise:directions-1",
+        "exercise:directions-1"
+      ],
+      "file": "audio/6a0ef384c814c9e5.m4a",
+      "durationMs": 772,
+      "sampleRate": 24000,
+      "peak": 0.35294,
+      "rms": 0.06715,
+      "clippedSamples": 0,
+      "sha256": "6afbb3d98173c1e986d74c8820be70c2fe92b1ea3ddf4cdbb302d39d6a49c0c1",
+      "bytes": 7820
+    },
+    {
+      "id": "118d73a04629e882",
+      "text": "银行在左边。",
+      "key": "银行在左边",
+      "uses": [
+        "sample:directions-1",
+        "v3-task:check-1:6"
+      ],
+      "file": "audio/118d73a04629e882.m4a",
+      "durationMs": 1437,
+      "sampleRate": 24000,
+      "peak": 0.31741,
+      "rms": 0.07373,
+      "clippedSamples": 0,
+      "sha256": "1b430d619e13b2f37aaec362b2d0ab1def804881667472d6a5b6266efae9788c",
+      "bytes": 13640
+    },
+    {
+      "id": "0838dcc59823278c",
+      "text": "右边",
+      "key": "右边",
+      "uses": [
+        "word:directions-2"
+      ],
+      "file": "audio/0838dcc59823278c.m4a",
+      "durationMs": 768,
+      "sampleRate": 24000,
+      "peak": 0.29303,
+      "rms": 0.06954,
+      "clippedSamples": 0,
+      "sha256": "d02d3ff3adf9bcfa5bdf7f1be54fb77b58e0cbe42cb824a5ccdaa50df328abb2",
+      "bytes": 7252
+    },
+    {
+      "id": "10b092ccaccafd2e",
+      "text": "学校在右边。",
+      "key": "学校在右边",
+      "uses": [
+        "sample:directions-2",
+        "grammar:directions",
+        "dialogue:directions-1",
+        "v3-task:check-2:8"
+      ],
+      "file": "audio/10b092ccaccafd2e.m4a",
+      "durationMs": 1415,
+      "sampleRate": 24000,
+      "peak": 0.35703,
+      "rms": 0.07476,
+      "clippedSamples": 0,
+      "sha256": "9db9004124ce5c4b85bc6b45d8c3c46703f3750986a2b396f61d1a68373747d5",
+      "bytes": 12128
+    },
+    {
+      "id": "90924eaa6dde0f68",
+      "text": "哪里",
+      "key": "哪里",
+      "uses": [
+        "word:directions-3",
+        "exercise:directions-2",
+        "exercise:directions-2"
+      ],
+      "file": "audio/90924eaa6dde0f68.m4a",
+      "durationMs": 556,
+      "sampleRate": 24000,
+      "peak": 0.27087,
+      "rms": 0.07104,
+      "clippedSamples": 0,
+      "sha256": "ef4258e8f07857ce879e2b5aa1144b7a036107d371441f2c92cdaa57d4934257",
+      "bytes": 6039
+    },
+    {
+      "id": "3d80d0afe6d8c1bd",
+      "text": "学校在哪里？",
+      "key": "学校在哪里",
+      "uses": [
+        "sample:directions-3",
+        "v3-note:use-5",
+        "v3-guided-recording"
+      ],
+      "file": "audio/3d80d0afe6d8c1bd.m4a",
+      "durationMs": 1427,
+      "sampleRate": 24000,
+      "peak": 0.38422,
+      "rms": 0.0731,
+      "clippedSamples": 0,
+      "sha256": "caefadf98e521b97698df38c37e79c24d8c6f259ab99039bdca7126036a9641d",
+      "bytes": 12952
+    },
+    {
+      "id": "dc6e2aafeb9e125b",
+      "text": "学校",
+      "key": "学校",
+      "uses": [
+        "word:directions-4"
+      ],
+      "file": "audio/dc6e2aafeb9e125b.m4a",
+      "durationMs": 761,
+      "sampleRate": 24000,
+      "peak": 0.38995,
+      "rms": 0.07572,
+      "clippedSamples": 0,
+      "sha256": "9ec80e20556c8640fbaabe37ae6cc76ac037680711b96eca14e0ee2b8eff6948",
+      "bytes": 7217
+    },
+    {
+      "id": "f5bb55efbeedca60",
+      "text": "我去学校。",
+      "key": "我去学校",
+      "uses": [
+        "sample:directions-4",
+        "dialogue:directions-2"
+      ],
+      "file": "audio/f5bb55efbeedca60.m4a",
+      "durationMs": 1228,
+      "sampleRate": 24000,
+      "peak": 0.46121,
+      "rms": 0.08572,
+      "clippedSamples": 0,
+      "sha256": "5a55681773758b371b6dfe8429677e79b5c03c2bd1b662fe1a1e29dbf6a93759",
+      "bytes": 10774
+    },
+    {
+      "id": "920e88c5a602df57",
+      "text": "银行",
+      "key": "银行",
+      "uses": [
+        "word:directions-5",
+        "exercise:directions-3",
+        "exercise:directions-3"
+      ],
+      "file": "audio/920e88c5a602df57.m4a",
+      "durationMs": 742,
+      "sampleRate": 24000,
+      "peak": 0.26114,
+      "rms": 0.0636,
+      "clippedSamples": 0,
+      "sha256": "6445a824685d52ecb5c68521129ff9ab050362a3469e9efb033ecc6418621193",
+      "bytes": 6986
+    },
+    {
+      "id": "a7a75f39e15de542",
+      "text": "银行在哪里？",
+      "key": "银行在哪里",
+      "uses": [
+        "sample:directions-5",
+        "v3-task:use-5:1",
+        "v3-guided-recording"
+      ],
+      "file": "audio/a7a75f39e15de542.m4a",
+      "durationMs": 1419,
+      "sampleRate": 24000,
+      "peak": 0.31165,
+      "rms": 0.07099,
+      "clippedSamples": 0,
+      "sha256": "7bd903553380f00ce08e55293a07e4641ab1cf09c28a01e61ef1606fa71ffafd",
+      "bytes": 12149
+    },
+    {
+      "id": "99ae21ea6c39ccc1",
+      "text": "去",
+      "key": "去",
+      "uses": [
+        "word:directions-6"
+      ],
+      "file": "audio/99ae21ea6c39ccc1.m4a",
+      "durationMs": 491,
+      "sampleRate": 24000,
+      "peak": 0.3739,
+      "rms": 0.07244,
+      "clippedSamples": 0,
+      "sha256": "cbc9c00fd7d34a5d0eb597c1b215487454fdf23a01b2cd14cede4f188cb3b8b0",
+      "bytes": 5079
+    },
+    {
+      "id": "d693a41846664ae8",
+      "text": "你去哪里？",
+      "key": "你去哪里",
+      "uses": [
+        "sample:directions-6",
+        "dialogue:directions-3"
+      ],
+      "file": "audio/d693a41846664ae8.m4a",
+      "durationMs": 1163,
+      "sampleRate": 24000,
+      "peak": 0.34262,
+      "rms": 0.07358,
+      "clippedSamples": 0,
+      "sha256": "9ef0fe0f804bc2c0116028ed65424f790536e6e8f5a1c000724894cabba0f6cb",
+      "bytes": 10354
+    },
+    {
+      "id": "96f512f980046bf6",
+      "text": "起床",
+      "key": "起床",
+      "uses": [
+        "word:routines-1",
+        "exercise:routines-1",
+        "exercise:routines-1"
+      ],
+      "file": "audio/96f512f980046bf6.m4a",
+      "durationMs": 765,
+      "sampleRate": 24000,
+      "peak": 0.37036,
+      "rms": 0.06498,
+      "clippedSamples": 0,
+      "sha256": "e3958ec3583421ec0c8d6a16d1eb41d45d3a3d7449716ea69b1e4f9484d57c59",
+      "bytes": 7234
+    },
+    {
+      "id": "b239d75a6a033e2b",
+      "text": "我七点起床。",
+      "key": "我七点起床",
+      "uses": [
+        "sample:routines-1"
+      ],
+      "file": "audio/b239d75a6a033e2b.m4a",
+      "durationMs": 1428,
+      "sampleRate": 24000,
+      "peak": 0.51553,
+      "rms": 0.08292,
+      "clippedSamples": 0,
+      "sha256": "a2900ffa38383036bd0842285ec419c25ee5f23bf4e2beea453904f206957dc4",
+      "bytes": 13443
+    },
+    {
+      "id": "2118cbc109880ac8",
+      "text": "学习",
+      "key": "学习",
+      "uses": [
+        "word:routines-2"
+      ],
+      "file": "audio/2118cbc109880ac8.m4a",
+      "durationMs": 816,
+      "sampleRate": 24000,
+      "peak": 0.45761,
+      "rms": 0.07424,
+      "clippedSamples": 0,
+      "sha256": "83c9303ddc19bc6d5a81a566ff9ae4c6c9cd2bd4a98f4d4e58ba0aee15b3afc1",
+      "bytes": 7578
+    },
+    {
+      "id": "a234c9c0397229fc",
+      "text": "我每天学习。",
+      "key": "我每天学习",
+      "uses": [
+        "sample:routines-2",
+        "grammar:routines",
+        "dialogue:routines-1"
+      ],
+      "file": "audio/a234c9c0397229fc.m4a",
+      "durationMs": 1457,
+      "sampleRate": 24000,
+      "peak": 0.51013,
+      "rms": 0.07778,
+      "clippedSamples": 0,
+      "sha256": "d312e96c30d6be89f089d11d36f7d8b86356ba203fddb0b007527e12b960ffc6",
+      "bytes": 13292
+    },
+    {
+      "id": "bc62d1b6b936c78d",
+      "text": "工作",
+      "key": "工作",
+      "uses": [
+        "word:routines-3",
+        "exercise:routines-2",
+        "exercise:routines-2"
+      ],
+      "file": "audio/bc62d1b6b936c78d.m4a",
+      "durationMs": 700,
+      "sampleRate": 24000,
+      "peak": 0.422,
+      "rms": 0.07439,
+      "clippedSamples": 0,
+      "sha256": "2cce1d247adb948498673f2f74e4cd574de0a12ade787083cbba2f9f20d4bd57",
+      "bytes": 7140
+    },
+    {
+      "id": "a76e4825a2f7c244",
+      "text": "我今天工作。",
+      "key": "我今天工作",
+      "uses": [
+        "sample:routines-3"
+      ],
+      "file": "audio/a76e4825a2f7c244.m4a",
+      "durationMs": 1352,
+      "sampleRate": 24000,
+      "peak": 0.52319,
+      "rms": 0.08124,
+      "clippedSamples": 0,
+      "sha256": "48bbdf4f869d6f496b93a421b9b9d71035ac36e98b31978e8e0bf1193a084453",
+      "bytes": 11997
+    },
+    {
+      "id": "b38a4b4c3335f2d4",
+      "text": "睡觉",
+      "key": "睡觉",
+      "uses": [
+        "word:routines-4"
+      ],
+      "file": "audio/b38a4b4c3335f2d4.m4a",
+      "durationMs": 736,
+      "sampleRate": 24000,
+      "peak": 0.33206,
+      "rms": 0.06668,
+      "clippedSamples": 0,
+      "sha256": "ee596d8b2a6925c5b0c41c5648e208c141d15a3dce5a409fcf289092b2949e30",
+      "bytes": 7061
+    },
+    {
+      "id": "1e62c053d027c160",
+      "text": "我十点睡觉。",
+      "key": "我十点睡觉",
+      "uses": [
+        "sample:routines-4",
+        "dialogue:routines-2"
+      ],
+      "file": "audio/1e62c053d027c160.m4a",
+      "durationMs": 1467,
+      "sampleRate": 24000,
+      "peak": 0.44128,
+      "rms": 0.07746,
+      "clippedSamples": 0,
+      "sha256": "bff6910750b7d3bc4ccc163ac5271ca2a6f601dbf8a8832bf3c3236b531aa6fd",
+      "bytes": 13823
+    },
+    {
+      "id": "eea1694c235b5ddf",
+      "text": "每天",
+      "key": "每天",
+      "uses": [
+        "word:routines-5",
+        "exercise:routines-3",
+        "exercise:routines-3"
+      ],
+      "file": "audio/eea1694c235b5ddf.m4a",
+      "durationMs": 743,
+      "sampleRate": 24000,
+      "peak": 0.27612,
+      "rms": 0.06765,
+      "clippedSamples": 0,
+      "sha256": "44a9c37dc8611097895555d8d14c0c8822f3df2e1ab8872c5e67f397c6040891",
+      "bytes": 7215
+    },
+    {
+      "id": "1c0fea73080310d7",
+      "text": "我每天喝水。",
+      "key": "我每天喝水",
+      "uses": [
+        "sample:routines-5"
+      ],
+      "file": "audio/1c0fea73080310d7.m4a",
+      "durationMs": 1425,
+      "sampleRate": 24000,
+      "peak": 0.46149,
+      "rms": 0.07505,
+      "clippedSamples": 0,
+      "sha256": "07768492ba10773558769067259af63c9ffb3633e67edfbd14fb7aa20f5995be",
+      "bytes": 12381
+    },
+    {
+      "id": "9f805978dd250981",
+      "text": "看书",
+      "key": "看书",
+      "uses": [
+        "word:routines-6"
+      ],
+      "file": "audio/9f805978dd250981.m4a",
+      "durationMs": 791,
+      "sampleRate": 24000,
+      "peak": 0.26248,
+      "rms": 0.06124,
+      "clippedSamples": 0,
+      "sha256": "f691e68302b2183327ce000129514c88086f077e4203926da3f90a04c6008f8c",
+      "bytes": 7484
+    },
+    {
+      "id": "63b40f5f8d7ad68f",
+      "text": "我在家看书。",
+      "key": "我在家看书",
+      "uses": [
+        "sample:routines-6",
+        "dialogue:routines-3"
+      ],
+      "file": "audio/63b40f5f8d7ad68f.m4a",
+      "durationMs": 1463,
+      "sampleRate": 24000,
+      "peak": 0.45966,
+      "rms": 0.07828,
+      "clippedSamples": 0,
+      "sha256": "87af8c72dd215576e35f622643837eb93706955ac27b49bcbea4a8cb9639c973",
+      "bytes": 13118
+    },
+    {
+      "id": "653b04330b75751f",
+      "text": "喜欢",
+      "key": "喜欢",
+      "uses": [
+        "word:hobbies-1",
+        "exercise:hobbies-1",
+        "exercise:hobbies-1"
+      ],
+      "file": "audio/653b04330b75751f.m4a",
+      "durationMs": 802,
+      "sampleRate": 24000,
+      "peak": 0.36981,
+      "rms": 0.0669,
+      "clippedSamples": 0,
+      "sha256": "5dbfe6b5b5554222c52b2b423d8cc52ce2c3c7861772cfb552b0b218789899f5",
+      "bytes": 7522
+    },
+    {
+      "id": "e9756ef055dfa76b",
+      "text": "我喜欢音乐。",
+      "key": "我喜欢音乐",
+      "uses": [
+        "sample:hobbies-1"
+      ],
+      "file": "audio/e9756ef055dfa76b.m4a",
+      "durationMs": 1390,
+      "sampleRate": 24000,
+      "peak": 0.39453,
+      "rms": 0.07842,
+      "clippedSamples": 0,
+      "sha256": "953320cf7b80b6c60be119857e079dcdb31d002c01167ea3df56591e3d74812c",
+      "bytes": 12565
+    },
+    {
+      "id": "db95142124934467",
+      "text": "音乐",
+      "key": "音乐",
+      "uses": [
+        "word:hobbies-2"
+      ],
+      "file": "audio/db95142124934467.m4a",
+      "durationMs": 696,
+      "sampleRate": 24000,
+      "peak": 0.34885,
+      "rms": 0.06277,
+      "clippedSamples": 0,
+      "sha256": "fa9a3ad398d0c6f2f1abff72ce93bbae8482c33cf2dbe6a5546c0966e4cda63b",
+      "bytes": 6643
+    },
+    {
+      "id": "ef0ac9a74317285e",
+      "text": "我听音乐。",
+      "key": "我听音乐",
+      "uses": [
+        "sample:hobbies-2",
+        "dialogue:hobbies-1"
+      ],
+      "file": "audio/ef0ac9a74317285e.m4a",
+      "durationMs": 1208,
+      "sampleRate": 24000,
+      "peak": 0.42609,
+      "rms": 0.08152,
+      "clippedSamples": 0,
+      "sha256": "af2cddd4204ba5848272685f9b813a5762d61ba028e3fbec9f5de04851efddb3",
+      "bytes": 10943
+    },
+    {
+      "id": "f864303afb4e4a85",
+      "text": "游泳",
+      "key": "游泳",
+      "uses": [
+        "word:hobbies-3",
+        "exercise:hobbies-2",
+        "exercise:hobbies-2"
+      ],
+      "file": "audio/f864303afb4e4a85.m4a",
+      "durationMs": 732,
+      "sampleRate": 24000,
+      "peak": 0.38504,
+      "rms": 0.06551,
+      "clippedSamples": 0,
+      "sha256": "e3ff289ba046302977586e0049209fa49f0f140b4c5c9b627bf65367c6f55ad7",
+      "bytes": 6956
+    },
+    {
+      "id": "5dfdfbb2fc843bf8",
+      "text": "我喜欢游泳。",
+      "key": "我喜欢游泳",
+      "uses": [
+        "sample:hobbies-3",
+        "grammar:hobbies"
+      ],
+      "file": "audio/5dfdfbb2fc843bf8.m4a",
+      "durationMs": 1435,
+      "sampleRate": 24000,
+      "peak": 0.42261,
+      "rms": 0.07635,
+      "clippedSamples": 0,
+      "sha256": "3b9c7824ec56a0e11810f21defe3a11b378ce7d34cde3e93d74686b04f764245",
+      "bytes": 12903
+    },
+    {
+      "id": "03a3a327af684099",
+      "text": "电影",
+      "key": "电影",
+      "uses": [
+        "word:hobbies-4"
+      ],
+      "file": "audio/03a3a327af684099.m4a",
+      "durationMs": 672,
+      "sampleRate": 24000,
+      "peak": 0.32309,
+      "rms": 0.06751,
+      "clippedSamples": 0,
+      "sha256": "b85e91fc35bbe0d0df24e1d72d08ba9c2f6796d58a5be539729d08ec7cd2fc51",
+      "bytes": 6875
+    },
+    {
+      "id": "a5cdfae9de939be2",
+      "text": "我看电影。",
+      "key": "我看电影",
+      "uses": [
+        "sample:hobbies-4",
+        "dialogue:hobbies-2"
+      ],
+      "file": "audio/a5cdfae9de939be2.m4a",
+      "durationMs": 1213,
+      "sampleRate": 24000,
+      "peak": 0.53015,
+      "rms": 0.07993,
+      "clippedSamples": 0,
+      "sha256": "9d4c07054fecaf67f1962ed6a46f5041ed9f0f27027d495c30d0fc977db2e24c",
+      "bytes": 11874
+    },
+    {
+      "id": "591052c733499bad",
+      "text": "跑步",
+      "key": "跑步",
+      "uses": [
+        "word:hobbies-5",
+        "exercise:hobbies-3",
+        "exercise:hobbies-3"
+      ],
+      "file": "audio/591052c733499bad.m4a",
+      "durationMs": 740,
+      "sampleRate": 24000,
+      "peak": 0.29703,
+      "rms": 0.06238,
+      "clippedSamples": 0,
+      "sha256": "0cf52ac937938d2a07bc393f5450f40dcfd5989dedbb8cee90809890c870f11a",
+      "bytes": 7063
+    },
+    {
+      "id": "111374efce20baf6",
+      "text": "我每天跑步。",
+      "key": "我每天跑步",
+      "uses": [
+        "sample:hobbies-5"
+      ],
+      "file": "audio/111374efce20baf6.m4a",
+      "durationMs": 1436,
+      "sampleRate": 24000,
+      "peak": 0.42624,
+      "rms": 0.07627,
+      "clippedSamples": 0,
+      "sha256": "1523975ced4c74a651b52d767ad56fa52bf43c1353ae41e55a5e8912a8db46a3",
+      "bytes": 13790
+    },
+    {
+      "id": "72f33a2a2593c64b",
+      "text": "打球",
+      "key": "打球",
+      "uses": [
+        "word:hobbies-6"
+      ],
+      "file": "audio/72f33a2a2593c64b.m4a",
+      "durationMs": 765,
+      "sampleRate": 24000,
+      "peak": 0.27527,
+      "rms": 0.06009,
+      "clippedSamples": 0,
+      "sha256": "7f11ced09325f2b3db3b2fd0d289fb0314105312615dfd28b63a10b732df30f1",
+      "bytes": 7113
+    },
+    {
+      "id": "03711ccc9ebff747",
+      "text": "我喜欢打球。",
+      "key": "我喜欢打球",
+      "uses": [
+        "sample:hobbies-6",
+        "dialogue:hobbies-3"
+      ],
+      "file": "audio/03711ccc9ebff747.m4a",
+      "durationMs": 1468,
+      "sampleRate": 24000,
+      "peak": 0.50986,
+      "rms": 0.07464,
+      "clippedSamples": 0,
+      "sha256": "d4635e921c5f1dc6423f14f73e3bfa910cc55517ebce309473d77c6633ba09c1",
+      "bytes": 12846
+    },
+    {
+      "id": "6773310492a96fcf",
+      "text": "名字",
+      "key": "名字",
+      "uses": [
+        "word:conversations-1",
+        "exercise:conversations-1",
+        "exercise:conversations-1"
+      ],
+      "file": "audio/6773310492a96fcf.m4a",
+      "durationMs": 771,
+      "sampleRate": 24000,
+      "peak": 0.29657,
+      "rms": 0.06697,
+      "clippedSamples": 0,
+      "sha256": "d1c80c13ec437649a56e8857fa489a8799e4593ec43a1910061a5d02c00437d5",
+      "bytes": 7180
+    },
+    {
+      "id": "1ecb0a2d85add69f",
+      "text": "你叫什么名字？",
+      "key": "你叫什么名字",
+      "uses": [
+        "sample:conversations-1",
+        "v3-sample:core-3",
+        "v3-task:use-1:0",
+        "v3-task:use-1:1",
+        "v3-task:use-2:1",
+        "v3-guided-recording"
+      ],
+      "file": "audio/1ecb0a2d85add69f.m4a",
+      "durationMs": 1448,
+      "sampleRate": 24000,
+      "peak": 0.42474,
+      "rms": 0.07425,
+      "clippedSamples": 0,
+      "sha256": "e0caa413bb909ff6ede3e1097d96aeaeafadce86ec72198560f837517a9c1a3a",
+      "bytes": 12383
+    },
+    {
+      "id": "b71852847d38252f",
+      "text": "叫",
+      "key": "叫",
+      "uses": [
+        "word:conversations-2"
+      ],
+      "file": "audio/b71852847d38252f.m4a",
+      "durationMs": 540,
+      "sampleRate": 24000,
+      "peak": 0.37692,
+      "rms": 0.06499,
+      "clippedSamples": 0,
+      "sha256": "d2dee736537e488b7040eb31698c89ce0f6c138f0aa265f6f2d661b158f0fe85",
+      "bytes": 5466
+    },
+    {
+      "id": "7464e97f6a3edefe",
+      "text": "我叫安娜。",
+      "key": "我叫安娜",
+      "uses": [
+        "sample:conversations-2",
+        "dialogue:conversations-1",
+        "v3-note:use-1",
+        "v3-guided-recording"
+      ],
+      "file": "audio/7464e97f6a3edefe.m4a",
+      "durationMs": 1146,
+      "sampleRate": 24000,
+      "peak": 0.5155,
+      "rms": 0.08297,
+      "clippedSamples": 0,
+      "sha256": "95bcadcba5cdacbced1de6128362bf3e47e3b710970830f672ffea4d053fcdcd",
+      "bytes": 10806
+    },
+    {
+      "id": "13a58ec2074e014a",
+      "text": "学生",
+      "key": "学生",
+      "uses": [
+        "word:conversations-3",
+        "exercise:conversations-2",
+        "exercise:conversations-2"
+      ],
+      "file": "audio/13a58ec2074e014a.m4a",
+      "durationMs": 740,
+      "sampleRate": 24000,
+      "peak": 0.4371,
+      "rms": 0.07376,
+      "clippedSamples": 0,
+      "sha256": "ad9bde8b87ff93a394123d7a0b5d1e760b14ed7d1e744d89f4bc5b95b56637e5",
+      "bytes": 7137
+    },
+    {
+      "id": "3ecfef8720cf0b67",
+      "text": "你是学生吗？",
+      "key": "你是学生吗",
+      "uses": [
+        "sample:conversations-3",
+        "grammar:conversations",
+        "v3-sample:core-2",
+        "v3-guided-recording"
+      ],
+      "file": "audio/3ecfef8720cf0b67.m4a",
+      "durationMs": 1348,
+      "sampleRate": 24000,
+      "peak": 0.35989,
+      "rms": 0.07593,
+      "clippedSamples": 0,
+      "sha256": "323d0599b0f12a4f90aac998aa62ce35f12115e1846f2c9c5d89c18554de2cf3",
+      "bytes": 11869
+    },
+    {
+      "id": "72726d8818f69306",
+      "text": "中文",
+      "key": "中文",
+      "uses": [
+        "word:conversations-4"
+      ],
+      "file": "audio/72726d8818f69306.m4a",
+      "durationMs": 710,
+      "sampleRate": 24000,
+      "peak": 0.35184,
+      "rms": 0.06605,
+      "clippedSamples": 0,
+      "sha256": "7b3eab3b919db678562989f8447cec9d6deed6a4cc7ebebb4ff5843471ccea44",
+      "bytes": 6762
+    },
+    {
+      "id": "173f5e7609da4a54",
+      "text": "我学习中文。",
+      "key": "我学习中文",
+      "uses": [
+        "sample:conversations-4",
+        "dialogue:conversations-2"
+      ],
+      "file": "audio/173f5e7609da4a54.m4a",
+      "durationMs": 1399,
+      "sampleRate": 24000,
+      "peak": 0.40842,
+      "rms": 0.07653,
+      "clippedSamples": 0,
+      "sha256": "888af6e682380081f1aa336c9c18d3eebe8d0bb0b253fe7d0f5670fb43abc630",
+      "bytes": 12025
+    },
+    {
+      "id": "5ba1e3c0eb636161",
+      "text": "会",
+      "key": "会",
+      "uses": [
+        "word:conversations-5",
+        "exercise:conversations-3",
+        "exercise:conversations-3"
+      ],
+      "file": "audio/5ba1e3c0eb636161.m4a",
+      "durationMs": 511,
+      "sampleRate": 24000,
+      "peak": 0.32843,
+      "rms": 0.07126,
+      "clippedSamples": 0,
+      "sha256": "d2866212c16f0d915d727ce4befe4c5aeabc38701cecea39efb8d06b6e7de86d",
+      "bytes": 5348
+    },
+    {
+      "id": "b192b8b582cdf503",
+      "text": "我会说中文。",
+      "key": "我会说中文",
+      "uses": [
+        "sample:conversations-5"
+      ],
+      "file": "audio/b192b8b582cdf503.m4a",
+      "durationMs": 1441,
+      "sampleRate": 24000,
+      "peak": 0.47583,
+      "rms": 0.07799,
+      "clippedSamples": 0,
+      "sha256": "3ed019fadc0455f320bab3dbc4935cdaedf4386ed10fcc45bc681e338cb7340e",
+      "bytes": 12967
+    },
+    {
+      "id": "ccca74461399d2a0",
+      "text": "说",
+      "key": "说",
+      "uses": [
+        "word:conversations-6"
+      ],
+      "file": "audio/ccca74461399d2a0.m4a",
+      "durationMs": 570,
+      "sampleRate": 24000,
+      "peak": 0.38107,
+      "rms": 0.07439,
+      "clippedSamples": 0,
+      "sha256": "affde10a7d51a7ef506b6d2c479c582fb3f3b29dcc80563a3fdb55ab29fc5155",
+      "bytes": 5778
+    },
+    {
+      "id": "1a04bce10dafbf0c",
+      "text": "请说中文。",
+      "key": "请说中文",
+      "uses": [
+        "sample:conversations-6",
+        "dialogue:conversations-3"
+      ],
+      "file": "audio/1a04bce10dafbf0c.m4a",
+      "durationMs": 1275,
+      "sampleRate": 24000,
+      "peak": 0.39832,
+      "rms": 0.07671,
+      "clippedSamples": 0,
+      "sha256": "a201ebeb667a3b319db968a3882e10d98944c3a9b1e70c5c9263b1245b0edb7a",
+      "bytes": 11553
+    },
+    {
+      "id": "685f904c57fca5e1",
+      "text": "你好！我叫安娜。",
+      "key": "你好我叫安娜",
+      "uses": [
+        "speaking-introduction"
+      ],
+      "file": "audio/685f904c57fca5e1.m4a",
+      "durationMs": 1566,
+      "sampleRate": 24000,
+      "peak": 0.4285,
+      "rms": 0.0715,
+      "clippedSamples": 0,
+      "sha256": "9b47d084ec8529fa211ca7daee5be540acf5069b0de4bd3ccb5cf00bc28a8b3f",
+      "bytes": 13599
+    },
+    {
+      "id": "b5141d3d19e9a048",
+      "text": "是",
+      "key": "是",
+      "uses": [
+        "v3-word:core-1"
+      ],
+      "file": "audio/b5141d3d19e9a048.m4a",
+      "durationMs": 516,
+      "sampleRate": 24000,
+      "peak": 0.35913,
+      "rms": 0.07062,
+      "clippedSamples": 0,
+      "sha256": "d068fd6cbc787e5db8ae64b913288ba500f69cc03f41c5229750da9e1803ee2d",
+      "bytes": 5284
+    },
+    {
+      "id": "5ac1612110def2c4",
+      "text": "吗",
+      "key": "吗",
+      "uses": [
+        "v3-word:core-2"
+      ],
+      "file": "audio/5ac1612110def2c4.m4a",
+      "durationMs": 515,
+      "sampleRate": 24000,
+      "peak": 0.30352,
+      "rms": 0.06333,
+      "clippedSamples": 0,
+      "sha256": "ecec23e3d102efc3752a695c327277eac0ecfba6c749d21a50b9121eb8250867",
+      "bytes": 5388
+    },
+    {
+      "id": "c1b52e0e64a33dea",
+      "text": "什么",
+      "key": "什么",
+      "uses": [
+        "v3-word:core-3"
+      ],
+      "file": "audio/c1b52e0e64a33dea.m4a",
+      "durationMs": 727,
+      "sampleRate": 24000,
+      "peak": 0.51465,
+      "rms": 0.07026,
+      "clippedSamples": 0,
+      "sha256": "e681af086bef58a287234118d4dd9072ed509b55e7fbe8721d3016d4a345cd64",
+      "bytes": 6834
+    },
+    {
+      "id": "88d5840fab773af6",
+      "text": "请",
+      "key": "请",
+      "uses": [
+        "v3-word:core-4"
+      ],
+      "file": "audio/88d5840fab773af6.m4a",
+      "durationMs": 471,
+      "sampleRate": 24000,
+      "peak": 0.44643,
+      "rms": 0.07289,
+      "clippedSamples": 0,
+      "sha256": "3bd8bcc58a6a0153b6d131567ee634378d64386f0caab3d94ee87f33db5a223a",
+      "bytes": 4974
+    },
+    {
+      "id": "0ecc79db47df9563",
+      "text": "请说慢一点儿。",
+      "key": "请说慢一点儿",
+      "uses": [
+        "v3-sample:core-4",
+        "v3-sample:core-7",
+        "v3-sample:core-8",
+        "v3-note:use-2",
+        "v3-task:check-1:2",
+        "v3-guided-recording"
+      ],
+      "file": "audio/0ecc79db47df9563.m4a",
+      "durationMs": 1608,
+      "sampleRate": 24000,
+      "peak": 0.4233,
+      "rms": 0.07226,
+      "clippedSamples": 0,
+      "sha256": "b2ca555dd88555201af8117d91b6405ffb73c97c699bf7075690343710db8f56",
+      "bytes": 14684
+    },
+    {
+      "id": "8aa07f1595bd98d4",
+      "text": "再",
+      "key": "再",
+      "uses": [
+        "v3-word:core-5"
+      ],
+      "file": "audio/8aa07f1595bd98d4.m4a",
+      "durationMs": 515,
+      "sampleRate": 24000,
+      "peak": 0.29714,
+      "rms": 0.06151,
+      "clippedSamples": 0,
+      "sha256": "136ed0b96af452ec1f5c6a69d9e49d422f86f50f1c99e2af1d6f81d69a515806",
+      "bytes": 5208
+    },
+    {
+      "id": "ce6b676370dc6745",
+      "text": "请再说一遍。",
+      "key": "请再说一遍",
+      "uses": [
+        "v3-sample:core-5",
+        "v3-sample:core-6",
+        "v3-note:use-2",
+        "v3-task:use-2:0",
+        "v3-guided-recording"
+      ],
+      "file": "audio/ce6b676370dc6745.m4a",
+      "durationMs": 1428,
+      "sampleRate": 24000,
+      "peak": 0.3572,
+      "rms": 0.07648,
+      "clippedSamples": 0,
+      "sha256": "811109f7ad313105a185f73134e75d7940a8e0a646afdb43810f4761592c3e55",
+      "bytes": 12337
+    },
+    {
+      "id": "4d3cc4a0faa25118",
+      "text": "一遍",
+      "key": "一遍",
+      "uses": [
+        "v3-word:core-6"
+      ],
+      "file": "audio/4d3cc4a0faa25118.m4a",
+      "durationMs": 551,
+      "sampleRate": 24000,
+      "peak": 0.38183,
+      "rms": 0.07392,
+      "clippedSamples": 0,
+      "sha256": "a0eb0cb508a83c17854e468b0939d29ba6609d70ed237314d0fc340de828b15c",
+      "bytes": 5526
+    },
+    {
+      "id": "42269e2627f4916c",
+      "text": "慢",
+      "key": "慢",
+      "uses": [
+        "v3-word:core-7"
+      ],
+      "file": "audio/42269e2627f4916c.m4a",
+      "durationMs": 481,
+      "sampleRate": 24000,
+      "peak": 0.27336,
+      "rms": 0.06336,
+      "clippedSamples": 0,
+      "sha256": "4f8c248809417f4ac5db6aa985469ba72a543b344b6adff8a5d02e0c9d713700",
+      "bytes": 4994
+    },
+    {
+      "id": "f9796aa1410a0474",
+      "text": "一点儿",
+      "key": "一点儿",
+      "uses": [
+        "v3-word:core-8"
+      ],
+      "file": "audio/f9796aa1410a0474.m4a",
+      "durationMs": 772,
+      "sampleRate": 24000,
+      "peak": 0.48077,
+      "rms": 0.07674,
+      "clippedSamples": 0,
+      "sha256": "4f7df0517c4843b0a03bc3ad01a20b3a7b630e3b90990ce60c3cb9b45dfae2fa",
+      "bytes": 7870
+    },
+    {
+      "id": "b02dfe2160c687c2",
+      "text": "不",
+      "key": "不",
+      "uses": [
+        "v3-word:core-9"
+      ],
+      "file": "audio/b02dfe2160c687c2.m4a",
+      "durationMs": 423,
+      "sampleRate": 24000,
+      "peak": 0.32691,
+      "rms": 0.07745,
+      "clippedSamples": 0,
+      "sha256": "37d79726a014cf1a6147cada662c3428272e5dfab0677113a45ed021cd42f07c",
+      "bytes": 4699
+    },
+    {
+      "id": "7a8e8ed48213d43e",
+      "text": "我不是老师。",
+      "key": "我不是老师",
+      "uses": [
+        "v3-sample:core-9",
+        "v3-guided-recording"
+      ],
+      "file": "audio/7a8e8ed48213d43e.m4a",
+      "durationMs": 1290,
+      "sampleRate": 24000,
+      "peak": 0.37669,
+      "rms": 0.07865,
+      "clippedSamples": 0,
+      "sha256": "df5af5a7a9a5f92c609f496c62cfde69aa37384a1373ce37fac0b8d840f85567",
+      "bytes": 11417
+    },
+    {
+      "id": "e623ab488c8e0409",
+      "text": "懂",
+      "key": "懂",
+      "uses": [
+        "v3-word:core-10"
+      ],
+      "file": "audio/e623ab488c8e0409.m4a",
+      "durationMs": 416,
+      "sampleRate": 24000,
+      "peak": 0.43629,
+      "rms": 0.07766,
+      "clippedSamples": 0,
+      "sha256": "def77a6244b8a80d5b0e611bccb4b624406ee67a6a7eb3c3667139dda544e06b",
+      "bytes": 4581
+    },
+    {
+      "id": "a780eecbbfcde7c4",
+      "text": "我听不懂。",
+      "key": "我听不懂",
+      "uses": [
+        "v3-sample:core-10",
+        "v3-sample:core-11",
+        "v3-note:use-2",
+        "v3-task:use-2:4"
+      ],
+      "file": "audio/a780eecbbfcde7c4.m4a",
+      "durationMs": 1092,
+      "sampleRate": 24000,
+      "peak": 0.49454,
+      "rms": 0.08151,
+      "clippedSamples": 0,
+      "sha256": "4ee1fcb012cd0dffa2641a459034d170ccf646004ff8a1eb869d320192cea6fd",
+      "bytes": 11007
+    },
+    {
+      "id": "1f2eb2608d236247",
+      "text": "听",
+      "key": "听",
+      "uses": [
+        "v3-word:core-11"
+      ],
+      "file": "audio/1f2eb2608d236247.m4a",
+      "durationMs": 530,
+      "sampleRate": 24000,
+      "peak": 0.37527,
+      "rms": 0.07156,
+      "clippedSamples": 0,
+      "sha256": "efbdf183ea7b5fccb982e64eb3cffd3638079c4cec09ca6326b15061b9e6fc79",
+      "bytes": 5331
+    },
+    {
+      "id": "975f35218ed8782e",
+      "text": "要",
+      "key": "要",
+      "uses": [
+        "v3-word:core-12"
+      ],
+      "file": "audio/975f35218ed8782e.m4a",
+      "durationMs": 517,
+      "sampleRate": 24000,
+      "peak": 0.29982,
+      "rms": 0.0646,
+      "clippedSamples": 0,
+      "sha256": "911cfe0f8ecdab236afbb25644a4c8d171dcd6b6b43df2c8ddff8b7321e9cff7",
+      "bytes": 5415
+    },
+    {
+      "id": "db6201315d4ba4f5",
+      "text": "我要一杯茶。",
+      "key": "我要一杯茶",
+      "uses": [
+        "v3-sample:core-12",
+        "v3-note:use-3",
+        "v3-task:use-3:0",
+        "v3-guided-recording"
+      ],
+      "file": "audio/db6201315d4ba4f5.m4a",
+      "durationMs": 1362,
+      "sampleRate": 24000,
+      "peak": 0.48292,
+      "rms": 0.08153,
+      "clippedSamples": 0,
+      "sha256": "42ebce25ce0d7f21d77008c2af1ea4434e192febb327756269f3b90b3dfae23e",
+      "bytes": 12199
+    },
+    {
+      "id": "c879f9d6cc989f54",
+      "text": "杯",
+      "key": "杯",
+      "uses": [
+        "v3-word:core-13"
+      ],
+      "file": "audio/c879f9d6cc989f54.m4a",
+      "durationMs": 489,
+      "sampleRate": 24000,
+      "peak": 0.29622,
+      "rms": 0.06833,
+      "clippedSamples": 0,
+      "sha256": "e9f2dc044e75f7c05ded290f572abc4f4de16e3843c975ec7b7995e459ee2ba5",
+      "bytes": 5371
+    },
+    {
+      "id": "5b42e17af5404ccf",
+      "text": "我要两杯水。",
+      "key": "我要两杯水",
+      "uses": [
+        "v3-sample:core-13",
+        "v3-sample:core-14",
+        "v3-note:use-3",
+        "v3-task:use-3:4",
+        "v3-guided-recording"
+      ],
+      "file": "audio/5b42e17af5404ccf.m4a",
+      "durationMs": 1386,
+      "sampleRate": 24000,
+      "peak": 0.36723,
+      "rms": 0.07615,
+      "clippedSamples": 0,
+      "sha256": "8d85bbb9282ef276f609d4bccc9eabcdb8741e0862d3ab8ba9d7f160c5a49c84",
+      "bytes": 12791
+    },
+    {
+      "id": "83385d2edafe28d4",
+      "text": "两",
+      "key": "两",
+      "uses": [
+        "v3-word:core-14"
+      ],
+      "file": "audio/83385d2edafe28d4.m4a",
+      "durationMs": 538,
+      "sampleRate": 24000,
+      "peak": 0.446,
+      "rms": 0.07035,
+      "clippedSamples": 0,
+      "sha256": "ec96544ad8832e3883634eeda3edfedef686d1637ce447701e19bb2310b0f75a",
+      "bytes": 5483
+    },
+    {
+      "id": "36d89c8f512d8cce",
+      "text": "块",
+      "key": "块",
+      "uses": [
+        "v3-word:core-15"
+      ],
+      "file": "audio/36d89c8f512d8cce.m4a",
+      "durationMs": 533,
+      "sampleRate": 24000,
+      "peak": 0.3099,
+      "rms": 0.06317,
+      "clippedSamples": 0,
+      "sha256": "be0dff256511c0139755899da1a5060bc3c822a4881287b7bbd4d242bbc0676b",
+      "bytes": 5395
+    },
+    {
+      "id": "96505be1998b2063",
+      "text": "一杯茶三块。",
+      "key": "一杯茶三块",
+      "uses": [
+        "v3-sample:core-15"
+      ],
+      "file": "audio/96505be1998b2063.m4a",
+      "durationMs": 1488,
+      "sampleRate": 24000,
+      "peak": 0.36024,
+      "rms": 0.07405,
+      "clippedSamples": 0,
+      "sha256": "b41855244e26423f2ef60d1c6f17b7ce68c04490660dd16c8043dcd32f741c59",
+      "bytes": 13660
+    },
+    {
+      "id": "fc7edd399a5c4b93",
+      "text": "十",
+      "key": "十",
+      "uses": [
+        "v3-word:core-16"
+      ],
+      "file": "audio/fc7edd399a5c4b93.m4a",
+      "durationMs": 324,
+      "sampleRate": 24000,
+      "peak": 0.3339,
+      "rms": 0.07617,
+      "clippedSamples": 0,
+      "sha256": "004b2116b1800deb3ac5e1d0c28fafdda8efad39392cf7e5153ea2f77f61e3c7",
+      "bytes": 3906
+    },
+    {
+      "id": "534dbbc332351c75",
+      "text": "十块。",
+      "key": "十块",
+      "uses": [
+        "v3-sample:core-16",
+        "v3-task:use-4:4"
+      ],
+      "file": "audio/534dbbc332351c75.m4a",
+      "durationMs": 666,
+      "sampleRate": 24000,
+      "peak": 0.39962,
+      "rms": 0.07657,
+      "clippedSamples": 0,
+      "sha256": "2d3b07efe200509886a0e6061126ba7ed24aae832ac7ddf1a23693aacf09557c",
+      "bytes": 6583
+    },
+    {
+      "id": "12404a0b63817240",
+      "text": "在",
+      "key": "在",
+      "uses": [
+        "v3-word:core-17"
+      ],
+      "file": "audio/12404a0b63817240.m4a",
+      "durationMs": 516,
+      "sampleRate": 24000,
+      "peak": 0.29947,
+      "rms": 0.06143,
+      "clippedSamples": 0,
+      "sha256": "300adff9c2d2e2b0faad3c4eac1a28a88139eed8cb865c5c48d8843e1f6aac69",
+      "bytes": 5299
+    },
+    {
+      "id": "dba4e089b112dacd",
+      "text": "银行在右边。",
+      "key": "银行在右边",
+      "uses": [
+        "v3-sample:core-17",
+        "v3-task:use-5:4",
+        "v3-guided-recording"
+      ],
+      "file": "audio/dba4e089b112dacd.m4a",
+      "durationMs": 1407,
+      "sampleRate": 24000,
+      "peak": 0.31872,
+      "rms": 0.07451,
+      "clippedSamples": 0,
+      "sha256": "91dd4965dc551764b7e18ae14aa507bdd4edac6d761b424fe80dcf3e84480c25",
+      "bytes": 12185
+    },
+    {
+      "id": "90ce0f66f09488f2",
+      "text": "有",
+      "key": "有",
+      "uses": [
+        "v3-word:core-18"
+      ],
+      "file": "audio/90ce0f66f09488f2.m4a",
+      "durationMs": 544,
+      "sampleRate": 24000,
+      "peak": 0.34343,
+      "rms": 0.06651,
+      "clippedSamples": 0,
+      "sha256": "78318183875f7403cdf7d81bfd4d8b6bd9c47db14eb484125aff15ad68faf0aa",
+      "bytes": 5512
+    },
+    {
+      "id": "f127804b9227e152",
+      "text": "没有",
+      "key": "没有",
+      "uses": [
+        "v3-word:core-19"
+      ],
+      "file": "audio/f127804b9227e152.m4a",
+      "durationMs": 661,
+      "sampleRate": 24000,
+      "peak": 0.27075,
+      "rms": 0.06943,
+      "clippedSamples": 0,
+      "sha256": "9d1c9b78b170659697cc292e815e174b1e4ab7fab58fc71ad7ab4cbf5c8a0e13",
+      "bytes": 6347
+    },
+    {
+      "id": "50a7764e160b6857",
+      "text": "我没有钱。",
+      "key": "我没有钱",
+      "uses": [
+        "v3-sample:core-19",
+        "v3-note:use-4"
+      ],
+      "file": "audio/50a7764e160b6857.m4a",
+      "durationMs": 1088,
+      "sampleRate": 24000,
+      "peak": 0.33331,
+      "rms": 0.07973,
+      "clippedSamples": 0,
+      "sha256": "19de114401e7edf9f19e1add89ac5e085b2057241e9e8b2c8e3d8c09f1c52d3d",
+      "bytes": 9783
+    },
+    {
+      "id": "f2b91797ea3a7171",
+      "text": "很",
+      "key": "很",
+      "uses": [
+        "v3-word:core-20"
+      ],
+      "file": "audio/f2b91797ea3a7171.m4a",
+      "durationMs": 538,
+      "sampleRate": 24000,
+      "peak": 0.32858,
+      "rms": 0.06712,
+      "clippedSamples": 0,
+      "sha256": "1bc13dd94b9fac0cb209ccc03b4fe2804da8ad10dbbdd6aaf7dfd55a442a142c",
+      "bytes": 5429
+    },
+    {
+      "id": "960aa0208aa54aa5",
+      "text": "我很忙。",
+      "key": "我很忙",
+      "uses": [
+        "v3-sample:core-20",
+        "v3-sample:core-21",
+        "v3-note:use-1",
+        "v3-task:use-1:4"
+      ],
+      "file": "audio/960aa0208aa54aa5.m4a",
+      "durationMs": 878,
+      "sampleRate": 24000,
+      "peak": 0.43494,
+      "rms": 0.08616,
+      "clippedSamples": 0,
+      "sha256": "3fe7c396a78ccb0a618298e576b54220043f7b08950c0518d7996430dd751ccf",
+      "bytes": 8210
+    },
+    {
+      "id": "963e4f4abf641ba9",
+      "text": "忙",
+      "key": "忙",
+      "uses": [
+        "v3-word:core-21"
+      ],
+      "file": "audio/963e4f4abf641ba9.m4a",
+      "durationMs": 507,
+      "sampleRate": 24000,
+      "peak": 0.31545,
+      "rms": 0.06475,
+      "clippedSamples": 0,
+      "sha256": "461a8bbfc1e602dae131273d5b2bdd63689e66eea43d00f83ce67d76356e138a",
+      "bytes": 5177
+    },
+    {
+      "id": "bb0d9c666fa88969",
+      "text": "几",
+      "key": "几",
+      "uses": [
+        "v3-word:core-22"
+      ],
+      "file": "audio/bb0d9c666fa88969.m4a",
+      "durationMs": 520,
+      "sampleRate": 24000,
+      "peak": 0.25885,
+      "rms": 0.06234,
+      "clippedSamples": 0,
+      "sha256": "3f2f03e9c7bfcdc60316c2e2851937e132ec711499b983603002eba469e438e1",
+      "bytes": 5330
+    },
+    {
+      "id": "351551882ced267e",
+      "text": "你要几杯水？",
+      "key": "你要几杯水",
+      "uses": [
+        "v3-sample:core-22",
+        "v3-task:use-3:1",
+        "v3-guided-recording"
+      ],
+      "file": "audio/351551882ced267e.m4a",
+      "durationMs": 1395,
+      "sampleRate": 24000,
+      "peak": 0.33296,
+      "rms": 0.07464,
+      "clippedSamples": 0,
+      "sha256": "0cb9bb1c77b28d5732c765b248c08300d7f97bc0685ffe19a5648fa55e4d6285",
+      "bytes": 13596
+    },
+    {
+      "id": "e331d617554b0f37",
+      "text": "妈",
+      "key": "妈",
+      "uses": [
+        "v3-note:sound-1",
+        "v3-note:sound-2",
+        "v3-task:sound-2:0"
+      ],
+      "file": "audio/e331d617554b0f37.m4a",
+      "durationMs": 514,
+      "sampleRate": 24000,
+      "peak": 0.27319,
+      "rms": 0.06303,
+      "clippedSamples": 0,
+      "sha256": "843de93fc50e8a7bbfb9685b95d147ab9306e42a49cc6435887e52898a7f5a81",
+      "bytes": 5558
+    },
+    {
+      "id": "0ab4610b9257c298",
+      "text": "女",
+      "key": "女",
+      "uses": [
+        "v3-note:sound-1",
+        "v3-note:sound-3",
+        "v3-task:sound-3:3"
+      ],
+      "file": "audio/0ab4610b9257c298.m4a",
+      "durationMs": 439,
+      "sampleRate": 24000,
+      "peak": 0.2531,
+      "rms": 0.0706,
+      "clippedSamples": 0,
+      "sha256": "8071f623bfe506d00f16679cb3d343ef5f1d320bd0ba88331693ce5a66278ff6",
+      "bytes": 4679
+    },
+    {
+      "id": "2461475506683975",
+      "text": "麻",
+      "key": "麻",
+      "uses": [
+        "v3-note:sound-2",
+        "v3-task:sound-2:1"
+      ],
+      "file": "audio/2461475506683975.m4a",
+      "durationMs": 507,
+      "sampleRate": 24000,
+      "peak": 0.29475,
+      "rms": 0.06324,
+      "clippedSamples": 0,
+      "sha256": "ebe95f6e8978c71cf134ea38361607f02cad384d7a5f4eb2c01822e55aa40ede",
+      "bytes": 5238
+    },
+    {
+      "id": "a25ee73c98d16172",
+      "text": "马",
+      "key": "马",
+      "uses": [
+        "v3-note:sound-2",
+        "v3-task:sound-2:2"
+      ],
+      "file": "audio/a25ee73c98d16172.m4a",
+      "durationMs": 507,
+      "sampleRate": 24000,
+      "peak": 0.26309,
+      "rms": 0.0635,
+      "clippedSamples": 0,
+      "sha256": "a98d45e481a6f4440d93f43a1594e2ca8aca5328b4f6ca4c45850d4eb2625416",
+      "bytes": 5290
+    },
+    {
+      "id": "45d31d7e4c504b6d",
+      "text": "骂",
+      "key": "骂",
+      "uses": [
+        "v3-note:sound-2",
+        "v3-task:sound-2:3"
+      ],
+      "file": "audio/45d31d7e4c504b6d.m4a",
+      "durationMs": 506,
+      "sampleRate": 24000,
+      "peak": 0.25352,
+      "rms": 0.06377,
+      "clippedSamples": 0,
+      "sha256": "ca134b9cb6af022febb47cd2be91babb225ca80e8db53d5d979870da4d71b1d2",
+      "bytes": 5226
+    },
+    {
+      "id": "e601bb9113eb5e57",
+      "text": "爸",
+      "key": "爸",
+      "uses": [
+        "v3-note:sound-3"
+      ],
+      "file": "audio/e601bb9113eb5e57.m4a",
+      "durationMs": 484,
+      "sampleRate": 24000,
+      "peak": 0.33884,
+      "rms": 0.06372,
+      "clippedSamples": 0,
+      "sha256": "3e68df22045d6823dfd80be9c62981f8d893a4e897739c0118b128e7e36f9220",
+      "bytes": 5214
+    },
+    {
+      "id": "0d2c43256849e491",
+      "text": "怕",
+      "key": "怕",
+      "uses": [
+        "v3-note:sound-3",
+        "v3-task:sound-3:0"
+      ],
+      "file": "audio/0d2c43256849e491.m4a",
+      "durationMs": 520,
+      "sampleRate": 24000,
+      "peak": 0.24521,
+      "rms": 0.05717,
+      "clippedSamples": 0,
+      "sha256": "e16c9df60e6e78f9912befae61deb3d529c631f3ebc753a9e62d97383854d7c8",
+      "bytes": 5354
+    },
+    {
+      "id": "7d4ca7f48effd602",
+      "text": "大",
+      "key": "大",
+      "uses": [
+        "v3-note:sound-3"
+      ],
+      "file": "audio/7d4ca7f48effd602.m4a",
+      "durationMs": 488,
+      "sampleRate": 24000,
+      "peak": 0.34058,
+      "rms": 0.06211,
+      "clippedSamples": 0,
+      "sha256": "3d391887abafa8da80c1c5ccf46800f9f82e8d978269728c070a34330e7cb8e6",
+      "bytes": 5378
+    },
+    {
+      "id": "8b7b91e0001c6971",
+      "text": "他",
+      "key": "他",
+      "uses": [
+        "v3-note:sound-3",
+        "v3-task:sound-3:1"
+      ],
+      "file": "audio/8b7b91e0001c6971.m4a",
+      "durationMs": 505,
+      "sampleRate": 24000,
+      "peak": 0.21913,
+      "rms": 0.05794,
+      "clippedSamples": 0,
+      "sha256": "ba0d4d36c843a7e00a449fb65eadf69b8afd500fb501d39c9de099a9394d4577",
+      "bytes": 5297
+    },
+    {
+      "id": "0fab08c0aaec69cd",
+      "text": "哥",
+      "key": "哥",
+      "uses": [
+        "v3-note:sound-3"
+      ],
+      "file": "audio/0fab08c0aaec69cd.m4a",
+      "durationMs": 514,
+      "sampleRate": 24000,
+      "peak": 0.40728,
+      "rms": 0.07513,
+      "clippedSamples": 0,
+      "sha256": "3c41d1d362b14d6235f6fa5dbff4ab45ed00761009aa7c3b7838ae2a5ad4997b",
+      "bytes": 5359
+    },
+    {
+      "id": "f7e8382e7a3ce546",
+      "text": "科",
+      "key": "科",
+      "uses": [
+        "v3-note:sound-3",
+        "v3-task:sound-3:2"
+      ],
+      "file": "audio/f7e8382e7a3ce546.m4a",
+      "durationMs": 480,
+      "sampleRate": 24000,
+      "peak": 0.42141,
+      "rms": 0.07304,
+      "clippedSamples": 0,
+      "sha256": "33734614348f553f7b3c32b683da4e0a51c4b907ac695385967ef817cd464bd4",
+      "bytes": 4934
+    },
+    {
+      "id": "cf22bc1bd07ece3e",
+      "text": "怒",
+      "key": "怒",
+      "uses": [
+        "v3-note:sound-3"
+      ],
+      "file": "audio/cf22bc1bd07ece3e.m4a",
+      "durationMs": 486,
+      "sampleRate": 24000,
+      "peak": 0.23433,
+      "rms": 0.06901,
+      "clippedSamples": 0,
+      "sha256": "66c95783eb36940d2b6fdf11e6a13f8b5ea074ad1bd291e7162f391066d4767b",
+      "bytes": 4974
+    },
+    {
+      "id": "3c1e31a193cda379",
+      "text": "金",
+      "key": "金",
+      "uses": [
+        "v3-note:sound-3"
+      ],
+      "file": "audio/3c1e31a193cda379.m4a",
+      "durationMs": 618,
+      "sampleRate": 24000,
+      "peak": 0.24196,
+      "rms": 0.0612,
+      "clippedSamples": 0,
+      "sha256": "6847f4a6084c6486a53fdcca5e28bd22141e6b0b26fa627cdcd0ebfa053d2737",
+      "bytes": 6196
+    },
+    {
+      "id": "fe9c846c529745ba",
+      "text": "京",
+      "key": "京",
+      "uses": [
+        "v3-note:sound-3",
+        "v3-task:sound-3:4"
+      ],
+      "file": "audio/fe9c846c529745ba.m4a",
+      "durationMs": 618,
+      "sampleRate": 24000,
+      "peak": 0.32798,
+      "rms": 0.06331,
+      "clippedSamples": 0,
+      "sha256": "7f62d3b01e4c2a9543615820615c36295c864b29e167d6c0ba31093a791d8abe",
+      "bytes": 6056
+    },
+    {
+      "id": "5232c2350218a2c7",
+      "text": "一杯茶",
+      "key": "一杯茶",
+      "uses": [
+        "v3-note:sound-4"
+      ],
+      "file": "audio/5232c2350218a2c7.m4a",
+      "durationMs": 775,
+      "sampleRate": 24000,
+      "peak": 0.42946,
+      "rms": 0.07958,
+      "clippedSamples": 0,
+      "sha256": "4f668ceb15ea92439a61d732c210ed2a208cc6b5adee23277571784df328ce8f",
+      "bytes": 7460
+    },
+    {
+      "id": "d84bab0068e9300e",
+      "text": "一块",
+      "key": "一块",
+      "uses": [
+        "v3-note:sound-4"
+      ],
+      "file": "audio/d84bab0068e9300e.m4a",
+      "durationMs": 695,
+      "sampleRate": 24000,
+      "peak": 0.28265,
+      "rms": 0.06101,
+      "clippedSamples": 0,
+      "sha256": "bcf5fd3d4ee688bef65df03b4bef99270d33b4153869c886561889074e037927",
+      "bytes": 6605
+    },
+    {
+      "id": "584cd0fcf368adcc",
+      "text": "不是",
+      "key": "不是",
+      "uses": [
+        "v3-note:sound-4",
+        "v3-task:sound-4:5"
+      ],
+      "file": "audio/584cd0fcf368adcc.m4a",
+      "durationMs": 706,
+      "sampleRate": 24000,
+      "peak": 0.32495,
+      "rms": 0.06788,
+      "clippedSamples": 0,
+      "sha256": "197e8a8568c35678a1b8538a5c0c1440ed918aff2b96f15fcaf81c7615ce2516",
+      "bytes": 7085
+    },
+    {
+      "id": "35443604e22be0cc",
+      "text": "一杯茶多少钱？",
+      "key": "一杯茶多少钱",
+      "uses": [
+        "v3-note:use-4",
+        "v3-guided-recording"
+      ],
+      "file": "audio/35443604e22be0cc.m4a",
+      "durationMs": 1655,
+      "sampleRate": 24000,
+      "peak": 0.34096,
+      "rms": 0.07309,
+      "clippedSamples": 0,
+      "sha256": "d1e5de036112de6a4ac7062a140cfa6498bc21f0d69c90bf2288e37db771b201",
+      "bytes": 14833
+    },
+    {
+      "id": "161aac5c925af7d7",
+      "text": "三块。",
+      "key": "三块",
+      "uses": [
+        "v3-note:use-4",
+        "v3-task:use-4:0",
+        "v3-guided-recording"
+      ],
+      "file": "audio/161aac5c925af7d7.m4a",
+      "durationMs": 697,
+      "sampleRate": 24000,
+      "peak": 0.43825,
+      "rms": 0.07383,
+      "clippedSamples": 0,
+      "sha256": "781658a1ece53cde406afae08b4cf222dfaf546bda800b24d6d89aec959c3ac4",
+      "bytes": 6801
+    },
+    {
+      "id": "c97d0b64a7ab9c83",
+      "text": "两杯水多少钱？",
+      "key": "两杯水多少钱",
+      "uses": [
+        "v3-task:use-4:1",
+        "v3-guided-recording"
+      ],
+      "file": "audio/c97d0b64a7ab9c83.m4a",
+      "durationMs": 1654,
+      "sampleRate": 24000,
+      "peak": 0.32527,
+      "rms": 0.0725,
+      "clippedSamples": 0,
+      "sha256": "68887554b98e43ecb76f86d8eb2f1eea29c2922777e500f2edea05b09fc7663c",
+      "bytes": 15060
+    },
+    {
+      "id": "5716f80e10253c00",
+      "text": "学校在左边。",
+      "key": "学校在左边",
+      "uses": [
+        "v3-note:use-5",
+        "v3-task:use-5:0",
+        "v3-task:check-3:6",
+        "v3-guided-recording"
+      ],
+      "file": "audio/5716f80e10253c00.m4a",
+      "durationMs": 1436,
+      "sampleRate": 24000,
+      "peak": 0.31257,
+      "rms": 0.07396,
+      "clippedSamples": 0,
+      "sha256": "0d2a02f182b672795d754c432a7394decff4a2676872d04a51640182a469f441",
+      "bytes": 12549
+    },
+    {
+      "id": "d6b0eae9aa8d834b",
+      "text": "我明天三点去学校。",
+      "key": "我明天三点去学校",
+      "uses": [
+        "v3-note:use-6",
+        "v3-task:use-6:0",
+        "v3-guided-recording"
+      ],
+      "file": "audio/d6b0eae9aa8d834b.m4a",
+      "durationMs": 2008,
+      "sampleRate": 24000,
+      "peak": 0.368,
+      "rms": 0.07721,
+      "clippedSamples": 0,
+      "sha256": "b54c556a0aafb286e0018dbc712322f72471ec1f50a918d156624fb227064086",
+      "bytes": 18711
+    },
+    {
+      "id": "9318a789131081a5",
+      "text": "明天三点我去学校。",
+      "key": "明天三点我去学校",
+      "uses": [
+        "v3-note:use-6"
+      ],
+      "file": "audio/9318a789131081a5.m4a",
+      "durationMs": 2033,
+      "sampleRate": 24000,
+      "peak": 0.3274,
+      "rms": 0.07545,
+      "clippedSamples": 0,
+      "sha256": "63cab3857260ea2ef152416b70deb2c06988171cb54fbbe513a36d73d546811a",
+      "bytes": 17277
+    },
+    {
+      "id": "e639338579e41737",
+      "text": "你今天几点喝茶？",
+      "key": "你今天几点喝茶",
+      "uses": [
+        "v3-task:use-6:1",
+        "v3-guided-recording"
+      ],
+      "file": "audio/e639338579e41737.m4a",
+      "durationMs": 1831,
+      "sampleRate": 24000,
+      "peak": 0.36632,
+      "rms": 0.077,
+      "clippedSamples": 0,
+      "sha256": "4fdca48c3b18d7335487b743b8a1882af08711aac308119278299d90f1937683",
+      "bytes": 16373
+    },
+    {
+      "id": "6d8e3bf2f46e7d0f",
+      "text": "我今天五点喝茶。",
+      "key": "我今天五点喝茶",
+      "uses": [
+        "v3-task:use-6:4",
+        "v3-guided-recording"
+      ],
+      "file": "audio/6d8e3bf2f46e7d0f.m4a",
+      "durationMs": 1841,
+      "sampleRate": 24000,
+      "peak": 0.565,
+      "rms": 0.07845,
+      "clippedSamples": 0,
+      "sha256": "343ae8dcf86f72303abdc79f1af9f51e1c802baf48fda13e608a042d24911c8d",
+      "bytes": 16067
+    },
+    {
+      "id": "8c57333664501c33",
+      "text": "我叫小明。",
+      "key": "我叫小明",
+      "uses": [
+        "v3-task:check-1:0"
+      ],
+      "file": "audio/8c57333664501c33.m4a",
+      "durationMs": 1211,
+      "sampleRate": 24000,
+      "peak": 0.44656,
+      "rms": 0.07994,
+      "clippedSamples": 0,
+      "sha256": "ef0fa11150330902016ad9a25d2c74de4b45cca0a2648fadf1668c421d47a9f0",
+      "bytes": 10783
+    },
+    {
+      "id": "c612453a16c880d3",
+      "text": "五块。",
+      "key": "五块",
+      "uses": [
+        "v3-task:check-1:4"
+      ],
+      "file": "audio/c612453a16c880d3.m4a",
+      "durationMs": 630,
+      "sampleRate": 24000,
+      "peak": 0.32523,
+      "rms": 0.07235,
+      "clippedSamples": 0,
+      "sha256": "18450a08f76569ce1b357f58cee81fbda66d5d86876f623e45a129363061a8d7",
+      "bytes": 6235
+    },
+    {
+      "id": "742156e197c3f406",
+      "text": "我明天五点学习。",
+      "key": "我明天五点学习",
+      "uses": [
+        "v3-task:check-1:8"
+      ],
+      "file": "audio/742156e197c3f406.m4a",
+      "durationMs": 1839,
+      "sampleRate": 24000,
+      "peak": 0.46144,
+      "rms": 0.07525,
+      "clippedSamples": 0,
+      "sha256": "e42169c282b5a069a3b34313e5bdccccd687ee37552c46400144dceebb659188",
+      "bytes": 16341
+    },
+    {
+      "id": "9433697e7809f8e3",
+      "text": "我是老师。",
+      "key": "我是老师",
+      "uses": [
+        "v3-task:check-2:0"
+      ],
+      "file": "audio/9433697e7809f8e3.m4a",
+      "durationMs": 1190,
+      "sampleRate": 24000,
+      "peak": 0.41415,
+      "rms": 0.07984,
+      "clippedSamples": 0,
+      "sha256": "11fc4b31677eeba1720167020c24497bfe69501c3e9f769099db220b88cab271",
+      "bytes": 10484
+    },
+    {
+      "id": "56bf8b443e87aef7",
+      "text": "我听不懂你说什么。",
+      "key": "我听不懂你说什么",
+      "uses": [
+        "v3-task:check-2:2"
+      ],
+      "file": "audio/56bf8b443e87aef7.m4a",
+      "durationMs": 1863,
+      "sampleRate": 24000,
+      "peak": 0.5952,
+      "rms": 0.08281,
+      "clippedSamples": 0,
+      "sha256": "efb2f042f0504bd41ea2ff16fa26599732367ed238c450db2b744936872c24b7",
+      "bytes": 16904
+    },
+    {
+      "id": "67aef3f4714c9c58",
+      "text": "我要两杯茶。",
+      "key": "我要两杯茶",
+      "uses": [
+        "v3-task:check-2:4"
+      ],
+      "file": "audio/67aef3f4714c9c58.m4a",
+      "durationMs": 1354,
+      "sampleRate": 24000,
+      "peak": 0.4929,
+      "rms": 0.07976,
+      "clippedSamples": 0,
+      "sha256": "3946ed4a231221fd386fa2dccc916864d3e88603086684041c16b3177baa365f",
+      "bytes": 13039
+    },
+    {
+      "id": "2d8496737ba931b0",
+      "text": "六块钱。",
+      "key": "六块钱",
+      "uses": [
+        "v3-task:check-2:6"
+      ],
+      "file": "audio/2d8496737ba931b0.m4a",
+      "durationMs": 1018,
+      "sampleRate": 24000,
+      "peak": 0.40188,
+      "rms": 0.0789,
+      "clippedSamples": 0,
+      "sha256": "836b172966716eecf9863473fd4fee15433872fb65949c979b9141fa5caef623",
+      "bytes": 9138
+    },
+    {
+      "id": "2c835225d837e995",
+      "text": "我今天很忙。",
+      "key": "我今天很忙",
+      "uses": [
+        "v3-task:check-3:0"
+      ],
+      "file": "audio/2c835225d837e995.m4a",
+      "durationMs": 1415,
+      "sampleRate": 24000,
+      "peak": 0.5898,
+      "rms": 0.08164,
+      "clippedSamples": 0,
+      "sha256": "9e36a6a8f341ae7021dde82ff0815e12387aab9a3c55b5b27117a2fabc5b72a1",
+      "bytes": 12873
+    },
+    {
+      "id": "20736a3ee21f7240",
+      "text": "我要一杯水。",
+      "key": "我要一杯水",
+      "uses": [
+        "v3-task:check-3:2"
+      ],
+      "file": "audio/20736a3ee21f7240.m4a",
+      "durationMs": 1351,
+      "sampleRate": 24000,
+      "peak": 0.3709,
+      "rms": 0.07591,
+      "clippedSamples": 0,
+      "sha256": "f9368faa8825e5db45756b420c359c8dd7f92a4c7dcd0dc1071ef76ade22bfcf",
+      "bytes": 12281
+    },
+    {
+      "id": "58d8cb6b5a28061a",
+      "text": "十块钱。",
+      "key": "十块钱",
+      "uses": [
+        "v3-task:check-3:4"
+      ],
+      "file": "audio/58d8cb6b5a28061a.m4a",
+      "durationMs": 998,
+      "sampleRate": 24000,
+      "peak": 0.34677,
+      "rms": 0.0755,
+      "clippedSamples": 0,
+      "sha256": "34ed0c8573939a8efc65926a03034cedcd7191efa9821383b2507df71c45ef30",
+      "bytes": 9161
+    },
+    {
+      "id": "4caeed5d1585cfe1",
+      "text": "我明天三点喝水。",
+      "key": "我明天三点喝水",
+      "uses": [
+        "v3-task:check-3:8"
+      ],
+      "file": "audio/4caeed5d1585cfe1.m4a",
+      "durationMs": 1864,
+      "sampleRate": 24000,
+      "peak": 0.36406,
+      "rms": 0.07551,
+      "clippedSamples": 0,
+      "sha256": "bfdbf5e9b497aeaedf22ccc7094c8b97e4eaa8eeae926fb042e1d5ffda2e1126",
+      "bytes": 16603
+    },
+    {
+      "id": "4a7308d1b27173aa",
+      "text": "你好，我是学生。",
+      "key": "你好我是学生",
+      "uses": [
+        "v3-guided-recording"
+      ],
+      "file": "audio/4a7308d1b27173aa.m4a",
+      "durationMs": 1900,
+      "sampleRate": 24000,
+      "peak": 0.39745,
+      "rms": 0.07749,
+      "clippedSamples": 0,
+      "sha256": "d9fc08b21735e2cd3cb467ee9f188b00e8eff3e3892a7b3d8ff6d1fa66f30c39",
+      "bytes": 16415
+    },
+    {
+      "id": "b154090061e13bf9",
+      "text": "我叫安娜。我是学生。",
+      "key": "我叫安娜我是学生",
+      "uses": [
+        "v3-guided-recording"
+      ],
+      "file": "audio/b154090061e13bf9.m4a",
+      "durationMs": 2408,
+      "sampleRate": 24000,
+      "peak": 0.51979,
+      "rms": 0.08109,
+      "clippedSamples": 0,
+      "sha256": "fd631450e5935298b28b9c503d9c006874ac0d901cbe4e245a3fe8071d0fa0d4",
+      "bytes": 20508
+    },
+    {
+      "id": "c7f19492b0aa356a",
+      "text": "是，我是学生。",
+      "key": "是我是学生",
+      "uses": [
+        "v3-guided-recording"
+      ],
+      "file": "audio/c7f19492b0aa356a.m4a",
+      "durationMs": 1745,
+      "sampleRate": 24000,
+      "peak": 0.40939,
+      "rms": 0.07898,
+      "clippedSamples": 0,
+      "sha256": "7c6b57129ccca255791c0f9b63d14bbd1ef90b1a6e45eeb1ff76a3dd1837d91b",
+      "bytes": 15123
+    },
+    {
+      "id": "db1d71136e01d4fc",
+      "text": "我听不懂。请再说一遍。",
+      "key": "我听不懂请再说一遍",
+      "uses": [
+        "v3-guided-recording"
+      ],
+      "file": "audio/db1d71136e01d4fc.m4a",
+      "durationMs": 2518,
+      "sampleRate": 24000,
+      "peak": 0.49191,
+      "rms": 0.07872,
+      "clippedSamples": 0,
+      "sha256": "afa8136d2c58abb49597e4de462f89ac11b6144c77092b206e1410e5c1b0c78b",
+      "bytes": 23260
+    },
+    {
+      "id": "536edaf7cdd1aebb",
+      "text": "好的。",
+      "key": "好的",
+      "uses": [
+        "v3-guided-recording"
+      ],
+      "file": "audio/536edaf7cdd1aebb.m4a",
+      "durationMs": 649,
+      "sampleRate": 24000,
+      "peak": 0.30477,
+      "rms": 0.0764,
+      "clippedSamples": 0,
+      "sha256": "c4f1b35111b177bb13d7c4415e9ef69dcaa614ae2843066b76cbcbe4f3b251c1",
+      "bytes": 6514
+    },
+    {
+      "id": "ca2851ad7abf0158",
+      "text": "好的，我说慢一点儿。",
+      "key": "好的我说慢一点儿",
+      "uses": [
+        "v3-guided-recording"
+      ],
+      "file": "audio/ca2851ad7abf0158.m4a",
+      "durationMs": 2202,
+      "sampleRate": 24000,
+      "peak": 0.51252,
+      "rms": 0.07716,
+      "clippedSamples": 0,
+      "sha256": "775d90ba8d215c06c44f03925bfe3b17b403adc5a63574a474f2f78c377ad15a",
+      "bytes": 18985
+    },
+    {
+      "id": "3225dd8185d6a53c",
+      "text": "你要喝什么？",
+      "key": "你要喝什么",
+      "uses": [
+        "v3-guided-recording"
+      ],
+      "file": "audio/3225dd8185d6a53c.m4a",
+      "durationMs": 1283,
+      "sampleRate": 24000,
+      "peak": 0.38763,
+      "rms": 0.07495,
+      "clippedSamples": 0,
+      "sha256": "67da2d02a856630e357d37957a3be8ffd3487a122023340c6c792c62a9d48fb7",
+      "bytes": 11131
+    },
+    {
+      "id": "35ab20f72e74b99a",
+      "text": "六块。",
+      "key": "六块",
+      "uses": [
+        "v3-guided-recording"
+      ],
+      "file": "audio/35ab20f72e74b99a.m4a",
+      "durationMs": 661,
+      "sampleRate": 24000,
+      "peak": 0.39645,
+      "rms": 0.08016,
+      "clippedSamples": 0,
+      "sha256": "3ce32ca2baadfe206fa5a3537daa0844dd36995e761994560e7bc81eae2021f0",
+      "bytes": 6552
+    },
+    {
+      "id": "f6cc73867d68c1c1",
+      "text": "学校在哪里？学校在左边。",
+      "key": "学校在哪里学校在左边",
+      "uses": [
+        "v3-guided-recording"
+      ],
+      "file": "audio/f6cc73867d68c1c1.m4a",
+      "durationMs": 2866,
+      "sampleRate": 24000,
+      "peak": 0.38119,
+      "rms": 0.07345,
+      "clippedSamples": 0,
+      "sha256": "7365507df770585c5bad0a648251c684aabfd18c6f537acaa3a4e2b63c096d3c",
+      "bytes": 25223
+    },
+    {
+      "id": "2065f5658ecbe7fa",
+      "text": "你明天几点去学校？",
+      "key": "你明天几点去学校",
+      "uses": [
+        "v3-guided-recording"
+      ],
+      "file": "audio/2065f5658ecbe7fa.m4a",
+      "durationMs": 2003,
+      "sampleRate": 24000,
+      "peak": 0.44112,
+      "rms": 0.07612,
+      "clippedSamples": 0,
+      "sha256": "3f9a15bbfd2ad8e66c251f0d1c804db994cb3f2a552fc86446470cc6913566f7",
+      "bytes": 17843
+    }
+  ]
+}

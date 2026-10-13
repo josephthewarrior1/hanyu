@@ -1,0 +1,859 @@
+{
+  "serial": "emulator-5556",
+  "version": 2,
+  "checks": [
+    "APK upgrade retains exact profile, favorites, attempts, cursor, completed lesson, reviews, 39 points and writing in existing SQLite",
+    "Offline startup has all 120 bundled AI-generated clips; conversation and pronunciation assessment remain unconfigured",
+    "Original generated Pinyin PNG renders beside raised zigzag nodes with real progress counters",
+    "All 120 shipped Mandarin clips reach real native playing/completion with decoded duration and elapsed playback while Wi-Fi/data are disabled; longer clips report progressing position",
+    "Visible normal and slow audio controls start actual native playback, show playing state and preserve pitch",
+    "Android Back navigation still returns to the prior screen",
+    "Reduced motion disables mascot, feedback and transition animations",
+    "Illustrated cards, blue selected state, pinned Check and success/retry sheets work across all seven native-graded exercise types, including complete-sentence dialogue audio",
+    "Second lesson awards 37 genuine local points once and keeps existing progress",
+    "Updated APK survives offline process restart with existing and newly earned progress",
+    "Pinned Check remains within the real Android viewport with both side margins after visual QA correction"
+  ],
+  "errors": [],
+  "audio": [
+    {
+      "id": "670d9743542cae3e",
+      "durationMs": 604,
+      "maxPositionMs": 617,
+      "elapsedMs": 1187
+    },
+    {
+      "id": "1bf7ac688560d3b0",
+      "durationMs": 646,
+      "maxPositionMs": 649,
+      "elapsedMs": 915
+    },
+    {
+      "id": "8aaa2ee628be0886",
+      "durationMs": 991,
+      "maxPositionMs": 963,
+      "elapsedMs": 1235
+    },
+    {
+      "id": "c90a1cdb561d0269",
+      "durationMs": 765,
+      "maxPositionMs": 767,
+      "elapsedMs": 977
+    },
+    {
+      "id": "3a74d274698b1602",
+      "durationMs": 1254,
+      "maxPositionMs": 1199,
+      "elapsedMs": 1510
+    },
+    {
+      "id": "b70bb4acc0484cf0",
+      "durationMs": 522,
+      "maxPositionMs": 526,
+      "elapsedMs": 851
+    },
+    {
+      "id": "cd3e14f106f9adae",
+      "durationMs": 1261,
+      "maxPositionMs": 1275,
+      "elapsedMs": 1506
+    },
+    {
+      "id": "a0c7716669b5ded0",
+      "durationMs": 439,
+      "maxPositionMs": 0,
+      "elapsedMs": 612
+    },
+    {
+      "id": "be10ea8c4e5d464c",
+      "durationMs": 889,
+      "maxPositionMs": 861,
+      "elapsedMs": 1109
+    },
+    {
+      "id": "c9a31a3f670b7f99",
+      "durationMs": 742,
+      "maxPositionMs": 767,
+      "elapsedMs": 995
+    },
+    {
+      "id": "ce204bfb9a904222",
+      "durationMs": 882,
+      "maxPositionMs": 882,
+      "elapsedMs": 1104
+    },
+    {
+      "id": "51a75f4634dfa859",
+      "durationMs": 518,
+      "maxPositionMs": 458,
+      "elapsedMs": 793
+    },
+    {
+      "id": "c83248705bfc600d",
+      "durationMs": 772,
+      "maxPositionMs": 737,
+      "elapsedMs": 1060
+    },
+    {
+      "id": "084b42f6e95e4e65",
+      "durationMs": 545,
+      "maxPositionMs": 456,
+      "elapsedMs": 767
+    },
+    {
+      "id": "bc6c324ae711abd5",
+      "durationMs": 1399,
+      "maxPositionMs": 1386,
+      "elapsedMs": 1616
+    },
+    {
+      "id": "a4c3313deb180960",
+      "durationMs": 538,
+      "maxPositionMs": 544,
+      "elapsedMs": 790
+    },
+    {
+      "id": "ad7f664caafba88e",
+      "durationMs": 943,
+      "maxPositionMs": 941,
+      "elapsedMs": 1227
+    },
+    {
+      "id": "754a9d5828d502f1",
+      "durationMs": 532,
+      "maxPositionMs": 454,
+      "elapsedMs": 765
+    },
+    {
+      "id": "6659e5d47c46cfee",
+      "durationMs": 931,
+      "maxPositionMs": 860,
+      "elapsedMs": 1169
+    },
+    {
+      "id": "c9b87f516a38ea36",
+      "durationMs": 484,
+      "maxPositionMs": 0,
+      "elapsedMs": 657
+    },
+    {
+      "id": "70735fc4a06ca466",
+      "durationMs": 1194,
+      "maxPositionMs": 1171,
+      "elapsedMs": 1411
+    },
+    {
+      "id": "de07b5383874b2a3",
+      "durationMs": 512,
+      "maxPositionMs": 0,
+      "elapsedMs": 657
+    },
+    {
+      "id": "369bd48df4058c58",
+      "durationMs": 958,
+      "maxPositionMs": 961,
+      "elapsedMs": 1186
+    },
+    {
+      "id": "45f1364f08aed165",
+      "durationMs": 576,
+      "maxPositionMs": 574,
+      "elapsedMs": 794
+    },
+    {
+      "id": "012c50567b65aa4b",
+      "durationMs": 1322,
+      "maxPositionMs": 1265,
+      "elapsedMs": 1559
+    },
+    {
+      "id": "d45ce71dd359d0e7",
+      "durationMs": 567,
+      "maxPositionMs": 560,
+      "elapsedMs": 824
+    },
+    {
+      "id": "bad3436e172192b3",
+      "durationMs": 1361,
+      "maxPositionMs": 1283,
+      "elapsedMs": 1570
+    },
+    {
+      "id": "6cf70b7c4fa3c4b4",
+      "durationMs": 650,
+      "maxPositionMs": 664,
+      "elapsedMs": 895
+    },
+    {
+      "id": "321c68ee6f81e200",
+      "durationMs": 1550,
+      "maxPositionMs": 1551,
+      "elapsedMs": 1840
+    },
+    {
+      "id": "d25622289ef32c86",
+      "durationMs": 642,
+      "maxPositionMs": 616,
+      "elapsedMs": 931
+    },
+    {
+      "id": "88844b9340327644",
+      "durationMs": 1389,
+      "maxPositionMs": 1378,
+      "elapsedMs": 1624
+    },
+    {
+      "id": "677aad1a0ee44cd6",
+      "durationMs": 745,
+      "maxPositionMs": 763,
+      "elapsedMs": 994
+    },
+    {
+      "id": "208fd1ce8ef1fee1",
+      "durationMs": 1493,
+      "maxPositionMs": 1477,
+      "elapsedMs": 1724
+    },
+    {
+      "id": "c8ae97be80f3867c",
+      "durationMs": 545,
+      "maxPositionMs": 543,
+      "elapsedMs": 797
+    },
+    {
+      "id": "586d4ff4cd1563eb",
+      "durationMs": 839,
+      "maxPositionMs": 757,
+      "elapsedMs": 1068
+    },
+    {
+      "id": "327b54d04f71f212",
+      "durationMs": 563,
+      "maxPositionMs": 555,
+      "elapsedMs": 804
+    },
+    {
+      "id": "12542269cf686601",
+      "durationMs": 932,
+      "maxPositionMs": 841,
+      "elapsedMs": 1169
+    },
+    {
+      "id": "7e005ba311f86fa7",
+      "durationMs": 555,
+      "maxPositionMs": 553,
+      "elapsedMs": 783
+    },
+    {
+      "id": "38a01082bd0ec693",
+      "durationMs": 1254,
+      "maxPositionMs": 1257,
+      "elapsedMs": 1528
+    },
+    {
+      "id": "e233a13a49e51106",
+      "durationMs": 563,
+      "maxPositionMs": 561,
+      "elapsedMs": 855
+    },
+    {
+      "id": "12991b6d971d5805",
+      "durationMs": 1172,
+      "maxPositionMs": 1161,
+      "elapsedMs": 1452
+    },
+    {
+      "id": "0b5480e007c777a7",
+      "durationMs": 798,
+      "maxPositionMs": 743,
+      "elapsedMs": 1045
+    },
+    {
+      "id": "1e270ea0be1d27f8",
+      "durationMs": 1466,
+      "maxPositionMs": 1477,
+      "elapsedMs": 1741
+    },
+    {
+      "id": "50537dab76505dfc",
+      "durationMs": 629,
+      "maxPositionMs": 546,
+      "elapsedMs": 870
+    },
+    {
+      "id": "08a246f366498440",
+      "durationMs": 1527,
+      "maxPositionMs": 1450,
+      "elapsedMs": 1765
+    },
+    {
+      "id": "c814805bc6d0365a",
+      "durationMs": 496,
+      "maxPositionMs": 0,
+      "elapsedMs": 670
+    },
+    {
+      "id": "39beccee3bf7158b",
+      "durationMs": 1087,
+      "maxPositionMs": 1035,
+      "elapsedMs": 1358
+    },
+    {
+      "id": "d5f5a7a010731feb",
+      "durationMs": 627,
+      "maxPositionMs": 639,
+      "elapsedMs": 871
+    },
+    {
+      "id": "a24066dd8b620d38",
+      "durationMs": 1481,
+      "maxPositionMs": 1401,
+      "elapsedMs": 1685
+    },
+    {
+      "id": "b1d841b978fb524c",
+      "durationMs": 620,
+      "maxPositionMs": 559,
+      "elapsedMs": 856
+    },
+    {
+      "id": "c45fe5500ee28f38",
+      "durationMs": 1621,
+      "maxPositionMs": 1564,
+      "elapsedMs": 1874
+    },
+    {
+      "id": "43584f37c1f4932f",
+      "durationMs": 646,
+      "maxPositionMs": 653,
+      "elapsedMs": 902
+    },
+    {
+      "id": "03535518a338528f",
+      "durationMs": 1450,
+      "maxPositionMs": 1369,
+      "elapsedMs": 1677
+    },
+    {
+      "id": "08dddeac1319d6e8",
+      "durationMs": 460,
+      "maxPositionMs": 0,
+      "elapsedMs": 644
+    },
+    {
+      "id": "97890df4e5ae531b",
+      "durationMs": 1427,
+      "maxPositionMs": 1369,
+      "elapsedMs": 1677
+    },
+    {
+      "id": "c6fe2eb2c986c383",
+      "durationMs": 765,
+      "maxPositionMs": 762,
+      "elapsedMs": 1011
+    },
+    {
+      "id": "2e868237b3852af1",
+      "durationMs": 1491,
+      "maxPositionMs": 1400,
+      "elapsedMs": 1704
+    },
+    {
+      "id": "a9b1124b34615118",
+      "durationMs": 745,
+      "maxPositionMs": 755,
+      "elapsedMs": 995
+    },
+    {
+      "id": "e87a15f623014fbe",
+      "durationMs": 1440,
+      "maxPositionMs": 1379,
+      "elapsedMs": 1665
+    },
+    {
+      "id": "2cd2507d65de178f",
+      "durationMs": 501,
+      "maxPositionMs": 0,
+      "elapsedMs": 656
+    },
+    {
+      "id": "d6dc8fd11fa923e8",
+      "durationMs": 877,
+      "maxPositionMs": 854,
+      "elapsedMs": 1114
+    },
+    {
+      "id": "0eb863c78da3e38b",
+      "durationMs": 530,
+      "maxPositionMs": 545,
+      "elapsedMs": 789
+    },
+    {
+      "id": "8c4d8e09ad149c2b",
+      "durationMs": 840,
+      "maxPositionMs": 843,
+      "elapsedMs": 1074
+    },
+    {
+      "id": "fb8f01cb6d4be28b",
+      "durationMs": 669,
+      "maxPositionMs": 637,
+      "elapsedMs": 909
+    },
+    {
+      "id": "8c0b437165b99c03",
+      "durationMs": 1360,
+      "maxPositionMs": 1271,
+      "elapsedMs": 1607
+    },
+    {
+      "id": "979e2bc35b14bf4c",
+      "durationMs": 670,
+      "maxPositionMs": 651,
+      "elapsedMs": 921
+    },
+    {
+      "id": "7cd58d5015200f16",
+      "durationMs": 1038,
+      "maxPositionMs": 979,
+      "elapsedMs": 1274
+    },
+    {
+      "id": "0c9640c83aa92be3",
+      "durationMs": 475,
+      "maxPositionMs": 0,
+      "elapsedMs": 673
+    },
+    {
+      "id": "4702a58e239c4c28",
+      "durationMs": 1102,
+      "maxPositionMs": 1081,
+      "elapsedMs": 1320
+    },
+    {
+      "id": "303a288691f82c62",
+      "durationMs": 618,
+      "maxPositionMs": 566,
+      "elapsedMs": 837
+    },
+    {
+      "id": "4770ed8543ad4c1b",
+      "durationMs": 1348,
+      "maxPositionMs": 1289,
+      "elapsedMs": 1572
+    },
+    {
+      "id": "6a0ef384c814c9e5",
+      "durationMs": 772,
+      "maxPositionMs": 750,
+      "elapsedMs": 1046
+    },
+    {
+      "id": "118d73a04629e882",
+      "durationMs": 1437,
+      "maxPositionMs": 1366,
+      "elapsedMs": 1692
+    },
+    {
+      "id": "0838dcc59823278c",
+      "durationMs": 768,
+      "maxPositionMs": 761,
+      "elapsedMs": 998
+    },
+    {
+      "id": "10b092ccaccafd2e",
+      "durationMs": 1415,
+      "maxPositionMs": 1365,
+      "elapsedMs": 1691
+    },
+    {
+      "id": "90924eaa6dde0f68",
+      "durationMs": 556,
+      "maxPositionMs": 534,
+      "elapsedMs": 832
+    },
+    {
+      "id": "3d80d0afe6d8c1bd",
+      "durationMs": 1427,
+      "maxPositionMs": 1392,
+      "elapsedMs": 1662
+    },
+    {
+      "id": "dc6e2aafeb9e125b",
+      "durationMs": 761,
+      "maxPositionMs": 747,
+      "elapsedMs": 1009
+    },
+    {
+      "id": "f5bb55efbeedca60",
+      "durationMs": 1228,
+      "maxPositionMs": 1201,
+      "elapsedMs": 1427
+    },
+    {
+      "id": "920e88c5a602df57",
+      "durationMs": 742,
+      "maxPositionMs": 743,
+      "elapsedMs": 1020
+    },
+    {
+      "id": "a7a75f39e15de542",
+      "durationMs": 1419,
+      "maxPositionMs": 1381,
+      "elapsedMs": 1675
+    },
+    {
+      "id": "99ae21ea6c39ccc1",
+      "durationMs": 491,
+      "maxPositionMs": 0,
+      "elapsedMs": 660
+    },
+    {
+      "id": "d693a41846664ae8",
+      "durationMs": 1163,
+      "maxPositionMs": 1158,
+      "elapsedMs": 1430
+    },
+    {
+      "id": "96f512f980046bf6",
+      "durationMs": 765,
+      "maxPositionMs": 765,
+      "elapsedMs": 988
+    },
+    {
+      "id": "b239d75a6a033e2b",
+      "durationMs": 1428,
+      "maxPositionMs": 1384,
+      "elapsedMs": 1673
+    },
+    {
+      "id": "2118cbc109880ac8",
+      "durationMs": 816,
+      "maxPositionMs": 775,
+      "elapsedMs": 1051
+    },
+    {
+      "id": "a234c9c0397229fc",
+      "durationMs": 1457,
+      "maxPositionMs": 1476,
+      "elapsedMs": 1736
+    },
+    {
+      "id": "bc62d1b6b936c78d",
+      "durationMs": 700,
+      "maxPositionMs": 661,
+      "elapsedMs": 949
+    },
+    {
+      "id": "a76e4825a2f7c244",
+      "durationMs": 1352,
+      "maxPositionMs": 1276,
+      "elapsedMs": 1587
+    },
+    {
+      "id": "b38a4b4c3335f2d4",
+      "durationMs": 736,
+      "maxPositionMs": 673,
+      "elapsedMs": 974
+    },
+    {
+      "id": "1e62c053d027c160",
+      "durationMs": 1467,
+      "maxPositionMs": 1466,
+      "elapsedMs": 1723
+    },
+    {
+      "id": "eea1694c235b5ddf",
+      "durationMs": 743,
+      "maxPositionMs": 684,
+      "elapsedMs": 961
+    },
+    {
+      "id": "1c0fea73080310d7",
+      "durationMs": 1425,
+      "maxPositionMs": 1369,
+      "elapsedMs": 1674
+    },
+    {
+      "id": "9f805978dd250981",
+      "durationMs": 791,
+      "maxPositionMs": 775,
+      "elapsedMs": 1011
+    },
+    {
+      "id": "63b40f5f8d7ad68f",
+      "durationMs": 1463,
+      "maxPositionMs": 1399,
+      "elapsedMs": 1693
+    },
+    {
+      "id": "653b04330b75751f",
+      "durationMs": 802,
+      "maxPositionMs": 759,
+      "elapsedMs": 1030
+    },
+    {
+      "id": "e9756ef055dfa76b",
+      "durationMs": 1390,
+      "maxPositionMs": 1384,
+      "elapsedMs": 1627
+    },
+    {
+      "id": "db95142124934467",
+      "durationMs": 696,
+      "maxPositionMs": 643,
+      "elapsedMs": 971
+    },
+    {
+      "id": "ef0ac9a74317285e",
+      "durationMs": 1208,
+      "maxPositionMs": 1178,
+      "elapsedMs": 1472
+    },
+    {
+      "id": "f864303afb4e4a85",
+      "durationMs": 732,
+      "maxPositionMs": 668,
+      "elapsedMs": 985
+    },
+    {
+      "id": "5dfdfbb2fc843bf8",
+      "durationMs": 1435,
+      "maxPositionMs": 1362,
+      "elapsedMs": 1697
+    },
+    {
+      "id": "03a3a327af684099",
+      "durationMs": 672,
+      "maxPositionMs": 637,
+      "elapsedMs": 915
+    },
+    {
+      "id": "a5cdfae9de939be2",
+      "durationMs": 1213,
+      "maxPositionMs": 1156,
+      "elapsedMs": 1480
+    },
+    {
+      "id": "591052c733499bad",
+      "durationMs": 740,
+      "maxPositionMs": 768,
+      "elapsedMs": 983
+    },
+    {
+      "id": "111374efce20baf6",
+      "durationMs": 1436,
+      "maxPositionMs": 1394,
+      "elapsedMs": 1647
+    },
+    {
+      "id": "72f33a2a2593c64b",
+      "durationMs": 765,
+      "maxPositionMs": 667,
+      "elapsedMs": 984
+    },
+    {
+      "id": "03711ccc9ebff747",
+      "durationMs": 1468,
+      "maxPositionMs": 1478,
+      "elapsedMs": 1732
+    },
+    {
+      "id": "6773310492a96fcf",
+      "durationMs": 771,
+      "maxPositionMs": 758,
+      "elapsedMs": 1028
+    },
+    {
+      "id": "1ecb0a2d85add69f",
+      "durationMs": 1448,
+      "maxPositionMs": 1400,
+      "elapsedMs": 1651
+    },
+    {
+      "id": "b71852847d38252f",
+      "durationMs": 540,
+      "maxPositionMs": 551,
+      "elapsedMs": 768
+    },
+    {
+      "id": "7464e97f6a3edefe",
+      "durationMs": 1146,
+      "maxPositionMs": 1089,
+      "elapsedMs": 1349
+    },
+    {
+      "id": "13a58ec2074e014a",
+      "durationMs": 740,
+      "maxPositionMs": 751,
+      "elapsedMs": 987
+    },
+    {
+      "id": "3ecfef8720cf0b67",
+      "durationMs": 1348,
+      "maxPositionMs": 1348,
+      "elapsedMs": 1605
+    },
+    {
+      "id": "72726d8818f69306",
+      "durationMs": 710,
+      "maxPositionMs": 643,
+      "elapsedMs": 961
+    },
+    {
+      "id": "173f5e7609da4a54",
+      "durationMs": 1399,
+      "maxPositionMs": 1379,
+      "elapsedMs": 1620
+    },
+    {
+      "id": "5ba1e3c0eb636161",
+      "durationMs": 511,
+      "maxPositionMs": 0,
+      "elapsedMs": 665
+    },
+    {
+      "id": "b192b8b582cdf503",
+      "durationMs": 1441,
+      "maxPositionMs": 1373,
+      "elapsedMs": 1674
+    },
+    {
+      "id": "ccca74461399d2a0",
+      "durationMs": 571,
+      "maxPositionMs": 570,
+      "elapsedMs": 815
+    },
+    {
+      "id": "1a04bce10dafbf0c",
+      "durationMs": 1275,
+      "maxPositionMs": 1279,
+      "elapsedMs": 1494
+    },
+    {
+      "id": "685f904c57fca5e1",
+      "durationMs": 1566,
+      "maxPositionMs": 1575,
+      "elapsedMs": 1802
+    }
+  ],
+  "persisted": {
+    "profile": {
+      "name": "Android Learner",
+      "locale": "en",
+      "experience": "beginner",
+      "goal": "travel",
+      "dailyMinutes": 10,
+      "timezone": "UTC",
+      "onboardingStep": 0,
+      "onboardingDone": true,
+      "pinyin": true,
+      "theme": "dark",
+      "favorites": [
+        "greetings-1"
+      ]
+    },
+    "progress": [
+      {
+        "lesson_id": "greetings-1",
+        "cursor": 7,
+        "accuracy": 86,
+        "completed_at": 1791806454895,
+        "started_at": 1791806454320
+      },
+      {
+        "lesson_id": "greetings-2",
+        "cursor": 1,
+        "accuracy": null,
+        "completed_at": null,
+        "started_at": 1791806455839
+      }
+    ],
+    "reviews": [
+      {
+        "vocab_id": "greetings-2",
+        "due": 1791806454895,
+        "ease": 2.5,
+        "interval_days": 0,
+        "repetitions": 0,
+        "lapses": 0,
+        "last_review": null
+      },
+      {
+        "vocab_id": "greetings-1",
+        "due": 1791892854979,
+        "ease": 2.5,
+        "interval_days": 1,
+        "repetitions": 1,
+        "lapses": 0,
+        "last_review": 1791806454979
+      }
+    ],
+    "activity": [
+      {
+        "amount": 37,
+        "kind": "LESSON",
+        "created_at": 1791806454895
+      },
+      {
+        "amount": 2,
+        "kind": "REVIEW",
+        "created_at": 1791806454979
+      }
+    ],
+    "points": 39,
+    "streak": 1,
+    "writing": [
+      {
+        "id": 1,
+        "character": "一",
+        "seconds": 3,
+        "created_at": 1791806455252
+      }
+    ],
+    "sessions": [
+      {
+        "id": 1,
+        "lesson_id": "greetings-1",
+        "seconds": 0,
+        "created_at": 1791806454895
+      }
+    ],
+    "mode": "DEVICE_PRACTICE",
+    "serverVerified": false
+  },
+  "packageVersion": "versionCode=2 minSdk=26 targetSdk=36",
+  "capabilities": {
+    "ttsReady": true,
+    "mandarinVoice": true,
+    "bundledAudio": true,
+    "audioClips": 120,
+    "audioSource": "Kokoro-82M-v1.1-zh / zf_001",
+    "microphoneGranted": false,
+    "ai": false,
+    "transcription": false,
+    "pronunciation": false,
+    "backend": "",
+    "serverVerified": false
+  },
+  "passed": true,
+  "positionLimit": "Short clips can report position 0 on this virtual audio sink; all clips verify native playing/completion, measured elapsed time and decoded duration. Longer clips require progressing position.",
+  "slow": {
+    "status": "playing",
+    "text": "你好！我叫安娜。",
+    "clipId": "685f904c57fca5e1",
+    "speed": 0.6499999761581421,
+    "pitch": 1,
+    "source": "bundled-ai-generated",
+    "offline": true,
+    "durationMs": 1566,
+    "positionMs": 0,
+    "isPlaying": true
+  },
+  "continuationNote": "Seven earlier checks and all120 clips were preserved. UI continuation corrected only the test apostrophe matcher; no app grading or data was altered.",
+  "layout": {
+    "left": 20,
+    "right": 391.4285888671875,
+    "viewport": 411
+  }
+}

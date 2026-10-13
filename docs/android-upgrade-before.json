@@ -1,0 +1,88 @@
+{
+  "state": {
+    "profile": {
+      "name": "Android Learner",
+      "locale": "en",
+      "experience": "beginner",
+      "goal": "travel",
+      "dailyMinutes": 10,
+      "timezone": "UTC",
+      "onboardingStep": 0,
+      "onboardingDone": true,
+      "pinyin": true,
+      "theme": "dark",
+      "favorites": [
+        "greetings-1"
+      ]
+    },
+    "progress": [
+      {
+        "lesson_id": "greetings-1",
+        "cursor": 7,
+        "accuracy": 86,
+        "completed_at": 1791806454895,
+        "started_at": 1791806454320
+      },
+      {
+        "lesson_id": "greetings-2",
+        "cursor": 1,
+        "accuracy": null,
+        "completed_at": null,
+        "started_at": 1791806455839
+      }
+    ],
+    "reviews": [
+      {
+        "vocab_id": "greetings-2",
+        "due": 1791806454895,
+        "ease": 2.5,
+        "interval_days": 0,
+        "repetitions": 0,
+        "lapses": 0,
+        "last_review": null
+      },
+      {
+        "vocab_id": "greetings-1",
+        "due": 1791892854979,
+        "ease": 2.5,
+        "interval_days": 1,
+        "repetitions": 1,
+        "lapses": 0,
+        "last_review": 1791806454979
+      }
+    ],
+    "activity": [
+      {
+        "amount": 37,
+        "kind": "LESSON",
+        "created_at": 1791806454895
+      },
+      {
+        "amount": 2,
+        "kind": "REVIEW",
+        "created_at": 1791806454979
+      }
+    ],
+    "points": 39,
+    "streak": 1,
+    "writing": [
+      {
+        "id": 1,
+        "character": "一",
+        "seconds": 3,
+        "created_at": 1791806455252
+      }
+    ],
+    "sessions": [
+      {
+        "id": 1,
+        "lesson_id": "greetings-1",
+        "seconds": 0,
+        "created_at": 1791806454895
+      }
+    ],
+    "mode": "DEVICE_PRACTICE",
+    "serverVerified": false
+  },
+  "version": "versionCode=1 minSdk=26 targetSdk=36"
+}

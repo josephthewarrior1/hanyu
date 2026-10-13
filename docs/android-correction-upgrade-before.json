@@ -1,0 +1,732 @@
+{
+  "state": {
+    "profile": {
+      "name": "Android Learner",
+      "locale": "en",
+      "experience": "beginner",
+      "goal": "travel",
+      "dailyMinutes": 10,
+      "timezone": "UTC",
+      "onboardingStep": 0,
+      "onboardingDone": true,
+      "pinyin": true,
+      "theme": "light",
+      "favorites": [
+        "greetings-1"
+      ]
+    },
+    "progress": [
+      {
+        "lesson_id": "greetings-1",
+        "cursor": 7,
+        "accuracy": 86,
+        "completed_at": 1791873880822,
+        "started_at": 1791873878876
+      },
+      {
+        "lesson_id": "greetings-2",
+        "cursor": 1,
+        "accuracy": null,
+        "completed_at": null,
+        "started_at": 1791873881851
+      }
+    ],
+    "reviews": [
+      {
+        "vocab_id": "greetings-2",
+        "due": 1791873880822,
+        "ease": 2.5,
+        "interval_days": 0,
+        "repetitions": 0,
+        "lapses": 0,
+        "last_review": null
+      },
+      {
+        "vocab_id": "greetings-4",
+        "due": 1791873895238,
+        "ease": 2.5,
+        "interval_days": 0,
+        "repetitions": 0,
+        "lapses": 0,
+        "last_review": null
+      },
+      {
+        "vocab_id": "greetings-5",
+        "due": 1791873895238,
+        "ease": 2.5,
+        "interval_days": 0,
+        "repetitions": 0,
+        "lapses": 0,
+        "last_review": null
+      },
+      {
+        "vocab_id": "conversations-1",
+        "due": 1791873895238,
+        "ease": 2.5,
+        "interval_days": 0,
+        "repetitions": 0,
+        "lapses": 0,
+        "last_review": null
+      },
+      {
+        "vocab_id": "conversations-2",
+        "due": 1791873895238,
+        "ease": 2.5,
+        "interval_days": 0,
+        "repetitions": 0,
+        "lapses": 0,
+        "last_review": null
+      },
+      {
+        "vocab_id": "conversations-3",
+        "due": 1791873895238,
+        "ease": 2.5,
+        "interval_days": 0,
+        "repetitions": 0,
+        "lapses": 0,
+        "last_review": null
+      },
+      {
+        "vocab_id": "core-1",
+        "due": 1791873895238,
+        "ease": 2.5,
+        "interval_days": 0,
+        "repetitions": 0,
+        "lapses": 0,
+        "last_review": null
+      },
+      {
+        "vocab_id": "core-2",
+        "due": 1791873895238,
+        "ease": 2.5,
+        "interval_days": 0,
+        "repetitions": 0,
+        "lapses": 0,
+        "last_review": null
+      },
+      {
+        "vocab_id": "core-3",
+        "due": 1791873895238,
+        "ease": 2.5,
+        "interval_days": 0,
+        "repetitions": 0,
+        "lapses": 0,
+        "last_review": null
+      },
+      {
+        "vocab_id": "core-20",
+        "due": 1791873895238,
+        "ease": 2.5,
+        "interval_days": 0,
+        "repetitions": 0,
+        "lapses": 0,
+        "last_review": null
+      },
+      {
+        "vocab_id": "core-21",
+        "due": 1791873895238,
+        "ease": 2.5,
+        "interval_days": 0,
+        "repetitions": 0,
+        "lapses": 0,
+        "last_review": null
+      },
+      {
+        "vocab_id": "conversations-6",
+        "due": 1791873896641,
+        "ease": 2.5,
+        "interval_days": 0,
+        "repetitions": 0,
+        "lapses": 0,
+        "last_review": null
+      },
+      {
+        "vocab_id": "core-4",
+        "due": 1791873896641,
+        "ease": 2.5,
+        "interval_days": 0,
+        "repetitions": 0,
+        "lapses": 0,
+        "last_review": null
+      },
+      {
+        "vocab_id": "core-5",
+        "due": 1791873896641,
+        "ease": 2.5,
+        "interval_days": 0,
+        "repetitions": 0,
+        "lapses": 0,
+        "last_review": null
+      },
+      {
+        "vocab_id": "core-6",
+        "due": 1791873896641,
+        "ease": 2.5,
+        "interval_days": 0,
+        "repetitions": 0,
+        "lapses": 0,
+        "last_review": null
+      },
+      {
+        "vocab_id": "core-7",
+        "due": 1791873896641,
+        "ease": 2.5,
+        "interval_days": 0,
+        "repetitions": 0,
+        "lapses": 0,
+        "last_review": null
+      },
+      {
+        "vocab_id": "core-8",
+        "due": 1791873896641,
+        "ease": 2.5,
+        "interval_days": 0,
+        "repetitions": 0,
+        "lapses": 0,
+        "last_review": null
+      },
+      {
+        "vocab_id": "core-9",
+        "due": 1791873896641,
+        "ease": 2.5,
+        "interval_days": 0,
+        "repetitions": 0,
+        "lapses": 0,
+        "last_review": null
+      },
+      {
+        "vocab_id": "core-10",
+        "due": 1791873896641,
+        "ease": 2.5,
+        "interval_days": 0,
+        "repetitions": 0,
+        "lapses": 0,
+        "last_review": null
+      },
+      {
+        "vocab_id": "core-11",
+        "due": 1791873896641,
+        "ease": 2.5,
+        "interval_days": 0,
+        "repetitions": 0,
+        "lapses": 0,
+        "last_review": null
+      },
+      {
+        "vocab_id": "food-1",
+        "due": 1791873898329,
+        "ease": 2.5,
+        "interval_days": 0,
+        "repetitions": 0,
+        "lapses": 0,
+        "last_review": null
+      },
+      {
+        "vocab_id": "food-2",
+        "due": 1791873898329,
+        "ease": 2.5,
+        "interval_days": 0,
+        "repetitions": 0,
+        "lapses": 0,
+        "last_review": null
+      },
+      {
+        "vocab_id": "core-12",
+        "due": 1791873898329,
+        "ease": 2.5,
+        "interval_days": 0,
+        "repetitions": 0,
+        "lapses": 0,
+        "last_review": null
+      },
+      {
+        "vocab_id": "core-13",
+        "due": 1791873898329,
+        "ease": 2.5,
+        "interval_days": 0,
+        "repetitions": 0,
+        "lapses": 0,
+        "last_review": null
+      },
+      {
+        "vocab_id": "core-14",
+        "due": 1791873898329,
+        "ease": 2.5,
+        "interval_days": 0,
+        "repetitions": 0,
+        "lapses": 0,
+        "last_review": null
+      },
+      {
+        "vocab_id": "core-22",
+        "due": 1791873898329,
+        "ease": 2.5,
+        "interval_days": 0,
+        "repetitions": 0,
+        "lapses": 0,
+        "last_review": null
+      },
+      {
+        "vocab_id": "shopping-2",
+        "due": 1791873900468,
+        "ease": 2.5,
+        "interval_days": 0,
+        "repetitions": 0,
+        "lapses": 0,
+        "last_review": null
+      },
+      {
+        "vocab_id": "shopping-3",
+        "due": 1791873900468,
+        "ease": 2.5,
+        "interval_days": 0,
+        "repetitions": 0,
+        "lapses": 0,
+        "last_review": null
+      },
+      {
+        "vocab_id": "numbers-3",
+        "due": 1791873900468,
+        "ease": 2.5,
+        "interval_days": 0,
+        "repetitions": 0,
+        "lapses": 0,
+        "last_review": null
+      },
+      {
+        "vocab_id": "numbers-6",
+        "due": 1791873900468,
+        "ease": 2.5,
+        "interval_days": 0,
+        "repetitions": 0,
+        "lapses": 0,
+        "last_review": null
+      },
+      {
+        "vocab_id": "core-15",
+        "due": 1791873900468,
+        "ease": 2.5,
+        "interval_days": 0,
+        "repetitions": 0,
+        "lapses": 0,
+        "last_review": null
+      },
+      {
+        "vocab_id": "core-16",
+        "due": 1791873900468,
+        "ease": 2.5,
+        "interval_days": 0,
+        "repetitions": 0,
+        "lapses": 0,
+        "last_review": null
+      },
+      {
+        "vocab_id": "core-18",
+        "due": 1791873900468,
+        "ease": 2.5,
+        "interval_days": 0,
+        "repetitions": 0,
+        "lapses": 0,
+        "last_review": null
+      },
+      {
+        "vocab_id": "core-19",
+        "due": 1791873900468,
+        "ease": 2.5,
+        "interval_days": 0,
+        "repetitions": 0,
+        "lapses": 0,
+        "last_review": null
+      },
+      {
+        "vocab_id": "directions-1",
+        "due": 1791873902090,
+        "ease": 2.5,
+        "interval_days": 0,
+        "repetitions": 0,
+        "lapses": 0,
+        "last_review": null
+      },
+      {
+        "vocab_id": "directions-2",
+        "due": 1791873902090,
+        "ease": 2.5,
+        "interval_days": 0,
+        "repetitions": 0,
+        "lapses": 0,
+        "last_review": null
+      },
+      {
+        "vocab_id": "directions-3",
+        "due": 1791873902090,
+        "ease": 2.5,
+        "interval_days": 0,
+        "repetitions": 0,
+        "lapses": 0,
+        "last_review": null
+      },
+      {
+        "vocab_id": "directions-4",
+        "due": 1791873902090,
+        "ease": 2.5,
+        "interval_days": 0,
+        "repetitions": 0,
+        "lapses": 0,
+        "last_review": null
+      },
+      {
+        "vocab_id": "directions-5",
+        "due": 1791873902090,
+        "ease": 2.5,
+        "interval_days": 0,
+        "repetitions": 0,
+        "lapses": 0,
+        "last_review": null
+      },
+      {
+        "vocab_id": "core-17",
+        "due": 1791873902090,
+        "ease": 2.5,
+        "interval_days": 0,
+        "repetitions": 0,
+        "lapses": 0,
+        "last_review": null
+      },
+      {
+        "vocab_id": "time-1",
+        "due": 1791873903945,
+        "ease": 2.5,
+        "interval_days": 0,
+        "repetitions": 0,
+        "lapses": 0,
+        "last_review": null
+      },
+      {
+        "vocab_id": "time-2",
+        "due": 1791873903945,
+        "ease": 2.5,
+        "interval_days": 0,
+        "repetitions": 0,
+        "lapses": 0,
+        "last_review": null
+      },
+      {
+        "vocab_id": "time-4",
+        "due": 1791873903945,
+        "ease": 2.5,
+        "interval_days": 0,
+        "repetitions": 0,
+        "lapses": 0,
+        "last_review": null
+      },
+      {
+        "vocab_id": "directions-6",
+        "due": 1791873903945,
+        "ease": 2.5,
+        "interval_days": 0,
+        "repetitions": 0,
+        "lapses": 0,
+        "last_review": null
+      },
+      {
+        "vocab_id": "routines-2",
+        "due": 1791873903945,
+        "ease": 2.5,
+        "interval_days": 0,
+        "repetitions": 0,
+        "lapses": 0,
+        "last_review": null
+      },
+      {
+        "vocab_id": "greetings-1",
+        "due": 1791960281468,
+        "ease": 2.5,
+        "interval_days": 1,
+        "repetitions": 1,
+        "lapses": 0,
+        "last_review": 1791873881468
+      }
+    ],
+    "activity": [
+      {
+        "amount": 37,
+        "kind": "LESSON",
+        "created_at": 1791873880822
+      },
+      {
+        "amount": 2,
+        "kind": "REVIEW",
+        "created_at": 1791873881468
+      },
+      {
+        "amount": 40,
+        "kind": "PROGRAM",
+        "created_at": 1791873887507
+      },
+      {
+        "amount": 40,
+        "kind": "PROGRAM",
+        "created_at": 1791873889851
+      },
+      {
+        "amount": 40,
+        "kind": "PROGRAM",
+        "created_at": 1791873891930
+      },
+      {
+        "amount": 40,
+        "kind": "PROGRAM",
+        "created_at": 1791873893706
+      },
+      {
+        "amount": 40,
+        "kind": "PROGRAM",
+        "created_at": 1791873895238
+      },
+      {
+        "amount": 40,
+        "kind": "PROGRAM",
+        "created_at": 1791873896641
+      },
+      {
+        "amount": 40,
+        "kind": "PROGRAM",
+        "created_at": 1791873898329
+      },
+      {
+        "amount": 40,
+        "kind": "PROGRAM",
+        "created_at": 1791873900468
+      },
+      {
+        "amount": 40,
+        "kind": "PROGRAM",
+        "created_at": 1791873902090
+      },
+      {
+        "amount": 40,
+        "kind": "PROGRAM",
+        "created_at": 1791873903945
+      }
+    ],
+    "points": 439,
+    "streak": 1,
+    "writing": [
+      {
+        "id": 1,
+        "character": "一",
+        "seconds": 3,
+        "created_at": 1791873881615
+      }
+    ],
+    "sessions": [
+      {
+        "id": 1,
+        "lesson_id": "greetings-1",
+        "seconds": 1,
+        "created_at": 1791873880822
+      }
+    ],
+    "program": {
+      "version": "original-foundation-dialogue-0.1",
+      "runs": [
+        {
+          "id": "4d60aa7c-eab4-44c7-9534-ae4afe2c36f6",
+          "course_id": "check-2",
+          "version": "original-foundation-dialogue-0.1",
+          "kind": "CHECK",
+          "novel": 1,
+          "cursor": 10,
+          "status": "DONE",
+          "started_at": 1791787297145,
+          "completed_at": 1791873985599,
+          "accuracy": 100,
+          "unhinted_accuracy": 100
+        },
+        {
+          "id": "96a89b65-a4be-47b0-8bfb-7fda15800f4f",
+          "course_id": "check-1",
+          "version": "original-foundation-dialogue-0.1",
+          "kind": "CHECK",
+          "novel": 1,
+          "cursor": 10,
+          "status": "DONE",
+          "started_at": 1791787357145,
+          "completed_at": 1791787417145,
+          "accuracy": 100,
+          "unhinted_accuracy": 100
+        },
+        {
+          "id": "22d31963-bf6b-4c5b-ba66-57b908ebecd4",
+          "course_id": "sound-1",
+          "version": "original-foundation-dialogue-0.1",
+          "kind": "GUIDED",
+          "novel": 1,
+          "cursor": 6,
+          "status": "DONE",
+          "started_at": 1791873885911,
+          "completed_at": 1791873887507,
+          "accuracy": 100,
+          "unhinted_accuracy": 100
+        },
+        {
+          "id": "9c930594-2a1e-4ddc-b33c-15b2fdaf1d5c",
+          "course_id": "sound-2",
+          "version": "original-foundation-dialogue-0.1",
+          "kind": "GUIDED",
+          "novel": 1,
+          "cursor": 6,
+          "status": "DONE",
+          "started_at": 1791873888007,
+          "completed_at": 1791873889851,
+          "accuracy": 100,
+          "unhinted_accuracy": 100
+        },
+        {
+          "id": "1fda5f50-0e1b-44f1-933b-54b7c396ef7a",
+          "course_id": "sound-3",
+          "version": "original-foundation-dialogue-0.1",
+          "kind": "GUIDED",
+          "novel": 1,
+          "cursor": 6,
+          "status": "DONE",
+          "started_at": 1791873890625,
+          "completed_at": 1791873891930,
+          "accuracy": 100,
+          "unhinted_accuracy": 100
+        },
+        {
+          "id": "1a8b0dd1-cb89-4ce1-a51c-4c2ca11de5bf",
+          "course_id": "sound-4",
+          "version": "original-foundation-dialogue-0.1",
+          "kind": "GUIDED",
+          "novel": 1,
+          "cursor": 6,
+          "status": "DONE",
+          "started_at": 1791873892444,
+          "completed_at": 1791873893706,
+          "accuracy": 100,
+          "unhinted_accuracy": 100
+        },
+        {
+          "id": "2a62c9ee-6f70-4881-896a-4ddb39161700",
+          "course_id": "use-1",
+          "version": "original-foundation-dialogue-0.1",
+          "kind": "GUIDED",
+          "novel": 1,
+          "cursor": 6,
+          "status": "DONE",
+          "started_at": 1791873894012,
+          "completed_at": 1791873895238,
+          "accuracy": 100,
+          "unhinted_accuracy": 100
+        },
+        {
+          "id": "88f9da17-2558-44bc-bc0a-72487c5004b9",
+          "course_id": "use-2",
+          "version": "original-foundation-dialogue-0.1",
+          "kind": "GUIDED",
+          "novel": 1,
+          "cursor": 6,
+          "status": "DONE",
+          "started_at": 1791873895544,
+          "completed_at": 1791873896641,
+          "accuracy": 100,
+          "unhinted_accuracy": 100
+        },
+        {
+          "id": "4639af1e-a103-4ba4-8c3b-d78b559dfe53",
+          "course_id": "use-3",
+          "version": "original-foundation-dialogue-0.1",
+          "kind": "GUIDED",
+          "novel": 1,
+          "cursor": 6,
+          "status": "DONE",
+          "started_at": 1791873897295,
+          "completed_at": 1791873898329,
+          "accuracy": 100,
+          "unhinted_accuracy": 100
+        },
+        {
+          "id": "4fe5f78b-9290-449a-bfc1-64a05f7a18f0",
+          "course_id": "use-4",
+          "version": "original-foundation-dialogue-0.1",
+          "kind": "GUIDED",
+          "novel": 1,
+          "cursor": 6,
+          "status": "DONE",
+          "started_at": 1791873898611,
+          "completed_at": 1791873900468,
+          "accuracy": 100,
+          "unhinted_accuracy": 100
+        },
+        {
+          "id": "6fe6d5ce-4f21-4b99-b8ae-c8c83312c970",
+          "course_id": "use-5",
+          "version": "original-foundation-dialogue-0.1",
+          "kind": "GUIDED",
+          "novel": 1,
+          "cursor": 6,
+          "status": "DONE",
+          "started_at": 1791873900686,
+          "completed_at": 1791873902090,
+          "accuracy": 100,
+          "unhinted_accuracy": 100
+        },
+        {
+          "id": "8dfaee77-bf46-4cd4-9e59-bd59c6ba35e8",
+          "course_id": "use-6",
+          "version": "original-foundation-dialogue-0.1",
+          "kind": "GUIDED",
+          "novel": 1,
+          "cursor": 6,
+          "status": "DONE",
+          "started_at": 1791873902395,
+          "completed_at": 1791873903945,
+          "accuracy": 100,
+          "unhinted_accuracy": 100
+        }
+      ],
+      "completedCourses": 10,
+      "skills": {
+        "recognition": {
+          "correct": 10,
+          "total": 10
+        },
+        "listening": {
+          "correct": 12,
+          "total": 12
+        },
+        "application": {
+          "correct": 26,
+          "total": 26
+        }
+      },
+      "forms": [
+        {
+          "id": "check-1",
+          "seen": true,
+          "freshAllowed": true
+        },
+        {
+          "id": "check-2",
+          "seen": true,
+          "freshAllowed": true
+        },
+        {
+          "id": "check-3",
+          "seen": false,
+          "freshAllowed": true
+        }
+      ],
+      "masteryConfirmed": true,
+      "firstFreshPassAt": 1791787417145,
+      "speakingAttempts": [],
+      "mistakesDue": 0,
+      "pronunciationAssessed": false
+    },
+    "mode": "DEVICE_PRACTICE",
+    "serverVerified": false
+  },
+  "fixture": "Disposable emulator: genuine native-graded answers; only run/attempt timestamps are explicitly adjusted to represent an old early-exposure history, not an actual 24h learner experiment."
+}

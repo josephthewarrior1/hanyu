@@ -1,0 +1,95 @@
+{
+  "dataset": "Hanzi Writer Data",
+  "version": "2.0.1",
+  "commit": "68d10a4b21150cae5e1ebbd223eed289cf32d90c",
+  "derivedFrom": "Make Me A Hanzi / Arphic fonts",
+  "copyright": "Copyright (C) 1999 Arphic Technology Co., Ltd.",
+  "license": "Arphic Public License, retained verbatim in vendor/ARPHICPL.TXT",
+  "selectionNotice": "2026-10-13: HanyuFlow selected these 12 characters; each original JSON is unmodified. Coordinate transforms and approximate checking live in separate app code. Data may be redistributed under APL; no warranty. No claim of official certification or human review of this app.",
+  "entries": [
+    {
+      "character": "一",
+      "strokes": 1,
+      "file": "一.json",
+      "sha256": "ed728673d86fb9aa559c5b150e59ffbee666b085d4a55597c524079a91ebc8ce",
+      "source": "https://raw.githubusercontent.com/chanind/hanzi-writer-data/68d10a4b21150cae5e1ebbd223eed289cf32d90c/data/%E4%B8%80.json"
+    },
+    {
+      "character": "二",
+      "strokes": 2,
+      "file": "二.json",
+      "sha256": "24d4225b8514e5b169f44230ba38169f63e9d9875f31b478457841114dbe1faa",
+      "source": "https://raw.githubusercontent.com/chanind/hanzi-writer-data/68d10a4b21150cae5e1ebbd223eed289cf32d90c/data/%E4%BA%8C.json"
+    },
+    {
+      "character": "三",
+      "strokes": 3,
+      "file": "三.json",
+      "sha256": "917763e15ac14a5ece5067913da4156f3060f33ae0e172d3533275a494cec99c",
+      "source": "https://raw.githubusercontent.com/chanind/hanzi-writer-data/68d10a4b21150cae5e1ebbd223eed289cf32d90c/data/%E4%B8%89.json"
+    },
+    {
+      "character": "十",
+      "strokes": 2,
+      "file": "十.json",
+      "sha256": "257a0939af5742ca31a980adfa1421d0302d5e90491ab3215c1934bea9a59bef",
+      "source": "https://raw.githubusercontent.com/chanind/hanzi-writer-data/68d10a4b21150cae5e1ebbd223eed289cf32d90c/data/%E5%8D%81.json"
+    },
+    {
+      "character": "你",
+      "strokes": 7,
+      "file": "你.json",
+      "sha256": "21057a26cb5c1753ea710d503b759cc17948263501ffd76ef1737cb2b5d5f966",
+      "source": "https://raw.githubusercontent.com/chanind/hanzi-writer-data/68d10a4b21150cae5e1ebbd223eed289cf32d90c/data/%E4%BD%A0.json"
+    },
+    {
+      "character": "好",
+      "strokes": 6,
+      "file": "好.json",
+      "sha256": "c9f085fe6519e2b2c9653c7edf51bdbc78339fcc0b10f94c1f33c7f4f4d4a3a5",
+      "source": "https://raw.githubusercontent.com/chanind/hanzi-writer-data/68d10a4b21150cae5e1ebbd223eed289cf32d90c/data/%E5%A5%BD.json"
+    },
+    {
+      "character": "我",
+      "strokes": 7,
+      "file": "我.json",
+      "sha256": "08616462fc64b4c18c76a3f68a992305e98946f468bf42ec76ca9be1cd6c5ac8",
+      "source": "https://raw.githubusercontent.com/chanind/hanzi-writer-data/68d10a4b21150cae5e1ebbd223eed289cf32d90c/data/%E6%88%91.json"
+    },
+    {
+      "character": "人",
+      "strokes": 2,
+      "file": "人.json",
+      "sha256": "18ffb9fb727576b0c3e7dc44914be7ffd43164de9ba121710824b83f27bd3bb1",
+      "source": "https://raw.githubusercontent.com/chanind/hanzi-writer-data/68d10a4b21150cae5e1ebbd223eed289cf32d90c/data/%E4%BA%BA.json"
+    },
+    {
+      "character": "大",
+      "strokes": 3,
+      "file": "大.json",
+      "sha256": "83c82950e903c915aa50d0d62b084a2d31c85fe68dce21e0acf39e2f9607e611",
+      "source": "https://raw.githubusercontent.com/chanind/hanzi-writer-data/68d10a4b21150cae5e1ebbd223eed289cf32d90c/data/%E5%A4%A7.json"
+    },
+    {
+      "character": "小",
+      "strokes": 3,
+      "file": "小.json",
+      "sha256": "72bf769c8c3426bffa578502eb8b1532fb1e622ddb6f40ded04e484290c0fe8c",
+      "source": "https://raw.githubusercontent.com/chanind/hanzi-writer-data/68d10a4b21150cae5e1ebbd223eed289cf32d90c/data/%E5%B0%8F.json"
+    },
+    {
+      "character": "中",
+      "strokes": 4,
+      "file": "中.json",
+      "sha256": "6982c8c16e7e7f769011edef0608289443711dbb34046dd9ca763e79ec29192f",
+      "source": "https://raw.githubusercontent.com/chanind/hanzi-writer-data/68d10a4b21150cae5e1ebbd223eed289cf32d90c/data/%E4%B8%AD.json"
+    },
+    {
+      "character": "口",
+      "strokes": 3,
+      "file": "口.json",
+      "sha256": "ac208865e3166fc35214cec326f00a4b6788a8cac9b4c5a6a37745077e32ddab",
+      "source": "https://raw.githubusercontent.com/chanind/hanzi-writer-data/68d10a4b21150cae5e1ebbd223eed289cf32d90c/data/%E5%8F%A3.json"
+    }
+  ]
+}

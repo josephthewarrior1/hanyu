@@ -1,0 +1,31 @@
+{
+  "serial": "emulator-5556",
+  "checks": [
+    "first launch starts offline immediately with no account or AI setup",
+    "optional local profile survives process restart",
+    "lesson cursor and attempts survive process death",
+    "seven real Android-graded exercise types and idempotent device points",
+    "SQLite spaced repetition and persisted review points",
+    "Android back navigation returns to previous screen",
+    "pointer writing saved in real Android SQLite",
+    "native Android TTS configured/unavailable state is honest",
+    "actual Android microphone denial handled",
+    "native record/stop/replay/delete works on emulator (no physical speech quality claim)",
+    "phone-local laptop URL rejected instead of shipping a broken wrapper",
+    "Android preferences persist to SQLite",
+    "APK launches and preserves real learning data with Wi-Fi/mobile data disabled"
+  ],
+  "errors": [],
+  "capabilities": {
+    "ttsReady": true,
+    "mandarinVoice": false,
+    "microphoneGranted": false,
+    "ai": false,
+    "transcription": false,
+    "pronunciation": false,
+    "backend": "",
+    "serverVerified": false
+  },
+  "passed": true,
+  "resumedAfterTestToolFix": false
+}

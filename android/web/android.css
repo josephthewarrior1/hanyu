@@ -1,0 +1,328 @@
+body {
+  overscroll-behavior-y: none;
+}
+#root {
+  min-height: 100vh;
+}
+.android-app {
+  padding-bottom: 80px;
+}
+.android-content {
+  max-width: 850px;
+  margin: auto;
+  padding: 24px 20px;
+}
+.android-app .mobile-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 30;
+}
+.android-app .bottom-nav {
+  display: flex;
+}
+.android-mode {
+  font-size: 10px;
+  font-weight: 650;
+  color: var(--blue);
+  border: 1px solid var(--line);
+  background: var(--pale);
+  padding: 5px 9px;
+  border-radius: 20px;
+}
+.android-app .roadmap {
+  grid-template-columns: 1fr;
+}
+.android-app .stats-grid {
+  grid-template-columns: repeat(2, 1fr);
+}
+.android-app .stats-row {
+  gap: 8px;
+}
+.android-app .stat {
+  padding: 15px 12px;
+}
+.android-app .stats-row .stat strong {
+  font-size: 25px;
+}
+.android-app .continue-card {
+  padding: 25px;
+  min-height: 180px;
+}
+.android-app .continue-card h2 {
+  max-width: 240px;
+}
+.android-app .vocabulary-grid {
+  grid-template-columns: repeat(2, 1fr);
+}
+.android-app .page-heading {
+  align-items: flex-start;
+}
+.android-app h1 {
+  font-size: 29px;
+}
+.android-app .lesson-page {
+  min-height: calc(100vh - 80px);
+  padding: 0;
+}
+.android-app .intro-words {
+  grid-template-columns: 1fr;
+}
+.android-app .hanzi.large {
+  font-size: 48px;
+}
+.android-app .scenario-grid {
+  grid-template-columns: repeat(2, 1fr);
+}
+.android-app .writing-layout {
+  grid-template-columns: 1fr;
+}
+.android-app .settings-grid {
+  grid-template-columns: 1fr;
+}
+.android-app .grammar-grid {
+  grid-template-columns: 1fr;
+}
+.android-app .completion {
+  padding-top: 30px;
+}
+.android-app .completion-stats strong {
+  font-size: 24px;
+}
+.android-app .review-card {
+  padding: 25px 16px;
+}
+.android-app .notice {
+  font-size: 12px;
+}
+.android-app .weekly-chart {
+  height: 120px;
+}
+.android-app .section-heading h2 {
+  font-size: 16px;
+}
+.android-app .word-detail {
+  margin-top: 20px;
+}
+.native-error {
+  position: fixed;
+  left: 16px;
+  right: 16px;
+  bottom: 80px;
+  background: var(--ink);
+  color: var(--card);
+  box-shadow: var(--shadow);
+  padding: 16px;
+  border-radius: 14px;
+  z-index: 100;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+.native-error button {
+  margin-left: auto;
+  background: transparent;
+  color: inherit;
+  border: 0;
+  font-size: 20px;
+}
+.android-app .writing-canvas {
+  width: min(100%, 300px);
+}
+.android-app .mode-notice {
+  margin-top: 0;
+}
+.android-app .subtitle {
+  font-size: 11px;
+  color: var(--muted);
+}
+.android-app details {
+  padding: 16px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  margin: 16px 0;
+}
+.android-app .option-letter {
+  flex-shrink: 0;
+}
+.android-app .review-ratings {
+  gap: 6px;
+}
+.android-app .rating {
+  padding: 12px 6px;
+}
+.android-app .onboarding {
+  padding: 8px 0;
+  max-width: 600px;
+}
+.android-app .streak-pill {
+  margin-top: 4px;
+}
+.android-app .mini-art {
+  margin-bottom: 16px;
+}
+.android-app .card {
+  box-shadow: none;
+}
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+[data-theme="dark"] {
+  --blue: #8bb2ff;
+}
+[data-theme="dark"] .button:not(.ghost) {
+  background: #2869f0;
+  color: white;
+}
+[data-theme="dark"] .brand-mark {
+  background: #2869f0;
+  color: white;
+}
+
+/* Original HanyuFlow visual language: raised blue controls, airy learning path. */
+:root { --path-blue:#2869f0; --path-shadow:#164fc1; --selection:#e6f3ff; }
+html:not([data-theme="dark"]) { --bg:#fff; --card:#fff; --line:#e4e7ec; --ink:#26334b; --muted:#758296; }
+.android-app { font-family:ui-rounded,"Nunito","Arial Rounded MT Bold",system-ui,sans-serif; }
+.android-content { max-width:620px; padding:18px 20px 100px; }
+.android-app h1,.android-app h2,.android-app strong { letter-spacing:-.35px; }
+.android-app .mobile-header { background:var(--card); border-bottom:2px solid var(--line); padding:12px 20px; }
+.brand-pinyin { object-fit:contain; margin-right:8px; }
+.pinyin-mascot { display:block; object-fit:contain; width:140px; height:150px; animation:pinyin-breathe 3s ease-in-out infinite; transform-origin:50% 90%; }
+.pinyin-mascot.celebrate { animation:pinyin-celebrate .65s ease-out 2; }
+.pinyin-mascot.encourage { animation:pinyin-nod .6s ease-in-out 2; }
+.onboarding-pinyin { width:150px; height:160px; margin:6px auto 20px; }
+.button { border-radius:16px; border:2px solid transparent; border-bottom:0; box-shadow:0 5px 0 var(--path-shadow); background:#2869f0; color:white; font-weight:800; min-height:50px; letter-spacing:.3px; transition:transform .12s,box-shadow .12s,background .15s; }
+.button:active:not(:disabled) { transform:translateY(4px); box-shadow:0 1px 0 var(--path-shadow); }
+.button.ghost { border:2px solid var(--line); border-bottom:0; background:var(--card); color:var(--blue); box-shadow:0 4px 0 var(--line); }
+.button:disabled { background:var(--line); box-shadow:0 4px 0 #cdd3dc; color:#919aa8; opacity:1; }
+.learning-counters { display:flex; justify-content:space-between; gap:8px; padding:0 0 16px; }
+.learning-counters>span { display:flex; align-items:center; flex-wrap:wrap; gap:5px; color:var(--blue); }
+.learning-counters>span:first-child { color:#f39a37; }
+.learning-counters>span:nth-child(2) { color:#8160d6; }
+.learning-counters strong { font-size:18px; }
+.learning-counters small { display:block; flex-basis:100%; font-size:10px; color:var(--muted); }
+.hello-strip { display:flex; align-items:center; justify-content:space-between; gap:12px; margin-bottom:22px; }
+.hello-strip h1 { font-size:19px; margin:0 0 4px; }
+.hello-strip p { font-size:11px; margin:0; color:var(--muted); }
+.hello-strip .button { padding:10px 14px; font-size:11px; min-height:42px; white-space:nowrap; }
+.playful-roadmap { display:flex; flex-direction:column; gap:26px; }
+.path-unit-header { background:var(--path-blue); color:white; border-radius:18px; box-shadow:0 6px 0 var(--path-shadow); display:flex; align-items:center; justify-content:space-between; padding:18px 20px; gap:16px; }
+.path-unit-header small { color:#cfe0ff; font-size:11px; font-weight:800; letter-spacing:1px; }
+.path-unit-header h2 { font-size:22px; margin:7px 0 5px; }
+.path-unit-header .text-link { color:white; text-align:left; font-weight:850; }
+.path-unit-header p { color:#e6efff; font-size:11px; margin:0; line-height:1.5; max-width:270px; }
+.unit-notes { color:white; background:transparent; border:0; border-left:2px solid #ffffff35; padding:18px 0 18px 14px; }
+.path-field { position:relative; padding:36px 0 20px; min-height:565px; }
+.path-step { position:relative; display:flex; flex-direction:column; align-items:center; width:145px; margin:0 auto 28px; gap:8px; }
+.path-step.step-1 { transform:translateX(-58px); }
+.path-step.step-2 { transform:translateX(-25px); }
+.path-step strong { font-size:13px; text-align:center; max-width:150px; line-height:1.5; }
+.path-step small { color:var(--muted); font-size:10px; }
+.path-node { position:relative; width:78px; height:70px; border:0; border-radius:50%; display:grid; place-items:center; color:white; background:var(--path-blue); box-shadow:0 9px 0 var(--path-shadow),inset 0 4px 0 #ffffff35; margin-bottom:7px; transition:transform .12s,box-shadow .12s; }
+.path-node::before { content:""; position:absolute; inset:8px 12px; border-radius:50%; background:linear-gradient(135deg,transparent 25%,#ffffff15 26% 43%,transparent 44% 60%,#ffffff15 61% 73%,transparent 74%); }
+.path-node>* { position:relative; }
+.path-node:active { transform:translateY(7px); box-shadow:0 2px 0 var(--path-shadow); }
+.path-node.complete { background:#39aeb5; box-shadow:0 9px 0 #20898f,inset 0 4px 0 #ffffff35; }
+.path-node.available { background:#a4bfe9; box-shadow:0 9px 0 #7d9ed2,inset 0 4px 0 #ffffff35; }
+.path-node.current { outline:6px solid var(--pale); outline-offset:5px; }
+.node-hanzi { font-size:32px; font-weight:850; }
+.path-start { color:var(--blue); border:2px solid var(--line); border-bottom-width:4px; border-radius:12px; padding:6px 13px; font-size:10px; font-weight:850; letter-spacing:1px; margin-bottom:7px; background:var(--card); animation:path-float 2s ease-in-out infinite; }
+.path-pinyin { position:absolute; right:0; top:170px; display:flex; align-items:center; flex-direction:column; pointer-events:none; }
+.path-pinyin .pinyin-mascot { width:108px; height:118px; }
+.path-pinyin>span { font-size:9px; font-weight:750; color:var(--blue); padding:5px; }
+.path-finish { display:flex; flex-direction:column; align-items:center; gap:10px; color:#c89032; font-size:11px; padding:18px; width:100px; margin:0 auto; border-radius:16px; border:2px dashed var(--line); background:var(--card); }
+.review-shortcut { display:flex; align-items:center; gap:14px; width:100%; text-align:left; border:2px solid var(--line); background:var(--card); border-radius:18px; padding:18px; margin:24px 0; color:var(--blue); box-shadow:0 4px 0 var(--line); }
+.review-shortcut>span { flex:1; color:var(--ink); }
+.review-shortcut small { display:block; color:var(--muted); margin-top:5px; }
+.android-app .bottom-nav { height:76px; background:var(--card); border-top:2px solid var(--line); padding:8px 10px; z-index:40; }
+.android-app .bottom-nav .nav-item { border-radius:13px; padding:7px 5px!important; min-width:54px!important; border:2px solid transparent; }
+.android-app .bottom-nav .nav-item.active { background:var(--pale); border-color:#a8c9ff; color:var(--blue); }
+.is-lesson .mobile-header { display:none; }
+.is-lesson .android-content { padding-top:10px; }
+.is-lesson { padding-bottom:0; }
+.android-app .lesson-header { position:sticky; top:0; z-index:10; background:var(--card); padding:12px 0 18px; margin-bottom:16px; }
+.progress-track { height:15px; border-radius:16px; background:var(--line); overflow:hidden; }
+.progress-track>span { background:#2869f0; border-radius:16px; position:relative; transition:width .4s ease; }
+.progress-track>span::after { content:""; position:absolute; height:4px; top:3px; left:6px; right:6px; background:#ffffff40; border-radius:10px; }
+.lesson-buddy,.speaking-buddy { display:flex; gap:16px; align-items:center; margin:10px 0 24px; }
+.lesson-buddy .pinyin-mascot,.speaking-buddy .pinyin-mascot { width:90px; height:100px; }
+.speech-bubble { position:relative; border:2px solid var(--line); border-radius:18px; padding:17px; line-height:1.6; background:var(--card); font-size:14px; }
+.speech-bubble::before { content:""; width:12px; height:12px; border-left:2px solid var(--line); border-bottom:2px solid var(--line); background:var(--card); position:absolute; left:-8px; top:22px; transform:rotate(45deg); }
+.android-app .intro-words { grid-template-columns:repeat(2,minmax(0,1fr)); gap:12px; }
+.android-app .intro-word { padding:15px; border:2px solid var(--line); box-shadow:0 4px 0 var(--line); border-radius:18px; }
+.word-illustration { font-size:40px; display:block; text-align:center; margin-bottom:10px; }
+.intro-word .hanzi.medium { font-size:28px; }
+.intro-word p { font-size:11px; margin:8px 0; }
+.intro-word .hanzi { font-size:16px; }
+.intro-word .section-heading { gap:5px; }
+.android-app .exercise { padding-bottom:150px; animation:exercise-in .2s ease-out; }
+.android-app .exercise .eyebrow { font-size:9px; letter-spacing:.9px; }
+.android-app .exercise h1 { font-size:25px; line-height:1.4; margin:10px 0 25px; }
+.android-app .exercise-hanzi { background:transparent; padding:0; justify-content:flex-start; gap:10px; margin:16px 0; }
+.prompt-bubble { border:2px solid var(--line); border-radius:18px; padding:18px; display:flex; align-items:center; gap:14px; flex:1; min-width:0; }
+.android-app .exercise .hanzi.large { font-size:36px; line-height:1.5; overflow-wrap:anywhere; }
+.exercise-dialogue .prompt-bubble .hanzi.large { font-size:25px; }
+.prompt-pinyin { width:75px; height:85px; flex-shrink:0; }
+.audio-button { color:var(--blue); border:2px solid #a9caff; background:var(--pale); border-radius:12px; min-width:40px; height:42px; box-shadow:0 3px 0 #a9caff; gap:4px; }
+.audio-button:active { transform:translateY(2px); box-shadow:none; }
+.audio-button.playing { animation:audio-pulse .6s ease-in-out infinite alternate; }
+.audio-button small { font-size:8px; }
+.answer-options { gap:14px; margin-top:26px; }
+.answer-options.illustrated-options { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); }
+.android-app .answer-option { border:2px solid var(--line); border-bottom-width:5px; border-radius:18px; min-height:65px; background:var(--card); padding:18px; font-size:17px; font-weight:650; transition:background .15s,border-color .15s,transform .12s; }
+.android-app .answer-option.selected { border-color:#78b8f6; color:#236ec1; background:var(--selection); padding:18px; }
+.android-app .answer-option:active:not(:disabled) { transform:translateY(3px); border-bottom-width:2px; }
+.illustrated-options .answer-option { flex-direction:column; gap:12px; min-height:150px; justify-content:center; text-align:center; font-size:15px; }
+.answer-illustration { font-size:54px; line-height:1.2; }
+.illustrated-options .option-letter,.response-options .option-letter { display:none; }
+.response-options .answer-option { font-size:21px; padding:18px 22px; }
+.answer-dialogue-icon { color:var(--blue); }
+.check-button { position:fixed; bottom:18px; left:20px; right:20px; width:calc(100% - 40px); max-width:580px; margin:0 auto!important; z-index:35; min-height:52px; text-transform:uppercase; letter-spacing:1px; }
+.android-app .exercise > .button.check-button { width:auto; }
+.android-app .feedback-sheet { position:fixed; bottom:0; left:0; right:0; z-index:35; padding:22px 22px 27px; border-radius:22px 22px 0 0; border-width:2px 0 0; margin:0; box-shadow:0 -8px 35px #14274812; animation:sheet-up .2s ease-out; max-height:48vh; overflow:auto; }
+.feedback-sheet.correct { background:#e6f8ef; border-color:#8fd9b4; }
+.feedback-sheet.incorrect { background:#fff0ee; border-color:#efb3aa; }
+.feedback-sheet>strong { font-size:22px; padding-right:75px; display:block; }
+.feedback-sheet p { max-width:490px; margin:8px 0 16px; padding-right:50px; font-size:12px; }
+.feedback-sheet>.row { max-width:580px; margin:auto; }
+.feedback-sheet .button { flex:1; text-transform:uppercase; }
+.feedback-pinyin { position:absolute; right:18px; top:12px; width:68px; height:74px; }
+.feedback-sheet.correct .button { background:#27a578; box-shadow:0 5px 0 #188360; }
+.feedback-sheet.incorrect .button { background:#dd6262; box-shadow:0 5px 0 #b74747; }
+.celebration { position:relative; margin:0 auto 24px; width:200px; height:180px; display:grid; place-items:center; }
+.celebration .pinyin-mascot { width:165px; height:175px; }
+.celebration i { position:absolute; left:50%; top:55%; width:7px; height:10px; border-radius:2px; background:var(--path-blue); animation:confetti 1.2s ease-out both; animation-delay:calc(var(--i)*.035s); transform:rotate(calc(var(--i)*30deg)); }
+.celebration i:nth-child(3n) { background:#ffbb48; }
+.celebration i:nth-child(3n + 1) { background:#f28495; }
+.android-app .completion-medal { width:55px; height:55px; margin-bottom:15px; }
+.android-app .completion-medal svg { width:28px; }
+.android-app .speaking-card { border:0; padding:8px 0 20px; }
+.android-app .recorder { border:2px solid var(--line); border-radius:20px; padding:20px; background:var(--card); box-shadow:0 4px 0 var(--line); }
+.native-error { font-size:12px; }
+[data-theme="dark"] { --selection:#203e60; }
+[data-theme="dark"] .feedback-sheet.correct { background:#173f35; }
+[data-theme="dark"] .feedback-sheet.incorrect { background:#4b282c; }
+@keyframes pinyin-breathe { 50% { transform:translateY(-4px) rotate(1.5deg); } }
+@keyframes pinyin-celebrate { 0%,100% { transform:translateY(0) rotate(0); } 35% { transform:translateY(-14px) rotate(-8deg); } 65% { transform:translateY(-7px) rotate(6deg); } }
+@keyframes pinyin-nod { 50% { transform:rotate(-6deg) scale(.96); } }
+@keyframes path-float { 50% { transform:translateY(-4px); } }
+@keyframes audio-pulse { to { background:#b9d8ff; transform:scale(1.04); } }
+@keyframes sheet-up { from { transform:translateY(45px); opacity:0; } }
+@keyframes exercise-in { from { opacity:.1; transform:translateX(10px); } }
+@keyframes confetti { from { opacity:1; transform:rotate(calc(var(--i)*30deg)) translateY(0); } to { opacity:0; transform:rotate(calc(var(--i)*30deg)) translateY(-120px) rotate(70deg); } }
+@media(min-width:650px) { .check-button { left:0; right:0; } .path-pinyin { right:45px; } .feedback-sheet { left:calc(50% - 310px); right:calc(50% - 310px); border-radius:22px; bottom:18px; } }
+@media(max-width:350px) { .hello-strip { flex-direction:column; align-items:stretch; } .path-pinyin .pinyin-mascot { width:82px; height:94px; } .path-pinyin>span { font-size:8px; } .answer-illustration { font-size:42px; } .illustrated-options .answer-option { min-height:125px; padding:12px; } }
+@media(prefers-reduced-motion:reduce) { .android-app *, .android-app *::before,.android-app *::after { animation:none!important; transition:none!important; scroll-behavior:auto!important; } .celebration i { display:none; } }
+.academy-course { display:flex;align-items:center;gap:14px;width:100%;padding:18px;text-align:left;margin:14px 0;background:var(--card);color:var(--ink);border:2px solid var(--line);border-bottom-width:5px;border-radius:18px; }
+.academy-course>span { width:38px;height:38px;border-radius:50%;background:var(--pale);color:var(--blue);display:grid;place-items:center;font-weight:800;flex-shrink:0; }
+.academy-course>div { flex:1; }.academy-course small { display:block;font-size:11px;color:var(--muted);margin-top:5px; }
+.skill-grid { display:grid;grid-template-columns:repeat(3,1fr);gap:12px;padding:12px 0; }.skill-grid strong { display:block;font-size:24px;color:var(--blue); }.skill-grid small { font-size:11px; }
+.dialogue-turn { display:flex;gap:14px;border:2px solid var(--line);border-radius:16px;padding:16px;margin:14px 0; }.dialogue-turn>small { color:var(--blue);font-weight:800; }.dialogue-turn>div { flex:1; }
+.program-exercise>.row { margin:20px 0; }.program-exercise label { margin:24px 0; }.program-exercise .prompt-bubble { margin:20px 0; }.mastery-panel .row { flex-wrap:wrap; }.mastery-panel p { font-size:12px; }
+.program-self-check.notice { display:block; }
+.program-self-check .row { flex-wrap:wrap; gap:10px; }
+.program-self-check .button { max-width:100%; }
+.completion > .button { margin-top:12px; }

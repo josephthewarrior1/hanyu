@@ -1,0 +1,15 @@
+{
+  "versionCode": 4,
+  "checks": [
+    "Released v3 real UI reproduces invalid retention badge from preanswered/early-opened form after delayed Finish; all scores came from native grading",
+    "Actual v3 to 0.4.1 install keeps exact old state, run IDs, attempts/cursor summaries, profile, favorites, reviews, writing and 439 points; only invalid computed retention is removed",
+    "Every real SQLite table/column/row and schema version is identical across APK upgrade; no stored history was rewritten or deleted",
+    "Corrected real offline mixed-check UI accepts the previously rejected pinyin and retains hidden-script audio gating; legitimately late-opened unseen form confirms scoped retention with no point increase",
+    "Offline restart preserves corrected evidence and points; the early-used form remains repeatable practice and its original completed history remains intact"
+  ],
+  "errors": [],
+  "fixture": "Disposable emulator: genuine native-graded answers; only run/attempt timestamps are explicitly adjusted to represent an old early-exposure history, not an actual 24h learner experiment.",
+  "exactSqlRowsPreserved": true,
+  "passed": true,
+  "finalFixturePoints": 439
+}

@@ -1,0 +1,10 @@
+
+com.hanyuflow.android.BundledSpeechDeviceTest:.
+com.hanyuflow.android.LocalStoreTest:......
+com.hanyuflow.android.ProgramStoreTest:..........
+
+Time: 30.269
+
+OK (17 tests)
+
+

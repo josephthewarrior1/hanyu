@@ -1,0 +1,88 @@
+{
+  "state": {
+    "profile": {
+      "name": "Android Learner",
+      "locale": "en",
+      "experience": "beginner",
+      "goal": "travel",
+      "dailyMinutes": 10,
+      "timezone": "UTC",
+      "onboardingStep": 0,
+      "onboardingDone": true,
+      "pinyin": true,
+      "theme": "light",
+      "favorites": [
+        "greetings-1"
+      ]
+    },
+    "progress": [
+      {
+        "lesson_id": "greetings-1",
+        "cursor": 7,
+        "accuracy": 86,
+        "completed_at": 1791869550341,
+        "started_at": 1791869549226
+      },
+      {
+        "lesson_id": "greetings-2",
+        "cursor": 1,
+        "accuracy": null,
+        "completed_at": null,
+        "started_at": 1791869550697
+      }
+    ],
+    "reviews": [
+      {
+        "vocab_id": "greetings-2",
+        "due": 1791869550341,
+        "ease": 2.5,
+        "interval_days": 0,
+        "repetitions": 0,
+        "lapses": 0,
+        "last_review": null
+      },
+      {
+        "vocab_id": "greetings-1",
+        "due": 1791955950518,
+        "ease": 2.5,
+        "interval_days": 1,
+        "repetitions": 1,
+        "lapses": 0,
+        "last_review": 1791869550518
+      }
+    ],
+    "activity": [
+      {
+        "amount": 37,
+        "kind": "LESSON",
+        "created_at": 1791869550341
+      },
+      {
+        "amount": 2,
+        "kind": "REVIEW",
+        "created_at": 1791869550518
+      }
+    ],
+    "points": 39,
+    "streak": 1,
+    "writing": [
+      {
+        "id": 1,
+        "character": "一",
+        "seconds": 3,
+        "created_at": 1791869550621
+      }
+    ],
+    "sessions": [
+      {
+        "id": 1,
+        "lesson_id": "greetings-1",
+        "seconds": 1,
+        "created_at": 1791869550341
+      }
+    ],
+    "mode": "DEVICE_PRACTICE",
+    "serverVerified": false
+  },
+  "fixture": "Disposable emulator; genuine native graded attempts, review and writing."
+}

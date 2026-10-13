@@ -1,0 +1,12 @@
+* text=auto
+*.sh text eol=lf
+android/gradlew text eol=lf
+*.png binary
+*.m4a binary
+*.jar binary
+android/handwriting/vendor/*.json -text
+android/handwriting/vendor/ARPHICPL.TXT -text
+android/handwriting/vendor/** -whitespace
+prisma/**/migration.sql -text -whitespace
+docs/*native-test-output.txt -whitespace
+docs/android-correction-reproduction-before.txt -whitespace
